@@ -26,8 +26,8 @@ def scenario_compare(original_scenario, returned_scenario):
     identical = True
     for o_key, o_value in original_scenario.items():
         for r_key, r_value in returned_scenario.items():
-            if o_key == r_key:
+            if o_key == r_key and o_key != 'createdAt' and r_key != 'updatedAt':
                 if o_value != r_value:
+                    print('The different values are ' + str(o_value) + str(r_value))
                     identical = False
     return identical
-

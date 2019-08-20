@@ -12,6 +12,12 @@ if __name__ == '__main__':
     print(r2, r2.text)
     if Finders.find_id_in_scenario_get(response_json['id'], r2.text):
         print('Id found! yoohooo! ' + response_json['id'])
+        scenario = ScenarioManager.update_scenario_id(scenario, 'id', response_json['id'])
+        returned_scenario = Finders.return_scenario_by_id(response_json['id'], r2.text)
+        if ScenarioManager.scenario_compare(scenario, returned_scenario):
+            print('Scenarios are the same - PASS')
+        else:
+            print('Scenarios are different - FAIL')
     else:
         print('No match found!!! ERROR!')
 
