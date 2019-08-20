@@ -4,6 +4,7 @@ from Connection import rest_adapter as adapter
 import json
 
 if __name__ == '__main__':
+    # This is a test that checks scenario creation and consistency of all scenario attributes.
     scenario = ScenarioManager.get_scenario_file()
     r = adapter.send_scenarios(scenario, method='post')
     response_json = json.loads(r.text)
