@@ -1,4 +1,4 @@
 {
   "target_host": "localhost:8080",
-  "log_path": "..\\Logs\\"
+  "log_path": ".//Logs/"
 }

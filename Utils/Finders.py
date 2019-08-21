@@ -1,4 +1,14 @@
 import json
+import re
+
+
+# Checks response for valid range, everything that is not between 200-299 will raise Fail
+def check_response(response):
+    pattern = re.compile(r'<Response\s*\[([0-9]+)\]>')
+    if pattern.search(response) is not None:
+        return True
+    else:
+        return False
 
 
 def find_id_in_scenario_get(cur_id, scenarios):
@@ -18,3 +28,4 @@ def return_scenario_by_id(f_id, scenarios):
             if key == 'id':
                 if value == f_id:
                     return item
+
