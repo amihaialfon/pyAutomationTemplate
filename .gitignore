@@ -3,3 +3,10 @@
 
 # Ignore virtualenv folder, each person should create his own venv and pip install all dependecies
 venv/
+venv/Scripts/
+venv/Lib/
+Connection/__pycache__/
+Logs/LogA.txt.2019-08-21_15
+Utils/Logger/__pycache__/
+Utils/__pycache__/
+__pycache__/
