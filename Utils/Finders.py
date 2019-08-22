@@ -2,10 +2,10 @@ import json
 import re
 
 
-# Checks response for valid range, everything that is not between 200-299 will raise Fail
+# Checks response for valid range, returns True if responses are 200 or 300
 def check_response(response):
-    pattern = re.compile(r'<Response\s*\[([0-9]+)\]>')
-    if pattern.search(response) is not None:
+    pattern = re.compile(r'<Response\s*\[(?!([45][0-9][0-9]))\d{3}\]>')
+    if pattern.match(response) is not None:
         return True
     else:
         return False

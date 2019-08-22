@@ -1,0 +1,5 @@
+# Ignore all logs
+*.log
+
+# Ignore virtualenv folder, each person should create his own venv and pip install all dependecies
+venv/
