@@ -5,7 +5,7 @@ from Utils.Logger import Logger
 from Connection import RETB_Adapter
 
 config = ConfigReader.get_config()
-logger_setup = Logger.LoggerSetup(logger_name='logger', log_file='LogA.txt', log_dir=config['log_path'])
+logger_setup = Logger.LoggerSetup(logger_name='logger', log_file='LogA.txt', log_dir=config['my_log_path'])
 logger = Logger.get_loggerEx(logger_setup=logger_setup)
 adapter = RETB_Adapter.RetbAdapter(logger=logger, config=config)
 
