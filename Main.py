@@ -12,7 +12,7 @@ adapter = RETB_Adapter.RetbAdapter(logger=logger, config=config)
 
 def test_create_scenario():
     logger.info('This is a test that checks scenario creation and consistency of all scenario attributes.')
-    scenario = ScenarioManager.get_scenario_file(scenario_name='scenario.json')
+    scenario = ScenarioManager.get_scenario_file(scenario_name='broken_scenario.json')
     r = adapter.send_scenarios(scenario, method='post')
     assert r is not None, 'If r is None it means that no response where received from UUT'
     response_json = adapter.convert_to_dict(r.text)
@@ -28,6 +28,6 @@ def test_create_scenario():
     assert ScenarioManager.scenario_compare(scenario, returned_scenario), 'Scenarios are different - FAIL'
 
 
-if __name__ == '__main__':
-    logger.info('This is first test')
-    test_create_scenario()
+# if __name__ == '__main__':
+#     logger.info('This is first test')
+#     test_create_scenario()

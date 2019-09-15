@@ -10,6 +10,7 @@ class RetbAdapter():
     This class uses RestSender as an additional adapter to send REST requests, this is made in order to separate between
      technology and the logic.
     '''
+
     def __init__(self, logger, config):
         self.logger = logger,
         self.config = config
@@ -38,7 +39,7 @@ class RetbAdapter():
         elif method == 'get':
             host_url = + '/' + message
             r = RestSender.send_get_message(path=host_url)
-        print(r)
+        print(r, r.text)
         return r
 
     def send_models(self, message):
