@@ -10,7 +10,7 @@ logger = Logger.get_loggerEx(logger_setup=logger_setup)
 adapter = RETB_Adapter.RetbAdapter(logger=logger, config=config)
 
 
-def test_create_scenario():
+def test_create_scenario_18359():
     logger.info('This is a test that checks scenario creation and consistency of all scenario attributes.')
     scenario = ScenarioManager.get_scenario_file(scenario_name='broken_scenario.json')
     r = adapter.send_scenarios(scenario, method='post')
@@ -26,6 +26,19 @@ def test_create_scenario():
     scenario = ScenarioManager.update_scenario_id(scenario, 'id', response_json['id'])
     returned_scenario = Finders.return_scenario_by_id(response_json['id'], r2.text)
     assert ScenarioManager.scenario_compare(scenario, returned_scenario), 'Scenarios are different - FAIL'
+
+
+def test_upload_trajectory():
+    logger.info('This is a test that checks uploaded Trajectories.')
+    print('bla bla')
+    trajectory = ScenarioManager.get_scenario_file(scenario_name='trajectories.json')
+    print('trajectory: ' + str(trajectory))
+    r = adapter.send_trajectories(trajectory, method='post')
+    print(str(r))
+    assert r is not None, 'If r is None it means that no response where received from UUT'
+    response_json = adapter.convert_to_dict(r.text)
+    assert Finders.check_response(str(r)), 'Responses are not correct'  # Checks response for valid range.
+    print(r.text)
 
 
 # if __name__ == '__main__':

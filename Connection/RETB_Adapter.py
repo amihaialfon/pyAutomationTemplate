@@ -65,7 +65,8 @@ class RetbAdapter():
         return r
 
     def send_trajectories(self, message, method='post'):
-        host_url = 'http://' + self.config['target_host'] + '/api/trajectories/upload'
+        host_url = 'http://' + self.config['target_host'] + '/api/analysis/trajectories'
+        print('host url:' + host_url)
         if method == 'post':
             r = RestSender.send_post_message(path=host_url, message=message)
         elif method == 'get':
