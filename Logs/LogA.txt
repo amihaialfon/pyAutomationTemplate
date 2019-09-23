@@ -1,14 +1,27 @@
-2019-09-18 07:54:09.577 ~ INFO ~ This is a test that checks scenario creation and consistency of all scenario attributes.
-2019-09-18 07:54:09.685 ~ INFO ~ This is a test that checks uploaded Trajectories.
-2019-09-18 07:55:36.762 ~ INFO ~ This is a test that checks scenario creation and consistency of all scenario attributes.
-2019-09-18 07:55:36.845 ~ INFO ~ This is a test that checks uploaded Trajectories.
-2019-09-18 07:56:42.724 ~ INFO ~ This is a test that checks scenario creation and consistency of all scenario attributes.
-2019-09-18 07:56:42.792 ~ INFO ~ This is a test that checks uploaded Trajectories.
-2019-09-18 07:57:27.666 ~ INFO ~ This is a test that checks scenario creation and consistency of all scenario attributes.
-2019-09-18 07:57:27.742 ~ INFO ~ This is a test that checks uploaded Trajectories.
-2019-09-18 07:58:44.701 ~ INFO ~ This is a test that checks uploaded Trajectories.
-2019-09-18 07:59:56.966 ~ INFO ~ This is a test that checks uploaded Trajectories.
-2019-09-18 08:00:08.204 ~ INFO ~ This is a test that checks uploaded Trajectories.
-2019-09-18 08:01:20.622 ~ INFO ~ This is a test that checks uploaded Trajectories.
-2019-09-18 08:08:37.207 ~ INFO ~ This is a test that checks uploaded Trajectories.
-2019-09-18 08:09:21.116 ~ INFO ~ This is a test that checks uploaded Trajectories.
+2019-09-22 14:49:22.642 ~ INFO ~ This is a test that checks uploaded Trajectories.
+2019-09-22 15:02:13.805 ~ INFO ~ This is a test that checks uploaded Trajectories.
+2019-09-22 15:06:38.144 ~ INFO ~ This is a test that checks uploaded Trajectories.
+2019-09-22 15:10:56.675 ~ INFO ~ This is a test that checks uploaded Trajectories.
+2019-09-22 15:11:24.444 ~ INFO ~ This is a test that checks uploaded Trajectories.
+2019-09-22 15:17:14.812 ~ INFO ~ This is a test that checks uploaded Trajectories.
+2019-09-22 15:17:31.464 ~ INFO ~ This is a test that checks uploaded Trajectories.
+2019-09-22 15:21:58.218 ~ INFO ~ This is a test that checks uploaded Trajectories.
+2019-09-22 15:24:14.220 ~ INFO ~ This is a test that checks uploaded Trajectories.
+2019-09-22 15:26:06.715 ~ INFO ~ This is a test that checks uploaded Trajectories.
+2019-09-22 15:27:54.814 ~ INFO ~ This is a test that checks uploaded Trajectories.
+2019-09-22 15:28:18.042 ~ INFO ~ This is a test that checks uploaded Trajectories.
+2019-09-22 15:29:53.309 ~ INFO ~ This is a test that checks uploaded Trajectories.
+2019-09-22 15:32:17.725 ~ INFO ~ This is a test that checks uploaded Trajectories.
+2019-09-22 15:32:55.437 ~ INFO ~ This is a test that checks uploaded Trajectories.
+2019-09-22 15:33:13.233 ~ INFO ~ This is a test that checks uploaded Trajectories.
+2019-09-22 15:34:18.552 ~ INFO ~ This is a test that checks uploaded Trajectories.
+2019-09-22 15:34:39.003 ~ INFO ~ This is a test that checks uploaded Trajectories.
+2019-09-22 15:35:07.092 ~ INFO ~ This is a test that checks uploaded Trajectories.
+2019-09-22 15:36:00.743 ~ INFO ~ This is a test that checks uploaded Trajectories.
+2019-09-22 15:36:16.220 ~ INFO ~ This is a test that checks uploaded Trajectories.
+2019-09-22 15:37:55.496 ~ INFO ~ This is a test that checks uploaded Trajectories.
+2019-09-22 15:38:06.102 ~ INFO ~ This is a test that checks uploaded Trajectories.
+2019-09-22 15:38:28.175 ~ INFO ~ This is a test that checks uploaded Trajectories.
+2019-09-22 15:38:39.792 ~ INFO ~ This is a test that checks uploaded Trajectories.
+2019-09-22 15:38:55.757 ~ INFO ~ This is a test that checks uploaded Trajectories.
+2019-09-22 15:41:28.604 ~ INFO ~ This is a test that checks uploaded Trajectories.

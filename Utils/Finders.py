@@ -5,7 +5,7 @@ import re
 # Checks response for valid range, returns True if responses are 200 or 300
 def check_response(response):
     pattern = re.compile(r'<Response\s*\[(?!([45][0-9][0-9]))\d{3}\]>')
-    if pattern.match(response) is not None:
+    if pattern.match(str(response)) is not None:
         return True
     else:
         return False

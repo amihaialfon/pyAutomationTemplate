@@ -14,6 +14,16 @@ def get_scenario_file(scenario_name):
         print(e)
 
 
+def get_file_path(in_filename):
+    try:
+        root = os.path.dirname(__file__)
+        root = root.rstrip('\\Utils')
+        filename = (root + '\\Sources\\' + in_filename)
+        return filename
+    except IOError as e:
+        print(e)
+
+
 def update_scenario_id(scenario, new_key, new_value):
     try:
         replace = {new_key: new_value}

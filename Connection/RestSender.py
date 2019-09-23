@@ -1,6 +1,15 @@
 import requests
 
 
+def send_post_file(path, file):
+    try:
+        files = {'trajectoriesFile': open(file, 'rb')}
+        r = requests.post(url=path, files=files)
+        return r
+    except requests.exceptions.RequestException as e:
+        print(e)
+
+
 def send_post_message(path, message):
     try:
         r = requests.post(url=path, json=message)
