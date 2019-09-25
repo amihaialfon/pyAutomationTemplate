@@ -18,6 +18,14 @@ def send_post_message(path, message):
         print(e)
 
 
+def send_empty_post(path):
+    try:
+        r = requests.post(url=path)
+        return r
+    except requests.exceptions.RequestException as e:
+        print(e)
+
+
 def send_get_message(path, message):
     try:
         r = requests.get(url=path)

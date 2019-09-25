@@ -39,6 +39,8 @@ class RetbAdapter():
         elif method == 'get':
             host_url = + '/' + message
             r = RestSender.send_get_message(path=host_url)
+        elif method == 'empty_post':
+            r = RestSender.send_empty_post(path=host_url)
         print(r, r.text)
         return r
 
@@ -67,7 +69,6 @@ class RetbAdapter():
     def send_trajectories(self, scenarioid, message='',file='', method='post'):
         host_url = 'http://' + self.config['target_host'] + '/api/trajectories/' + scenarioid +'/upload'
         print('host url: ' + host_url)
-        print('message: ' + str(message))
         if method == 'post_file':
             r = RestSender.send_post_file(path=host_url,file=file)
         if method == 'post':
