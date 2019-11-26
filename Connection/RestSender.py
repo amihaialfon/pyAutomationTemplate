@@ -1,9 +1,9 @@
 import requests
 
 
-def send_post_file(path, file):
+def send_post_file(path, files):
     try:
-        files = {'trajectoriesFile': open(file, 'rb')}
+        files = {'trajectoriesFile': open(files, 'rb')}
         r = requests.post(url=path, files=files)
         return r
     except requests.exceptions.RequestException as e:

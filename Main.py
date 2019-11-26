@@ -10,9 +10,9 @@ logger = Logger.get_loggerEx(logger_setup=logger_setup)
 adapter = RETB_Adapter.RetbAdapter(logger=logger, config=config)
 
 
-def test_create_scenario_18359():
+def test_create_scenario_empty_values():
     logger.info('This is a test that checks scenario creation and consistency of all scenario attributes.')
-    scenario = ScenarioManager.get_scenario_file(scenario_name='scenario_Double_Bat.json')
+    scenario = ScenarioManager.get_scenario_file(scenario_name='scenario_empty_values.json')
     r = adapter.send_scenarios(scenario, method='post')
     assert r is not None, 'If r is None it means that no response where received from UUT'
     response_json = adapter.convert_to_dict(r.text)
@@ -45,7 +45,7 @@ def test_upload_trajectory():
     scenarioid = (response_json['id'])
     print(scenarioid)
     trajectory_path = ScenarioManager.get_file_path(in_filename='trajectories.json')
-    r3 = adapter.send_trajectories(scenarioid, file=trajectory_path, method='post_file')
+    r3 = adapter.send_trajectories(scenarioid, files=trajectory_path, method='post_file')
     print('send trajectory:' + str(r3))
     assert r3 is not None, 'If r is None it means that no response where received from UUT'
     # response_json = adapter.convert_to_dict(r3.text)
@@ -76,6 +76,6 @@ def test_start_evaluation():
 
 if __name__ == '__main__':
     logger.info('This is first test')
-    #  test_upload_trajectory()
-    #  test_create_scenario_18359()
+    test_upload_trajectory()
+    test_create_scenario_empty_values()
     test_start_evaluation()

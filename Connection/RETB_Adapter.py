@@ -66,13 +66,13 @@ class RetbAdapter():
         print(r)
         return r
 
-    def send_trajectories(self, scenarioid, message='',file='', method='post'):
-        host_url = 'http://' + self.config['target_host'] + '/api/trajectories/' + scenarioid +'/upload'
+    def send_trajectories(self, scenarioid, message='', files='', method='post'):
+        host_url = 'http://' + self.config['target_host'] + '/api/trajectories/upload?scenarioId=' + scenarioid
         print('host url: ' + host_url)
         if method == 'post_file':
-            r = RestSender.send_post_file(path=host_url,file=file)
+            r = RestSender.send_post_file(path=host_url, files=files)
         if method == 'post':
-            r = RestSender.send_post_message(path=host_url,message=message)
+            r = RestSender.send_post_message(path=host_url, message=message)
         elif method == 'get':
             r = RestSender.send_get_message(path=host_url)
         print(r)
