@@ -29,9 +29,10 @@ def test_create_scenario_empty_values_18359():
     assert ScenarioManager.scenario_compare(scenario, returned_scenario), 'Scenarios are different - FAIL'
 
 
-def test_create_scenario_full_values_18937():
-    logger.info('This is a test that checks post evaluation.')
-    scenario = ScenarioManager.get_scenario_file(scenario_name='scenario_full_values.json')
+def test_create_scenario_full_values_18937(scenario_name):
+    logger.info('This is a test that checks post evaluation.' + scenario_name)
+    # scenario = ScenarioManager.get_scenario_file(scenario_name='scenario_full_values.json')
+    scenario = ScenarioManager.get_scenario_file(scenario_name=scenario_name)
     r = adapter.send_scenarios(scenario, method='post')
     assert r is not None, 'If r is None it means that no response where received from UUT'
     response_json = adapter.convert_to_dict(r.text)
@@ -57,11 +58,9 @@ def test_analysis_18938(evaluation_id=None, mode=False):
     asset = ScenarioManager.get_scenario_file(scenario_name='assets.json')
     message.update(asset)
     print(message)
-    r = adapter.send_analysis(message=message,type='summary')
+    r = adapter.send_analysis(message=message, type='summary')
     assert Finders.check_response(str(r)), 'Response is valid range'  # Checks response for valid range.
     print(r, r.text)
-
-
 
 
 def test_result_evaluation_18939(scenario_id=None, mode=False):
@@ -106,15 +105,36 @@ def test_upload_trajectory_18940(scenario_id=None):
     print(r3.text)
 
 
+def test_delete_scenario_19332(scenario_id=None, mode=False):
+    logger.info('This is a test that checks delete scenario.')
+    print('scenario ID: ' + scenario_id)
+    if scenario_id is None:
+        scenario_id = 'NotExistingID -'
+    message = {'scenarioId': scenario_id}
+    r = adapter.delete_scenarios(scenario_id)
+    assert Finders.check_response(str(r)), 'Response is valid range'  # Checks response for valid range.
+
+
 def test_full_analyze_18941():
     logger.info('This is a test that check full analyze scenario')
-    scenarioId = test_create_scenario_full_values_18937()
-    print(scenarioId)
+    scenarioId = test_create_scenario_full_values_18937(scenario_name='scenario_50_deployments.json')
+    print('scenario ID: '+scenarioId)
     test_upload_trajectory_18940(scenario_id=scenarioId)
     eval_id = test_result_evaluation_18939(scenario_id=scenarioId, mode=True)
     test_analysis_18938(eval_id)
+    test_delete_scenario_19332(scenario_id=scenarioId)
 
 
 if __name__ == '__main__':
-    logger.info('This is first test')
+    logger.info('Testing is starting...')
     test_full_analyze_18941()
+    '''
+    test_upload_trajectory_18940()
+    test_result_evaluation_18939()
+    test_analysis_18938()
+    test_create_scenario_full_values_18937(scenario_name='scenario_50_deployments.json')
+    test_create_scenario_full_values_18937(scenario_name='scenario_full_Test_Lot_Asset_Deploy.json')
+    test_create_scenario_full_values_18937(scenario_name='scenario_full_values.json')
+    test_create_scenario_empty_values_18359()
+    test_full_analyze_18941()
+    '''

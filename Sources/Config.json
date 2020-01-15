@@ -1,4 +1,4 @@
 {
-  "target_host": "dev.retb.cv.rafael:5080",
+  "target_host": "stage.retb.cv.rafael:5080",
   "my_log_path": ".//Logs/"
 }

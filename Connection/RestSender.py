@@ -36,7 +36,8 @@ def send_get_message(path, message):
 
 def send_delete_message(path, message):
     try:
-        r = requests.delete(url=path)
+        # r = requests.delete(url=path, json=message)
+        r = requests.request("DELETE", path+'/'+message)
         return r
     except requests.exceptions.RequestException as e:
         print(e)

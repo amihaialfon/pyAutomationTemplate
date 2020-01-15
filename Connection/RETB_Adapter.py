@@ -77,3 +77,9 @@ class RetbAdapter():
             r = RestSender.send_get_message(path=host_url)
         print(r)
         return r
+
+    def delete_scenarios(self, message, method='DELETE'):
+        host_url = 'http://' + self.config['target_host'] + '/api/scenarios/'
+        r = RestSender.send_delete_message(path=host_url, message=message)
+        print(r)
+        return r

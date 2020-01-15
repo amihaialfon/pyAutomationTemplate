@@ -1,9 +1,7 @@
-2019-09-25 14:10:01.253 ~ INFO ~ This is first test
-2019-09-25 14:10:01.253 ~ INFO ~ This is a test that checks uploaded Trajectories.
-2019-09-25 14:10:43.283 ~ INFO ~ This is first test
-2019-09-25 14:10:43.283 ~ INFO ~ This is a test that checks uploaded Trajectories.
-2019-09-25 14:11:21.194 ~ INFO ~ This is first test
-2019-09-25 14:11:21.194 ~ INFO ~ This is a test that checks uploaded Trajectories.
-2019-09-25 14:11:44.804 ~ INFO ~ This is first test
-2019-09-25 14:11:44.804 ~ INFO ~ This is a test that checks uploaded Trajectories.
-2019-09-25 14:13:00.971 ~ INFO ~ This is a test that checks uploaded Trajectories.
+2020-01-02 15:09:06.665 ~ INFO ~ Testing is starting...
+2020-01-02 15:09:06.667 ~ INFO ~ This is a test that check full analyze scenario
+2020-01-02 15:09:06.667 ~ INFO ~ This is a test that checks post evaluation.scenario_50_deployments.json
+2020-01-02 15:09:06.768 ~ INFO ~ This is a test that checks uploaded Trajectories.
+2020-01-02 15:09:06.959 ~ INFO ~ This test is checking evaluation
+2020-01-02 15:09:07.017 ~ INFO ~ This test is checking analysis
+2020-01-02 15:09:07.036 ~ INFO ~ This is a test that checks delete scenario.
