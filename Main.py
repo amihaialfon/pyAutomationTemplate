@@ -118,11 +118,27 @@ def test_delete_scenario_19332(scenario_id=None, mode=False):
 def test_full_analyze_18941():
     logger.info('This is a test that check full analyze scenario')
     scenarioId = test_create_scenario_full_values_18937(scenario_name='scenario_50_deployments.json')
-    print('scenario ID: '+scenarioId)
+    print('scenario ID: ' + scenarioId)
     test_upload_trajectory_18940(scenario_id=scenarioId)
     eval_id = test_result_evaluation_18939(scenario_id=scenarioId, mode=True)
     test_analysis_18938(eval_id)
     test_delete_scenario_19332(scenario_id=scenarioId)
+
+
+def test_optimization_analyze_11111(scenario_id=None, mode=False):  # need to check
+    logger.info('This is a test that check automatic optimization analyze scenario')
+    if scenario_id is None:
+        scenario_id = 'NotExistingID -'
+    message = {'scenarioId': scenario_id}
+    r = adapter.start_optimization(message=message)
+    temp = 'statusCode":500,"error":"Internal Server Error","message":"Scenario id NotExistingID - doesn\'t exist'
+    if mode:
+        assert Finders.check_response(str(r)), 'Responses are not correct'  # Checks response for valid range.
+        r_dict = json.loads(r.text)
+        print(r_dict['id'])
+        return r_dict['id']
+    if not mode:
+        assert temp in r.text
 
 
 if __name__ == '__main__':
