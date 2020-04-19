@@ -1,0 +1,520 @@
+{
+        "name": "#3 3080 targets - MR",
+        "assets": [
+          {
+            "id": "1fbe7ac3-8eec-e7bd-6e71-17854536d133",
+            "area": {
+              "id": "0d3fa7bf-25eb-4685-acd1-857cfbebaff1",
+              "type": "Feature",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      35.0563049595803,
+                      33.06865556531406
+                    ],
+                    [
+                      35.18508912995457,
+                      32.99701852279979
+                    ],
+                    [
+                      35.1441955845803,
+                      32.928909386642786
+                    ],
+                    [
+                      35.11062623001635,
+                      32.83100679665681
+                    ],
+                    [
+                      35.03555295988917,
+                      32.75147756787723
+                    ],
+                    [
+                      35.01724244095385,
+                      32.809976951946425
+                    ],
+                    [
+                      34.98184205964208,
+                      32.84126344303087
+                    ],
+                    [
+                      35.013580303639166,
+                      32.88432840834537
+                    ],
+                    [
+                      35.04470826126635,
+                      32.89765382869554
+                    ],
+                    [
+                      35.0563049595803,
+                      33.06865556531406
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "id": "1fbe7ac3-8eec-e7bd-6e71-17854536d133",
+                "icon": "",
+                "mode": "Polygon",
+                "label": "low",
+                "style": {
+                  "initial": {
+                    "fill": "rgba(83,202,255, 0.9)",
+                    "stroke": "rgba(83,202,255, 0.9)",
+                    "fill-opacity": 0.1,
+                    "stroke-width": 2
+                  },
+                  "opacity": 1
+                },
+                "showLabel": true,
+                "showMeasures": false
+              }
+            },
+            "name": "low",
+            "priority": "Low",
+            "resolution": null
+          }
+        ],
+        "threats": [],
+        "policies": [],
+        "createdAt": "2020-04-06T08:08:11.507Z",
+        "updatedAt": "2020-04-06T08:08:11.507Z",
+        "analysisId": "ec2bad60-3dab-4ecd-9141-1aee3b7412fb",
+        "deployments": [
+          {
+            "id": "93df5c08-71f9-4bf7-9d08-58b82f48a32d",
+            "name": "MR",
+            "model": {
+              "name": "spyder-mr",
+              "type": "battery",
+              "classification": "system"
+            },
+            "visible": true,
+            "children": [
+              {
+                "id": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+                "name": "sen",
+                "model": {
+                  "name": "sensor_type_rf",
+                  "type": "sensor",
+                  "classification": "physical"
+                },
+                "visible": true,
+                "children": [],
+                "entityId": "b0935577-53ab-48f1-b103-b5eeb769e55f",
+                "properties": [
+                  {
+                    "id": 0,
+                    "name": "name",
+                    "type": "input",
+                    "value": "sen",
+                    "hidden": true,
+                    "required": true,
+                    "friendlyName": "Name"
+                  },
+                  {
+                    "id": 2,
+                    "name": "azimuth",
+                    "type": "static",
+                    "value": 0,
+                    "required": true,
+                    "friendlyName": "Azimuth"
+                  },
+                  {
+                    "id": 3,
+                    "name": "elevation",
+                    "type": "input",
+                    "value": 0,
+                    "required": true,
+                    "friendlyName": "Elevation"
+                  },
+                  {
+                    "id": 4,
+                    "name": "area",
+                    "type": "geometry",
+                    "value": {
+                      "id": "10442e89-28ca-4da9-8f31-ce3199cc226a",
+                      "type": "Feature",
+                      "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                          35.04196172580122,
+                          32.83651985825264
+                        ]
+                      },
+                      "properties": {
+                        "id": "779b7a78-5752-41d9-a438-af313474f671",
+                        "icon": "assets/images/radarIcon.SVG",
+                        "label": "sen",
+                        "style": {
+                          "initial": {
+                            "fill": "black",
+                            "stroke": "black",
+                            "fill-opacity": 0.3,
+                            "stroke-width": 2
+                          }
+                        },
+                        "showLabel": true,
+                        "showMeasures": false,
+                        "componentType": "sensor",
+                        "configuration": {
+                          "name": "sen",
+                          "radius": 250,
+                          "sector": 180,
+                          "azimuth": 0,
+                          "elevation": 0
+                        }
+                      }
+                    },
+                    "options": [
+                      "polygon",
+                      "point"
+                    ],
+                    "required": true,
+                    "friendlyName": ""
+                  },
+                  {
+                    "id": 5,
+                    "name": "radius",
+                    "type": "static",
+                    "value": 250,
+                    "required": true,
+                    "friendlyName": "Radius"
+                  },
+                  {
+                    "id": 6,
+                    "name": "sector",
+                    "type": "static",
+                    "value": 180,
+                    "required": true,
+                    "friendlyName": "Sector"
+                  }
+                ],
+                "systemTypeId": "afee83a6-g55u-4b86-a3c4-797f67yh4ce6",
+                "relatedComponentIds": []
+              },
+              {
+                "id": "02ae6a6e-c40b-444a-8c5f-80455483ad00",
+                "name": "eff",
+                "model": {
+                  "name": "effector_type_generic",
+                  "type": "effector",
+                  "classification": "physical"
+                },
+                "visible": true,
+                "children": [],
+                "entityId": "8fb999c0-0b73-4d8a-809b-ab58ea8cec71",
+                "properties": [
+                  {
+                    "id": 0,
+                    "name": "name",
+                    "type": "input",
+                    "value": "eff",
+                    "hidden": true,
+                    "required": true,
+                    "friendlyName": "Name"
+                  },
+                  {
+                    "id": 1,
+                    "name": "area",
+                    "type": "geometry",
+                    "value": {
+                      "id": "154f9c03-2716-4f97-a243-7d2280973d59",
+                      "type": "Feature",
+                      "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                          34.97604375705122,
+                          32.738001893096566
+                        ]
+                      },
+                      "properties": {
+                        "id": "2226dc0d-3d9c-48cb-8990-cc5cf0c0d86a",
+                        "icon": "assets/images/launcherIcon.SVG",
+                        "label": "eff",
+                        "style": {
+                          "initial": {
+                            "fill": "black",
+                            "stroke": "black",
+                            "fill-opacity": 0.3,
+                            "stroke-width": 2
+                          }
+                        },
+                        "showLabel": true,
+                        "showMeasures": false,
+                        "componentType": "effector",
+                        "configuration": {
+                          "name": "eff",
+                          "radius": 35
+                        }
+                      }
+                    },
+                    "options": [
+                      "polygon",
+                      "point"
+                    ],
+                    "required": true,
+                    "friendlyName": ""
+                  },
+                  {
+                    "id": 2,
+                    "name": "radius",
+                    "type": "static",
+                    "value": 35,
+                    "required": true,
+                    "friendlyName": "Radius"
+                  }
+                ],
+                "systemTypeId": "e72b98ec-85g7-451a-b002-4e9918518888",
+                "relatedComponentIds": []
+              },
+              {
+                "id": "8df21aab-9d01-4af3-9df0-2800a6361402",
+                "name": "ccu",
+                "model": {
+                  "name": "c4i_type_generic",
+                  "type": "c4i",
+                  "classification": "physical"
+                },
+                "visible": true,
+                "children": [],
+                "entityId": "594d2d64-3db5-47da-906e-71296b7a64d9",
+                "properties": [
+                  {
+                    "id": 0,
+                    "name": "name",
+                    "type": "input",
+                    "value": "ccu",
+                    "hidden": true,
+                    "required": true,
+                    "friendlyName": "Name"
+                  },
+                  {
+                    "id": 1,
+                    "name": "area",
+                    "type": "geometry",
+                    "value": {
+                      "id": "35beec1c-a270-4fe8-8ca1-f4cf02166975",
+                      "type": "Feature",
+                      "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                          34.977264497429125,
+                          32.77393251664434
+                        ]
+                      },
+                      "properties": {
+                        "id": "8ed7b2ea-a774-4cb9-a164-4ced2593e84f",
+                        "icon": "assets/images/bmcIcon.SVG",
+                        "label": "ccu",
+                        "style": {
+                          "initial": {
+                            "fill": "black",
+                            "stroke": "black",
+                            "fill-opacity": 0.3,
+                            "stroke-width": 2
+                          }
+                        },
+                        "showLabel": true,
+                        "showMeasures": false,
+                        "componentType": "c4i",
+                        "configuration": {
+                          "name": "ccu"
+                        }
+                      }
+                    },
+                    "options": [
+                      "polygon",
+                      "point"
+                    ],
+                    "required": true,
+                    "friendlyName": ""
+                  }
+                ],
+                "systemTypeId": "97e9d87f-93b5-4064-930e-61283560775c",
+                "relatedComponentIds": []
+              },
+              {
+                "id": "4f004924-446f-4d74-aaac-67a3dd58621a",
+                "name": "dl",
+                "model": {
+                  "name": "antenna_type_generic",
+                  "type": "datalink",
+                  "classification": "physical"
+                },
+                "visible": true,
+                "children": [],
+                "entityId": "40e28946-96bb-446c-b0f5-988fde16f6bf",
+                "properties": [
+                  {
+                    "id": 0,
+                    "name": "name",
+                    "type": "input",
+                    "value": "dl",
+                    "hidden": true,
+                    "required": true,
+                    "defaultValue": null,
+                    "friendlyName": "Name"
+                  },
+                  {
+                    "id": 1,
+                    "name": "area",
+                    "type": "geometry",
+                    "value": {
+                      "id": "6d6ae625-ffbb-4675-b227-0ebf78cc0847",
+                      "type": "Feature",
+                      "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                          34.922332856804125,
+                          32.71335534142355
+                        ]
+                      },
+                      "properties": {
+                        "id": "a7787052-9b08-472c-beca-cf463d0281be",
+                        "icon": "assets/images/gdlIcon.SVG",
+                        "label": "dl",
+                        "style": {
+                          "initial": {
+                            "fill": "black",
+                            "stroke": "black",
+                            "fill-opacity": 0.3,
+                            "stroke-width": 2
+                          }
+                        },
+                        "showLabel": true,
+                        "showMeasures": false,
+                        "componentType": "datalink",
+                        "configuration": {
+                          "name": "dl",
+                          "radius": 45
+                        }
+                      }
+                    },
+                    "options": [
+                      "polygon",
+                      "point"
+                    ],
+                    "required": true,
+                    "friendlyName": ""
+                  },
+                  {
+                    "id": 2,
+                    "name": "radius",
+                    "type": "static",
+                    "value": 45,
+                    "required": true,
+                    "friendlyName": "Radius"
+                  }
+                ],
+                "systemTypeId": "23a24af7-gh54-4c0c-803e-55e6902df744",
+                "relatedComponentIds": []
+              }
+            ],
+            "entityId": "d09a8ffc-8b0f-4dbc-ba4d-5948a6ac1a21",
+            "properties": [
+              {
+                "id": 0,
+                "name": "name",
+                "type": "input",
+                "value": "MR",
+                "hidden": true,
+                "required": true,
+                "defaultValue": null,
+                "friendlyName": "Name"
+              },
+              {
+                "id": 1,
+                "name": "systems",
+                "type": "dropdown",
+                "value": "spyder-mr",
+                "hidden": true,
+                "required": true,
+                "friendlyName": "Systems"
+              },
+              {
+                "id": 2,
+                "name": "area",
+                "type": "geometry",
+                "value": {
+                  "id": "5858fc91-437a-430c-9ebf-6e544cafed85",
+                  "type": "Feature",
+                  "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                      [
+                        [
+                          35.16014096327126,
+                          32.86215766174476
+                        ],
+                        [
+                          35.01121524721383,
+                          32.899575576565226
+                        ],
+                        [
+                          34.88609313033521,
+                          32.77701162028002
+                        ],
+                        [
+                          34.9147796491161,
+                          32.60647499318672
+                        ],
+                        [
+                          34.890365595929325,
+                          32.54321158966722
+                        ],
+                        [
+                          34.907455458305776,
+                          32.53755175462041
+                        ],
+                        [
+                          34.97947691939771,
+                          32.54475517693953
+                        ],
+                        [
+                          35.006332411430776,
+                          32.556588111088715
+                        ],
+                        [
+                          35.16014096327126,
+                          32.86215766174476
+                        ]
+                      ]
+                    ]
+                  },
+                  "properties": {
+                    "id": "257fa166-9b83-4ef1-8752-433f5de6dfe7",
+                    "icon": "",
+                    "label": "MR",
+                    "style": {
+                      "initial": {
+                        "fill": "black",
+                        "stroke": "black",
+                        "fill-opacity": 0.3,
+                        "stroke-width": 2
+                      }
+                    },
+                    "showLabel": true,
+                    "showMeasures": false,
+                    "componentType": "battery",
+                    "configuration": {
+                      "name": "MR",
+                      "systems": "spyder-mr"
+                    }
+                  }
+                },
+                "options": [
+                  "polygon"
+                ],
+                "required": false,
+                "friendlyName": ""
+              }
+            ],
+            "systemTypeId": "fbe36767-d35g-463b-aa37-aa08d70c8fcf",
+            "relatedComponentIds": []
+          }
+        ],
+        "targetCount": 3080,
+        "originalDeployments": null
+      }

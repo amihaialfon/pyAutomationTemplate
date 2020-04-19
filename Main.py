@@ -4,6 +4,8 @@ from Utils import ConfigReader
 from Utils.Logger import Logger
 from Connection import RETB_Adapter
 import json
+import socket
+import pytest
 
 config = ConfigReader.get_config()
 logger_setup = Logger.LoggerSetup(logger_name='logger', log_file='LogA.txt', log_dir=config['my_log_path'])
@@ -52,7 +54,7 @@ def test_create_scenario_full_values_18937(scenario_name):
 def test_analysis_18938(evaluation_id=None, mode=False):
     logger.info('This test is checking analysis')
     if evaluation_id is None:
-        evaluation_id = 'NotExistingID -'
+        evaluation_id = 'bc593ca2-11b8-4c0d-addf-7aed32d21a90'
     print(evaluation_id)
     message = {'evaluationId': evaluation_id}
     asset = ScenarioManager.get_scenario_file(scenario_name='assets.json')
@@ -125,32 +127,40 @@ def test_full_analyze_18941():
     test_delete_scenario_19332(scenario_id=scenarioId)
 
 
-def test_optimization_analyze_11111(scenario_id=None, mode=False):  # need to check
-    logger.info('This is a test that check automatic optimization analyze scenario')
-    if scenario_id is None:
-        scenario_id = 'NotExistingID -'
-    message = {'scenarioId': scenario_id}
-    r = adapter.start_optimization(message=message)
-    temp = 'statusCode":500,"error":"Internal Server Error","message":"Scenario id NotExistingID - doesn\'t exist'
-    if mode:
-        assert Finders.check_response(str(r)), 'Responses are not correct'  # Checks response for valid range.
-        r_dict = json.loads(r.text)
-        print(r_dict['id'])
-        return r_dict['id']
-    if not mode:
-        assert temp in r.text
+# def test_optimization_analyze_19775(scenario_id=None, mode=False):  # need to check
+#     logger.info('This is a test that check automatic optimization analyze scenario')
+#     if scenario_id is None:
+#         scenario_id = 'NotExistingID -'
+#     message = {'scenarioId': scenario_id}
+#     r = adapter.start_optimization(message=message)
+#     temp = 'statusCode":500,"error":"Internal Server Error","message":"Scenario id NotExistingID - doesn\'t exist'
+#     if mode:
+#         assert Finders.check_response(str(r)), 'Responses are not correct'  # Checks response for valid range.
+#         r_dict = json.loads(r.text)
+#         print(r_dict['id'])
+#         return r_dict['id']
+#     if not mode:
+#         assert temp in r.text
 
 
 if __name__ == '__main__':
-    logger.info('Testing is starting...')
-    test_full_analyze_18941()
-    '''
-    test_upload_trajectory_18940()
-    test_result_evaluation_18939()
-    test_analysis_18938()
-    test_create_scenario_full_values_18937(scenario_name='scenario_50_deployments.json')
-    test_create_scenario_full_values_18937(scenario_name='scenario_full_Test_Lot_Asset_Deploy.json')
-    test_create_scenario_full_values_18937(scenario_name='scenario_full_values.json')
-    test_create_scenario_empty_values_18359()
-    test_full_analyze_18941()
-    '''
+#    logger.info('Testing is starting...')
+#   test_upload_trajectory_18940(scenario_id="bc593ca2-11b8-4c0d-addf-7aed32d21a90")
+#    test_analysis_18938()
+#    test_full_analyze_18941()
+#   test_upload_trajectory_18940()
+#   test_result_evaluation_18939()
+#   test_analysis_18938()
+#   test_create_scenario_full_values_18937(scenario_name='scenario_50_deployments.json')
+#   # test_create_scenario_full_values_18937(scenario_name='scenario_full_Test_Lot_Asset_Deploy.json')
+#   test_create_scenario_full_values_18937(scenario_name='scenario_full_values.json')
+#   test_create_scenario_empty_values_18359()
+#   test_full_analyze_18941()
+    test_create_scenario_full_values_18937(scenario_name='#1 10 targets - Shilka.json')
+    test_create_scenario_full_values_18937(scenario_name='#2 280 targets - SR.json')
+    test_create_scenario_full_values_18937(scenario_name='#3 3080 targets - MR.json')
+    test_create_scenario_full_values_18937(scenario_name='#4 280 targets - 3 battery.json')
+    test_create_scenario_full_values_18937(scenario_name='#5 344 targets - 3 batteries.json')
+    test_create_scenario_full_values_18937(scenario_name='#6 2800 targets - SR opt.json')
+    test_create_scenario_full_values_18937(scenario_name='#7 10 targets - Shilka opt.json')
+    test_create_scenario_full_values_18937(scenario_name='#8 64 targets - 3 shilka.json')
