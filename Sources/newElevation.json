@@ -1,4 +1,4 @@
-[
+
   {
     "target": {
       "id": "some text"
@@ -114,7 +114,7 @@
         "moduleName": "some text",
         "paramName": "some text",
         "paramValue": "some text"
-      }
+      },
+      {"callback_url": "http://127.0.0.1:5050"}
     ]
   }
-]

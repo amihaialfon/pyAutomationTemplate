@@ -6,29 +6,44 @@ app = flask.Flask(__name__)
 config = ConfigReader.get_config()
 ip = config['my_server_ip']
 port = config['my_server_port']
-t = threading.Thread(target=app.run, args=(ip, port))
+incoming_data = None
 
 
 def run_server():
+    t = threading.Thread(target=app.run, args=(ip, port))
     t.start()
     print("started server")
 
 
 def stop_server():
-    if t is not None:
-        print('terminating server')
-        t.join()
-    else:
-        print("Server is not running")
+    import requests
+    requests.post('http://' + ip + ":" + port + "/shutdown")
 
 
 @app.route('/demo', methods=['POST'])
-def demo():
+def incoming_evaluation():
     print('demo data received')
-    x = flask.request.json
-    print(x)
+    global incoming_data
+    incoming_data = flask.request.json
     return flask.Response('this is response')
+
+
+def shutdown_server():
+    func = flask.request.environ.get('werkzeug.server.shutdown')
+    if func is None:
+        raise RuntimeError('Not running with the Werkzeug Server')
+    func()
+
+
+@app.route('/shutdown', methods=['POST'])
+def shutdown():
+    shutdown_server()
+    return 'Server shutting down...'
 
 
 if __name__ == '__main__':
     run_server()
+
+    import time
+
+    time.sleep(2)
