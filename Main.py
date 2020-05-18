@@ -1,11 +1,12 @@
-from Utils import ScenarioManager
-from Utils import Finders
-from Utils import ConfigReader
-from Utils.Logger import Logger
-from Connection import RETB_Adapter
 import json
-import socket
-import pytest
+from flask import Flask
+import threading
+
+from Connection import RETB_Adapter
+from Utils import ConfigReader
+from Utils import Finders
+from Utils import ScenarioManager
+from Utils.Logger import Logger
 
 config = ConfigReader.get_config()
 logger_setup = Logger.LoggerSetup(logger_name='logger', log_file='LogA.txt', log_dir=config['my_log_path'])
@@ -144,23 +145,18 @@ def test_full_analyze_18941():
 
 
 if __name__ == '__main__':
-#    logger.info('Testing is starting...')
-#   test_upload_trajectory_18940(scenario_id="bc593ca2-11b8-4c0d-addf-7aed32d21a90")
-#    test_analysis_18938()
-#    test_full_analyze_18941()
-#   test_upload_trajectory_18940()
-#   test_result_evaluation_18939()
-#   test_analysis_18938()
-#   test_create_scenario_full_values_18937(scenario_name='scenario_50_deployments.json')
-#   # test_create_scenario_full_values_18937(scenario_name='scenario_full_Test_Lot_Asset_Deploy.json')
-#   test_create_scenario_full_values_18937(scenario_name='scenario_full_values.json')
-#   test_create_scenario_empty_values_18359()
-#   test_full_analyze_18941()
-    test_create_scenario_full_values_18937(scenario_name='#1 10 targets - Shilka.json')
-    test_create_scenario_full_values_18937(scenario_name='#2 280 targets - SR.json')
-    test_create_scenario_full_values_18937(scenario_name='#3 3080 targets - MR.json')
-    test_create_scenario_full_values_18937(scenario_name='#4 280 targets - 3 battery.json')
-    test_create_scenario_full_values_18937(scenario_name='#5 344 targets - 3 batteries.json')
-    test_create_scenario_full_values_18937(scenario_name='#6 2800 targets - SR opt.json')
-    test_create_scenario_full_values_18937(scenario_name='#7 10 targets - Shilka opt.json')
-    test_create_scenario_full_values_18937(scenario_name='#8 64 targets - 3 shilka.json')
+    app = Flask(__name__)
+    t = threading.Thread(target=app.run)
+    t.start()
+    logger.info('Testing is starting...')
+    test_upload_trajectory_18940(scenario_id="bc593ca2-11b8-4c0d-addf-7aed32d21a90")
+    test_analysis_18938()
+    test_full_analyze_18941()
+    test_upload_trajectory_18940()
+    test_result_evaluation_18939()
+    test_analysis_18938()
+    test_create_scenario_full_values_18937(scenario_name='scenario_50_deployments.json')
+    # test_create_scenario_full_values_18937(scenario_name='scenario_full_Test_Lot_Asset_Deploy.json')
+    test_create_scenario_full_values_18937(scenario_name='scenario_full_values.json')
+    test_create_scenario_empty_values_18359()
+    test_full_analyze_18941()

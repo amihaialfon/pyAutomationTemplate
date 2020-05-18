@@ -84,6 +84,12 @@ class RetbAdapter():
         print(r)
         return r
 
+    def delete_trajectory(self, message, method='DELETE'):
+        host_url = 'http://' + self.config['target_host'] + '/api/trajectory/'
+        r = RestSender.send_delete_message(path=host_url, message=message)
+        print(r)
+        return r
+
     def start_optimization(self, message, method='post'):
         host_url = 'http://' + self.config['target_host'] + '/api/optimization'
         r = RestSender.send_post_message(path=host_url, message=message)

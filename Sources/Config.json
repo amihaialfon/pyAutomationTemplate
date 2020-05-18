@@ -1,4 +1,6 @@
 {
-  "target_host": "stage.retb.cv.rafael:5080",
-  "my_log_path": ".//Logs/"
+  "target_host": "test.retb.cv.rafael",
+  "my_log_path": ".//Logs/",
+  "my_server_ip" : "127.0.0.1",
+  "my_server_port" : "5000"
 }

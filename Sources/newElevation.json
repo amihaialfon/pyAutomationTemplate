@@ -1,0 +1,120 @@
+[
+  {
+    "target": {
+      "id": "some text"
+    },
+    "deployment": [
+      {
+        "modelId": "93df5c08-71f9-4bf7-9d08-58b82f48a32d",
+        "modelType": "battery",
+        "modelSubType": "some text",
+        "modelName": "MR",
+        "attributes": {
+          "location": {
+            "lat": 0,
+            "lon": 0,
+            "alt": 0
+          },
+          "direction": {
+            "azimuth": 0,
+            "elevation": 0
+          },
+          "altAboveDTM": 0
+        },
+        "config": [
+          {
+            "moduleName": "some text",
+            "paramName": "some text",
+            "paramValue": "some text"
+          },
+          {
+            "moduleName": "some text",
+            "paramName": "some text",
+            "paramValue": "some text"
+          }
+        ],
+        "children": [
+          {
+            "modelId": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+            "modelType": "sensor",
+            "modelSubType": "some text",
+            "modelName": "sensor_type_rf",
+            "attributes": {
+              "location": {
+                "lat": 35.04196172580122,
+                "lon": 32.83651985825264,
+                "alt": 0
+              },
+              "direction": {
+                "azimuth": 0,
+                "elevation": 0
+              },
+            },
+            "config": [
+              {
+                "moduleName": "some text",
+                "paramName": "some text",
+                "paramValue": "some text"
+              },
+              {
+                "moduleName": "some text",
+                "paramName": "some text",
+                "paramValue": "some text"
+              }
+            ],
+            "children": [
+              {},
+              {}
+            ]
+          },
+          {}
+        ]
+      },
+        "modelId":, "02ae6a6e-c40b-444a-8c5f-80455483ad00",
+        "modelType":, "effector_type_generic",
+        "modelSubType":, "effector",
+        "modelName":, "eff",
+        "attributes": {
+          "location": {
+
+          { "lat": 34.97604375705122,
+            "lon": 32.738001893096566,
+            "alt": 0
+          },
+          "direction": {
+            "azimuth": 0,
+            "elevation": 0
+          },
+          "altAboveDTM": 31
+        },
+        "config": [
+            "moduleName": "some text",
+            "paramName": "some text",
+            "paramValue": "some text"
+          },
+          {
+            "moduleName": "some text",
+            "paramName": "some text",
+            "paramValue": "some text"
+          }
+        ],
+        "children": [
+          {},
+          {}
+        ]
+      }
+    ],
+    "config": [
+      {
+        "moduleName": "some text",
+        "paramName": "some text",
+        "paramValue": "some text"
+      },
+      {
+        "moduleName": "some text",
+        "paramName": "some text",
+        "paramValue": "some text"
+      }
+    ]
+  }
+]
