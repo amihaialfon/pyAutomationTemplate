@@ -31,7 +31,7 @@ def test_post_result_evaluation_21395(scenario_name):
     print('Scenario is included in returned scenarios')
     resonse = None
     while resonse is None:
-        print('waiting evaluation unit response')
+        print('waiting evaluation unit response' + datetime.now())
         resonse = server.incoming_data
     print(resonse)
     server.stop_server()

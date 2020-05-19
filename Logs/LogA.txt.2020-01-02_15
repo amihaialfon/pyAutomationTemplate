@@ -1,0 +1,7 @@
+2020-01-02 15:09:06.665 ~ INFO ~ Testing is starting...
+2020-01-02 15:09:06.667 ~ INFO ~ This is a test that check full analyze scenario
+2020-01-02 15:09:06.667 ~ INFO ~ This is a test that checks post evaluation.scenario_50_deployments.json
+2020-01-02 15:09:06.768 ~ INFO ~ This is a test that checks uploaded Trajectories.
+2020-01-02 15:09:06.959 ~ INFO ~ This test is checking evaluation
+2020-01-02 15:09:07.017 ~ INFO ~ This test is checking analysis
+2020-01-02 15:09:07.036 ~ INFO ~ This is a test that checks delete scenario.
