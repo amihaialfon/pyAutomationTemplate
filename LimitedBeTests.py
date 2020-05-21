@@ -19,21 +19,16 @@ def test_post_result_evaluation_21395(scenario_name):
     start_time = datetime.now()
     logger.info('This is a test that checks post evaluation at limited BE .' + scenario_name)
     scenario = ScenarioManager.get_scenario_file(scenario_name=scenario_name)
-    r = adapter.send_evaluation(scenario, method='post')
-
+    r = adapter.send_evaluation(message=scenario, method='post')
     assert r is not None, 'If r is None it means that no response where received from UUT'
     response_json = adapter.convert_to_dict(r.text)
     assert Finders.check_response(str(r)), 'Responses are not correct'  # Checks response for valid range.
-    current_id = {'id': response_json['id']}
+    current_id = {'scenarioId': response_json['scenarioId']}
+    print('Scenario is included in returned scenarios' + current_id)
 
-    r2 = adapter.send_evaluation(scenario, method='post')
-    assert Finders.check_response(str(r2)), 'Response is valid range'  # Checks response for valid range.
-    assert Finders.find_id_in_scenario_get(response_json['id'],
-                                           r2.text), 'Scenario is not among returned scenarios from UUT'
-    print('Scenario is included in returned scenarios')
     response = None
     while response is None:
-        print('waiting evaluation unit response' + datetime.now())
+        print('Waiting evaluation unit response ' + datetime.now()+ ' ...')
         response = server.incoming_data
     print(response)
     server.stop_server()
@@ -41,8 +36,7 @@ def test_post_result_evaluation_21395(scenario_name):
 
 # @TODO add wait from EVAL unit post message
 
-
-def test_delete_trajectory_21394(scenario_id=None, mode=False):
+def test_delete_trajectory_21394(scenario_id=None):
     logger.info('This is a test that checks delete scenario.')
     print('scenario ID: ' + scenario_id)
     if scenario_id is None:

@@ -108,7 +108,7 @@ def test_upload_trajectory_18940(scenario_id=None):
     print(r3.text)
 
 
-def test_delete_scenario_19332(scenario_id=None, mode=False):
+def test_delete_scenario_19332(scenario_id=None):
     logger.info('This is a test that checks delete scenario.')
     print('scenario ID: ' + scenario_id)
     if scenario_id is None:

@@ -1,120 +1,424 @@
-
-  {
-    "target": {
-      "id": "some text"
+{
+  "scenarioId": "6c855de0-d6f3-4a22-ad57-d8ce5c919fc7",
+  "target": {
+      "id": 0,
+      "name": "target_name_generic",
+      "attributes": {
+        "targetClass": "TARGET_CLASS_UNKNOWN",
+        "groundRange": 0,
+        "apogee": 0,
+        "rcs": 0,
+        "rcsFactor": 0,
+        "eoSig": 0,
+        "gip": {
+          "positionECEF": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0
+          }
+        },
+        "maneuverParams": {
+          "flag": false,
+          "range": 0,
+          "alt": 0,
+          "azimuth": 0,
+          "deltaGIP": 0
+        },
+        "launchPoint": {
+          "positionECEF": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0
+          }
+        },
+        "targetAdditionalParams": {
+          "betaCoeff": 0,
+          "cdTableLen": 8,
+          "mach": [],
+          "cd": []
+        },
+        "coordinateSystem": "EPSG:4978"
+      },
+      "type": "target_type_srbm",
+      "subtype": "Fajer 3",
+      "createdAt": "2019-04-10T10:48:32.352Z",
+      "waypoints": [
+        {
+          "time": 0,
+          "position": [
+            4395384,
+            3059416,
+            3453577
+          ],
+          "velocity": [
+            -119,
+            157,
+            11
+          ],
+          "acceleration": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 1,
+          "position": [
+            4395264,
+            3059574,
+            3453589
+          ],
+          "velocity": [
+            -119,
+            157,
+            11
+          ],
+          "acceleration": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 2,
+          "position": [
+            4395145,
+            3059732,
+            3453601
+          ],
+          "velocity": [
+            -119,
+            157,
+            11
+          ],
+          "acceleration": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 3,
+          "position": [
+            4395026,
+            3059890,
+            3453613
+          ],
+          "velocity": [
+            -119,
+            157,
+            11
+          ],
+          "acceleration": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 4,
+          "position": [
+            4394906,
+            3060048,
+            3453625
+          ],
+          "velocity": [
+            -119,
+            157,
+            11
+          ],
+          "acceleration": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 5,
+          "position": [
+            4394787,
+            3060206,
+            3453637
+          ],
+          "velocity": [
+            -119,
+            157,
+            11
+          ],
+          "acceleration": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 6,
+          "position": [
+            4394667,
+            3060364,
+            3453649
+          ],
+          "velocity": [
+            -119,
+            157,
+            11
+          ],
+          "acceleration": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 7,
+          "position": [
+            4394548,
+            3060522,
+            3453661
+          ],
+          "velocity": [
+            -119,
+            157,
+            11
+          ],
+          "acceleration": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 8,
+          "position": [
+            4394429,
+            3060679,
+            3453673
+          ],
+          "velocity": [
+            -119,
+            157,
+            11
+          ],
+          "acceleration": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 9,
+          "position": [
+            4394309,
+            3060837,
+            3453685
+          ],
+          "velocity": [
+            -119,
+            157,
+            11
+          ],
+          "acceleration": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 10,
+          "position": [
+            4394190,
+            3060995,
+            3453697
+          ],
+          "velocity": [
+            -119,
+            157,
+            11
+          ],
+          "acceleration": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
     },
-    "deployment": [
-      {
-        "modelId": "93df5c08-71f9-4bf7-9d08-58b82f48a32d",
-        "modelType": "battery",
-        "modelSubType": "some text",
-        "modelName": "MR",
-        "attributes": {
-          "location": {
-            "lat": 0,
-            "lon": 0,
-            "alt": 0
-          },
-          "direction": {
-            "azimuth": 0,
-            "elevation": 0
-          },
-          "altAboveDTM": 0
+  "deployment": [
+    {
+      "modelId": "93df5c08-71f9-4bf7-9d08-58b82f48a32d",
+      "modelType": "system",
+      "modelSubType": "spyder-mr",
+      "modelName": "MR-spyder",
+      "attributes": {
+        "location": {
+          "lat": 0,
+          "lon": 0,
+          "alt": 0
         },
-        "config": [
-          {
-            "moduleName": "some text",
-            "paramName": "some text",
-            "paramValue": "some text"
-          },
-          {
-            "moduleName": "some text",
-            "paramName": "some text",
-            "paramValue": "some text"
-          }
-        ],
-        "children": [
-          {
-            "modelId": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-            "modelType": "sensor",
-            "modelSubType": "some text",
-            "modelName": "sensor_type_rf",
-            "attributes": {
-              "location": {
-                "lat": 35.04196172580122,
-                "lon": 32.83651985825264,
-                "alt": 0
-              },
-              "direction": {
-                "azimuth": 0,
-                "elevation": 0
-              },
+        "direction": {
+          "azimuth": 0,
+          "elevation": 0
+        },
+        "altAboveDTM": 0
+      },
+      "config": [
+        {
+          "moduleName": "some text",
+          "paramName": "some text",
+          "paramValue": "some text"
+        },
+        {
+          "moduleName": "some text",
+          "paramName": "some text",
+          "paramValue": "some text"
+        }
+      ],
+      "children": [
+        {
+          "modelId": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+          "modelType": "sensor",
+          "modelSubType": "sensor_type_rf",
+          "modelName": "SENSOR_NAME_UNKNOWN",
+          "attributes": {
+            "location": {
+              "lat": 35.04196172580122,
+              "lon": 32.83651985825264,
+              "alt": 0
             },
-            "config": [
-              {
-                "moduleName": "some text",
-                "paramName": "some text",
-                "paramValue": "some text"
-              },
-              {
-                "moduleName": "some text",
-                "paramName": "some text",
-                "paramValue": "some text"
-              }
-            ],
-            "children": [
-              {},
-              {}
-            ]
+            "direction": {
+              "azimuth": 0,
+              "elevation": 0
+            }
           },
-          {}
-        ]
-      },
-        "modelId":, "02ae6a6e-c40b-444a-8c5f-80455483ad00",
-        "modelType":, "effector_type_generic",
-        "modelSubType":, "effector",
-        "modelName":, "eff",
-        "attributes": {
-          "location": {
-
-          { "lat": 34.97604375705122,
-            "lon": 32.738001893096566,
-            "alt": 0
-          },
-          "direction": {
-            "azimuth": 0,
-            "elevation": 0
-          },
-          "altAboveDTM": 31
+          "config": [
+            {
+              "moduleName": "some text",
+              "paramName": "some text",
+              "paramValue": "some text"
+            },
+            {
+              "moduleName": "some text",
+              "paramName": "some text",
+              "paramValue": "some text"
+            }
+          ],
+          "children": [
+            {},
+            {}
+          ]
         },
-        "config": [
-            "moduleName": "some text",
-            "paramName": "some text",
-            "paramValue": "some text"
+        {
+          "modelId": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+          "modelType": "datalink",
+          "modelSubType": "antenna_type_generic",
+          "modelName": "antenna_type_generic",
+          "attributes": {
+            "location": {
+              "lat": 35.04196172580122,
+              "lon": 32.83651985825264,
+              "alt": 0
+            },
+            "direction": {
+              "azimuth": 0,
+              "elevation": 0
+            }
           },
-          {
-            "moduleName": "some text",
-            "paramName": "some text",
-            "paramValue": "some text"
-          }
-        ],
-        "children": [
-          {},
-          {}
-        ]
-      }
-    ],
-    "config": [
-      {
-        "moduleName": "some text",
-        "paramName": "some text",
-        "paramValue": "some text"
-      },
-      {
-        "moduleName": "some text",
-        "paramName": "some text",
-        "paramValue": "some text"
-      },
-      {"callback_url": "http://127.0.0.1:5050"}
-    ]
-  }
+          "config": [
+            {
+              "moduleName": "some text",
+              "paramName": "some text",
+              "paramValue": "some text"
+            },
+            {
+              "moduleName": "some text",
+              "paramName": "some text",
+              "paramValue": "some text"
+            }
+          ],
+          "children": [
+            {},
+            {}
+          ]
+        },
+        {
+          "modelId": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+          "modelType": "c4i",
+          "modelSubType": "c4i_type_generic",
+          "modelName": "c4i_type_generic",
+          "attributes": {
+            "location": {
+              "lat": 35.04196172580122,
+              "lon": 32.83651985825264,
+              "alt": 0
+            },
+            "direction": {
+              "azimuth": 0,
+              "elevation": 0
+            }
+          },
+          "config": [
+            {
+              "moduleName": "some text",
+              "paramName": "some text",
+              "paramValue": "some text"
+            },
+            {
+              "moduleName": "some text",
+              "paramName": "some text",
+              "paramValue": "some text"
+            }
+          ],
+          "children": [
+            {},
+            {}
+          ]
+        },
+        {
+          "modelId": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+          "modelType": "effector",
+          "modelSubType": "effector_type_generic",
+          "modelName": "effector_type_generic",
+          "attributes": {
+            "location": {
+              "lat": 35.04196172580122,
+              "lon": 32.83651985825264,
+              "alt": 0
+            },
+            "direction": {
+              "azimuth": 0,
+              "elevation": 0
+            }
+          },
+          "config": [
+            {
+              "moduleName": "some text",
+              "paramName": "some text",
+              "paramValue": "some text"
+            },
+            {
+              "moduleName": "some text",
+              "paramName": "some text",
+              "paramValue": "some text"
+            }
+          ],
+          "children": [
+            {},
+            {}
+          ]
+        }
+      ]
+    }
+  ],
+  "config": [
+    {
+      "moduleName": "",
+      "paramName": "callback_url",
+      "paramValue": "HTTTP/:///"
+    },
+    {
+      "moduleName": "some text",
+      "paramName": "some text",
+      "paramValue": "some text"
+    }
+  ]
+}
