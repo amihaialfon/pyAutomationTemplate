@@ -1,7 +1,7 @@
 {
-  "scenarioId": "6c832c87-f1a8-435b-ad60-fe6572dc3dca",
+  "scenarioId": "0ba5b3ac-3348-4616-9060-37c84470b1ea",
   "target": {
-  	  "id": 0,
+  	  "id": "12581390-79bd-4ec7-8886-330b51299a0e",
       "name": "target_name_generic",
       "attributes": {
         "targetClass": "TARGET_CLASS_UNKNOWN",
@@ -413,7 +413,7 @@
     {
       "moduleName": "",
       "paramName": "callback_url",
-      "paramValue": "HTTTP/:///"
+      "paramValue": "http://10.0.0.26:5000/response"
     },
     {
       "moduleName": "some text",

@@ -1,13 +1,18 @@
+from datetime import datetime
 import flask
 import threading
 from Utils import ConfigReader
+from Utils.Logger import Logger
+from Connection import RETB_Adapter
 
 app = flask.Flask(__name__)
 config = ConfigReader.get_config()
 ip = config['my_server_ip']
 port = config['my_server_port']
 incoming_data = None
-
+logger_setup = Logger.LoggerSetup(logger_name='logger', log_file='LogA.txt', log_dir=config['my_log_path'])
+logger = Logger.get_loggerEx(logger_setup=logger_setup)
+adapter = RETB_Adapter.RetbAdapter(logger=logger, config=config)
 
 def run_server():
     t = threading.Thread(target=app.run, args=(ip, port))
@@ -20,9 +25,10 @@ def stop_server():
     requests.post('http://' + ip + ":" + port + "/shutdown")
 
 
-@app.route('/demo', methods=['POST'])
+@app.route('/response', methods=['POST'])
 def incoming_evaluation():
-    print('demo data received')
+    print(str(datetime.now()) + ' response data was received!')
+    logger.info(str(datetime.now()) + ' response data was received!')
     global incoming_data
     incoming_data = flask.request.json
     return flask.Response('this is response')
