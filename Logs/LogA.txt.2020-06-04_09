@@ -1,0 +1,115 @@
+2020-06-04 08:49:10.173 ~ INFO ~ Limited BE Testing is starting...
+2020-06-04 08:49:10.175 ~ INFO ~ This is a test that checks post evaluation at limited BE .newLimitedBE_ScenarioDEV.json
+2020-06-04 08:49:10.760 ~ INFO ~ 2020-06-04 08:49:10.760595 response data was received!
+2020-06-04 08:51:29.240 ~ INFO ~ Limited BE Testing is starting...
+2020-06-04 08:51:29.241 ~ INFO ~ This is a test that checks post evaluation at limited BE .newLimitedBE_ScenarioDEV.json
+2020-06-04 08:51:29.716 ~ INFO ~ 2020-06-04 08:51:29.716101 response data was received!
+2020-06-04 08:51:29.717 ~ INFO ~ 2020-06-04 08:51:29.717117Response from BE: {'event': 'evaluation', 'payload': {'jobId': '665f1687-4166-458f-8ef8-b7a67d393d17', 'scenarioId': '0ba5b3ac-3348-4616-9060-37c84470b1ea', 'targetId': '3c60a95f-7164-4f05-801d-814ef5c444fc', 'system': 'MR-spyder', 'targetCount': 1, 'summary': {'id': '3c60a95f-7164-4f05-801d-814ef5c444fc', 'intercepted': False, 'interceptionEpochTime': 0, 'detected': False, 'detectionEpochTime': 0}}}
+2020-06-04 08:54:50.711 ~ INFO ~ Limited BE Testing is starting...
+2020-06-04 08:54:50.711 ~ INFO ~ This is a test that checks post evaluation at limited BE .newLimitedBE_ScenarioDEV.json
+2020-06-04 08:54:51.229 ~ INFO ~ 2020-06-04 08:54:51.229052 response data was received!
+2020-06-04 08:54:51.230 ~ INFO ~ 2020-06-04 08:54:51.230031 Response from BE: {'event': 'evaluation', 'payload': {'jobId': '0a327940-2dd8-4424-b1ad-b03c4bc67712', 'scenarioId': '0ba5b3ac-3348-4616-9060-37c84470b1ea', 'targetId': '15dcc0f6-ef8c-44b7-8361-a838f35b6be2', 'system': 'MR-spyder', 'targetCount': 1, 'summary': {'id': '15dcc0f6-ef8c-44b7-8361-a838f35b6be2', 'intercepted': False, 'interceptionEpochTime': 0, 'detected': False, 'detectionEpochTime': 0}}}
+2020-06-04 08:55:56.730 ~ INFO ~ Limited BE Testing is starting...
+2020-06-04 08:55:56.730 ~ INFO ~ This is a test that checks post evaluation at limited BE .newLimitedBE_ScenarioDEV.json
+2020-06-04 08:55:57.285 ~ INFO ~ 2020-06-04 08:55:57.285743 response data was received!
+2020-06-04 08:55:57.289 ~ INFO ~ 2020-06-04 08:55:57.289741 Response from BE: {'event': 'evaluation', 'payload': {'jobId': '35f68399-a8d4-4b07-81a1-b117e115c6d9', 'scenarioId': '0ba5b3ac-3348-4616-9060-37c84470b1ea', 'targetId': 'd8947bd0-fe95-4a2a-9f2a-37711f7516cb', 'system': 'MR-spyder', 'targetCount': 1, 'summary': {'id': 'd8947bd0-fe95-4a2a-9f2a-37711f7516cb', 'intercepted': False, 'interceptionEpochTime': 0, 'detected': False, 'detectionEpochTime': 0}}}
+2020-06-04 08:56:20.437 ~ INFO ~ Limited BE Testing is starting...
+2020-06-04 08:56:20.437 ~ INFO ~ This is a test that checks post evaluation at limited BE .newLimitedBE_ScenarioDEV.json
+2020-06-04 08:56:20.918 ~ INFO ~ 2020-06-04 08:56:20.918469 response data was received!
+2020-06-04 08:56:20.919 ~ INFO ~ 2020-06-04 08:56:20.919474 Response from BE: {'event': 'evaluation', 'payload': {'jobId': '4d46c1ba-5c77-44f9-9efd-ca35aaf75189', 'scenarioId': '0ba5b3ac-3348-4616-9060-37c84470b1ea', 'targetId': '8cde53af-c283-4316-8ba6-2937d36f9756', 'system': 'MR-spyder', 'targetCount': 1, 'summary': {'id': '8cde53af-c283-4316-8ba6-2937d36f9756', 'intercepted': False, 'interceptionEpochTime': 0, 'detected': False, 'detectionEpochTime': 0}}}
+2020-06-04 08:56:53.409 ~ INFO ~ Limited BE Testing is starting...
+2020-06-04 08:56:53.410 ~ INFO ~ This is a test that checks post evaluation at limited BE .newLimitedBE_ScenarioDEV.json
+2020-06-04 08:56:53.907 ~ INFO ~ 2020-06-04 08:56:53.907807 response data was received!
+2020-06-04 08:56:53.908 ~ INFO ~ 2020-06-04 08:56:53.908808 Response from BE: {'event': 'evaluation', 'payload': {'jobId': '5114b1fb-08a0-491c-b62b-3600ef32d467', 'scenarioId': '0ba5b3ac-3348-4616-9060-37c84470b1ea', 'targetId': '37918ad6-8604-42be-86b4-86234f0dbcb3', 'system': 'MR-spyder', 'targetCount': 1, 'summary': {'id': '37918ad6-8604-42be-86b4-86234f0dbcb3', 'intercepted': False, 'interceptionEpochTime': 0, 'detected': False, 'detectionEpochTime': 0}}}
+2020-06-04 09:00:16.704 ~ INFO ~ Limited BE Testing is starting...
+2020-06-04 09:00:16.705 ~ INFO ~ This is a test that checks post evaluation at limited BE .newLimitedBE_ScenarioDEV.json
+2020-06-04 09:00:17.362 ~ INFO ~ 2020-06-04 09:00:17.362644 response data was received!
+2020-06-04 09:00:17.363 ~ INFO ~ 2020-06-04 09:00:17.363600 Response from BE: {'event': 'evaluation', 'payload': {'jobId': 'ac03263f-5278-4d01-929c-84a8df5704c6', 'scenarioId': '0ba5b3ac-3348-4616-9060-37c84470b1ea', 'targetId': '288a8032-f82e-4954-a9f3-a1114bb86f08', 'system': 'MR-spyder', 'targetCount': 1, 'summary': {'id': '288a8032-f82e-4954-a9f3-a1114bb86f08', 'intercepted': False, 'interceptionEpochTime': 0, 'detected': False, 'detectionEpochTime': 0}}}
+2020-06-04 09:00:33.376 ~ INFO ~ Limited BE Testing is starting...
+2020-06-04 09:00:33.376 ~ INFO ~ This is a test that checks post evaluation at limited BE .newLimitedBE_ScenarioDEV.json
+2020-06-04 09:00:34.007 ~ INFO ~ 2020-06-04 09:00:34.007484 response data was received!
+2020-06-04 09:00:34.008 ~ INFO ~ 2020-06-04 09:00:34.008481 Response from BE: {'event': 'evaluation', 'payload': {'jobId': '806b822b-20c5-4dcd-b724-77d7959e0c7c', 'scenarioId': '0ba5b3ac-3348-4616-9060-37c84470b1ea', 'targetId': '6665e0b0-ccd6-4422-a8c8-2e64bffdf4d7', 'system': 'MR-spyder', 'targetCount': 1, 'summary': {'id': '6665e0b0-ccd6-4422-a8c8-2e64bffdf4d7', 'intercepted': False, 'interceptionEpochTime': 0, 'detected': False, 'detectionEpochTime': 0}}}
+2020-06-04 09:01:38.995 ~ INFO ~ Limited BE Testing is starting...
+2020-06-04 09:01:38.996 ~ INFO ~ This is a test that checks post evaluation at limited BE .newLimitedBE_ScenarioDEV.json
+2020-06-04 09:01:39.558 ~ INFO ~ 2020-06-04 09:01:39.557797 response data was received!
+2020-06-04 09:01:39.559 ~ INFO ~ 2020-06-04 09:01:39.559804 Response from BE: {'event': 'evaluation', 'payload': {'jobId': '1ba13822-38d2-45e6-b12f-d88723cc3380', 'scenarioId': '0ba5b3ac-3348-4616-9060-37c84470b1ea', 'targetId': '6c427a97-0688-4eb3-a92e-ea0237493ca3', 'system': 'MR-spyder', 'targetCount': 1, 'summary': {'id': '6c427a97-0688-4eb3-a92e-ea0237493ca3', 'intercepted': False, 'interceptionEpochTime': 0, 'detected': False, 'detectionEpochTime': 0}}}
+2020-06-04 09:04:00.728 ~ INFO ~ Limited BE Testing is starting...
+2020-06-04 09:04:00.729 ~ INFO ~ This is a test that checks post evaluation at limited BE .newLimitedBE_ScenarioDEV.json
+2020-06-04 09:04:01.279 ~ INFO ~ 2020-06-04 09:04:01.278330 response data was received!
+2020-06-04 09:04:01.280 ~ INFO ~ 2020-06-04 09:04:01.280360 Response from BE: {'event': 'evaluation', 'payload': {'jobId': '759ef324-9148-4c12-b782-500ae3814d4b', 'scenarioId': '0ba5b3ac-3348-4616-9060-37c84470b1ea', 'targetId': 'be873f35-b63b-465e-8774-53b44d77232c', 'system': 'MR-spyder', 'targetCount': 1, 'summary': {'id': 'be873f35-b63b-465e-8774-53b44d77232c', 'intercepted': False, 'interceptionEpochTime': 0, 'detected': False, 'detectionEpochTime': 0}}}
+2020-06-04 09:04:13.628 ~ INFO ~ Limited BE Testing is starting...
+2020-06-04 09:04:13.629 ~ INFO ~ This is a test that checks post evaluation at limited BE .newLimitedBE_ScenarioDEV.json
+2020-06-04 09:04:14.110 ~ INFO ~ 2020-06-04 09:04:14.110032 response data was received!
+2020-06-04 09:04:14.111 ~ INFO ~ 2020-06-04 09:04:14.111061 Response from BE: {'event': 'evaluation', 'payload': {'jobId': '46e7615e-676b-49f4-b84e-58907e195457', 'scenarioId': '0ba5b3ac-3348-4616-9060-37c84470b1ea', 'targetId': 'efbff82b-6767-41d5-ac13-03810c1d876e', 'system': 'MR-spyder', 'targetCount': 1, 'summary': {'id': 'efbff82b-6767-41d5-ac13-03810c1d876e', 'intercepted': False, 'interceptionEpochTime': 0, 'detected': False, 'detectionEpochTime': 0}}}
+2020-06-04 09:05:27.894 ~ INFO ~ Limited BE Testing is starting...
+2020-06-04 09:05:27.895 ~ INFO ~ This is a test that checks post evaluation at limited BE .newLimitedBE_ScenarioDEV.json
+2020-06-04 09:05:28.536 ~ INFO ~ 2020-06-04 09:05:28.536088 response data was received!
+2020-06-04 09:05:28.538 ~ INFO ~ 2020-06-04 09:05:28.538095 Response from BE: {'event': 'evaluation', 'payload': {'jobId': 'eec16241-1ea6-405b-99b9-f6f731216292', 'scenarioId': '0ba5b3ac-3348-4616-9060-37c84470b1ea', 'targetId': 'f6746663-c136-4b98-a238-04b7a76a6f5c', 'system': 'MR-spyder', 'targetCount': 1, 'summary': {'id': 'f6746663-c136-4b98-a238-04b7a76a6f5c', 'intercepted': False, 'interceptionEpochTime': 0, 'detected': False, 'detectionEpochTime': 0}}}
+2020-06-04 09:09:33.022 ~ INFO ~ Limited BE Testing is starting...
+2020-06-04 09:09:33.023 ~ INFO ~ This is a test that checks post evaluation at limited BE .newLimitedBE_ScenarioDEV.json
+2020-06-04 09:09:33.560 ~ INFO ~ 2020-06-04 09:09:33.560457 response data was received!
+2020-06-04 09:09:33.561 ~ INFO ~ 2020-06-04 09:09:33.561434 Response from BE: {'event': 'evaluation', 'payload': {'jobId': '6f5d5c16-fb85-4a09-991a-88629a8f9eb6', 'scenarioId': '0ba5b3ac-3348-4616-9060-37c84470b1ea', 'targetId': '49540f76-2d37-4bd8-9ee9-fbb662648ff7', 'system': 'MR-spyder', 'targetCount': 1, 'summary': {'id': '49540f76-2d37-4bd8-9ee9-fbb662648ff7', 'intercepted': False, 'interceptionEpochTime': 0, 'detected': False, 'detectionEpochTime': 0}}}
+2020-06-04 09:10:40.899 ~ INFO ~ Limited BE Testing is starting...
+2020-06-04 09:10:40.899 ~ INFO ~ This is a test that checks post evaluation at limited BE .newLimitedBE_ScenarioDEV.json
+2020-06-04 09:10:41.498 ~ INFO ~ 2020-06-04 09:10:41.498386 response data was received!
+2020-06-04 09:10:41.500 ~ INFO ~ 2020-06-04 09:10:41.499387 Response from BE: {'event': 'evaluation', 'payload': {'jobId': '9be5ab8f-e831-4f1c-812e-af1f57f818cb', 'scenarioId': '0ba5b3ac-3348-4616-9060-37c84470b1ea', 'targetId': '9b5a3966-ba0b-4cba-b3bd-e163518e9b1d', 'system': 'MR-spyder', 'targetCount': 1, 'summary': {'id': '9b5a3966-ba0b-4cba-b3bd-e163518e9b1d', 'intercepted': False, 'interceptionEpochTime': 0, 'detected': False, 'detectionEpochTime': 0}}}
+2020-06-04 09:11:40.758 ~ INFO ~ Limited BE Testing is starting...
+2020-06-04 09:11:40.759 ~ INFO ~ This is a test that checks post evaluation at limited BE .newLimitedBE_ScenarioDEV.json
+2020-06-04 09:11:41.378 ~ INFO ~ 2020-06-04 09:11:41.378401 response data was received!
+2020-06-04 09:11:41.379 ~ INFO ~ 2020-06-04 09:11:41.379388 Response from BE: {'event': 'evaluation', 'payload': {'jobId': '6fb40cd7-3213-49cd-896a-fa161391a2ad', 'scenarioId': '0ba5b3ac-3348-4616-9060-37c84470b1ea', 'targetId': '32abc856-d278-47da-86c2-aaefc3d49662', 'system': 'MR-spyder', 'targetCount': 1, 'summary': {'id': '32abc856-d278-47da-86c2-aaefc3d49662', 'intercepted': False, 'interceptionEpochTime': 0, 'detected': False, 'detectionEpochTime': 0}}}
+2020-06-04 09:12:00.271 ~ INFO ~ Limited BE Testing is starting...
+2020-06-04 09:12:00.272 ~ INFO ~ This is a test that checks post evaluation at limited BE .newLimitedBE_ScenarioDEV.json
+2020-06-04 09:12:01.043 ~ INFO ~ 2020-06-04 09:12:01.043158 response data was received!
+2020-06-04 09:12:01.044 ~ INFO ~ 2020-06-04 09:12:01.044163 Response from BE: {'event': 'evaluation', 'payload': {'jobId': 'f6b97267-5839-425b-ac0e-21ab17c37ace', 'scenarioId': '0ba5b3ac-3348-4616-9060-37c84470b1ea', 'targetId': '20361a9f-4ae4-4706-b48f-0a64b24497f1', 'system': 'MR-spyder', 'targetCount': 1, 'summary': {'id': '20361a9f-4ae4-4706-b48f-0a64b24497f1', 'intercepted': False, 'interceptionEpochTime': 0, 'detected': False, 'detectionEpochTime': 0}}}
+2020-06-04 09:13:15.605 ~ INFO ~ Limited BE Testing is starting...
+2020-06-04 09:13:15.606 ~ INFO ~ This is a test that checks post evaluation at limited BE .newLimitedBE_ScenarioDEV.json
+2020-06-04 09:13:16.284 ~ INFO ~ 2020-06-04 09:13:16.284288 response data was received!
+2020-06-04 09:13:16.285 ~ INFO ~ 2020-06-04 09:13:16.285281 Response from BE: {'event': 'evaluation', 'payload': {'jobId': '727767c1-0615-4c4a-bec2-1ef988cad96a', 'scenarioId': '0ba5b3ac-3348-4616-9060-37c84470b1ea', 'targetId': '2ee33c02-a4db-4379-b329-94698ff34b24', 'system': 'MR-spyder', 'targetCount': 1, 'summary': {'id': '2ee33c02-a4db-4379-b329-94698ff34b24', 'intercepted': False, 'interceptionEpochTime': 0, 'detected': False, 'detectionEpochTime': 0}}}
+2020-06-04 09:13:54.151 ~ INFO ~ Limited BE Testing is starting...
+2020-06-04 09:13:54.152 ~ INFO ~ This is a test that checks post evaluation at limited BE .newLimitedBE_ScenarioDEV.json
+2020-06-04 09:13:54.727 ~ INFO ~ 2020-06-04 09:13:54.727411 response data was received!
+2020-06-04 09:13:54.728 ~ INFO ~ 2020-06-04 09:13:54.728404 Response from BE: {'event': 'evaluation', 'payload': {'jobId': '4b575347-0a41-45c3-9c2f-139c3aef17ad', 'scenarioId': '0ba5b3ac-3348-4616-9060-37c84470b1ea', 'targetId': '06d8c42e-ff7b-46e3-be90-d7f4a66027f2', 'system': 'MR-spyder', 'targetCount': 1, 'summary': {'id': '06d8c42e-ff7b-46e3-be90-d7f4a66027f2', 'intercepted': False, 'interceptionEpochTime': 0, 'detected': False, 'detectionEpochTime': 0}}}
+2020-06-04 09:14:58.206 ~ INFO ~ Limited BE Testing is starting...
+2020-06-04 09:14:58.207 ~ INFO ~ This is a test that checks post evaluation at limited BE .newLimitedBE_ScenarioDEV.json
+2020-06-04 09:14:58.751 ~ INFO ~ 2020-06-04 09:14:58.751691 response data was received!
+2020-06-04 09:14:58.753 ~ INFO ~ 2020-06-04 09:14:58.752660 Response from BE: {'event': 'evaluation', 'payload': {'jobId': 'd2eeeca7-6116-4b6a-8289-d7ceadb196a7', 'scenarioId': '0ba5b3ac-3348-4616-9060-37c84470b1ea', 'targetId': '147c6474-92c4-4a4b-8ef3-f96b43a22095', 'system': 'MR-spyder', 'targetCount': 1, 'summary': {'id': '147c6474-92c4-4a4b-8ef3-f96b43a22095', 'intercepted': False, 'interceptionEpochTime': 0, 'detected': False, 'detectionEpochTime': 0}}}
+2020-06-04 09:17:16.992 ~ INFO ~ Limited BE Testing is starting...
+2020-06-04 09:17:16.993 ~ INFO ~ This is a test that checks post evaluation at limited BE .newLimitedBE_ScenarioDEV.json
+2020-06-04 09:17:17.511 ~ INFO ~ 2020-06-04 09:17:17.511543 response data was received!
+2020-06-04 09:17:17.512 ~ INFO ~ 2020-06-04 09:17:17.512556 Response from BE: {'event': 'evaluation', 'payload': {'jobId': '10a86b2c-a207-400e-84ee-6a848b539050', 'scenarioId': '0ba5b3ac-3348-4616-9060-37c84470b1ea', 'targetId': '24409aab-6bc7-4503-9c60-dc7ac826ce5e', 'system': 'MR-spyder', 'targetCount': 1, 'summary': {'id': '24409aab-6bc7-4503-9c60-dc7ac826ce5e', 'intercepted': False, 'interceptionEpochTime': 0, 'detected': False, 'detectionEpochTime': 0}}}
+2020-06-04 09:20:43.593 ~ INFO ~ Limited BE Testing is starting...
+2020-06-04 09:20:43.595 ~ INFO ~ This is a test that checks post evaluation at limited BE .newLimitedBE_ScenarioDEV.json
+2020-06-04 09:20:44.210 ~ INFO ~ 2020-06-04 09:20:44.210682 response data was received!
+2020-06-04 09:20:44.211 ~ INFO ~ 2020-06-04 09:20:44.211681 Response from BE: {'event': 'evaluation', 'payload': {'jobId': '19f00be8-7d5b-4551-99fb-b8159d8c9799', 'scenarioId': '0ba5b3ac-3348-4616-9060-37c84470b1ea', 'targetId': 'fdd4b290-8aee-4f4e-b4ba-4c56c943d637', 'system': 'MR-spyder', 'targetCount': 1, 'summary': {'id': 'fdd4b290-8aee-4f4e-b4ba-4c56c943d637', 'intercepted': False, 'interceptionEpochTime': 0, 'detected': False, 'detectionEpochTime': 0}}}
+2020-06-04 09:24:50.726 ~ INFO ~ Limited BE Testing is starting...
+2020-06-04 09:24:50.727 ~ INFO ~ This is a test that checks post evaluation at limited BE .newLimitedBE_ScenarioDEV.json
+2020-06-04 09:24:51.290 ~ INFO ~ 2020-06-04 09:24:51.290560 response data was received!
+2020-06-04 09:24:51.291 ~ INFO ~ 2020-06-04 09:24:51.291559 Response from BE: {'event': 'evaluation', 'payload': {'jobId': '485032f7-5701-4c43-b408-7c48baeea0f6', 'scenarioId': '0ba5b3ac-3348-4616-9060-37c84470b1ea', 'targetId': 'ac05cb38-c888-4eb5-af1a-f89db1457ce9', 'system': 'MR-spyder', 'targetCount': 1, 'summary': {'id': 'ac05cb38-c888-4eb5-af1a-f89db1457ce9', 'intercepted': False, 'interceptionEpochTime': 0, 'detected': False, 'detectionEpochTime': 0}}}
+2020-06-04 09:25:21.482 ~ INFO ~ Limited BE Testing is starting...
+2020-06-04 09:25:21.483 ~ INFO ~ This is a test that checks post evaluation at limited BE .newLimitedBE_ScenarioDEV.json
+2020-06-04 09:25:22.645 ~ INFO ~ 2020-06-04 09:25:22.645032 response data was received!
+2020-06-04 09:25:22.646 ~ INFO ~ 2020-06-04 09:25:22.646006 Response from BE: {'event': 'evaluation', 'payload': {'jobId': '214f1508-b919-4ab5-9426-d5609ddb36b2', 'scenarioId': '0ba5b3ac-3348-4616-9060-37c84470b1ea', 'targetId': 'df709b5b-b8fd-45dd-9860-f9540741b24f', 'system': 'MR-spyder', 'targetCount': 1, 'summary': {'id': 'df709b5b-b8fd-45dd-9860-f9540741b24f', 'intercepted': False, 'interceptionEpochTime': 0, 'detected': False, 'detectionEpochTime': 0}}}
+2020-06-04 09:25:58.923 ~ INFO ~ Limited BE Testing is starting...
+2020-06-04 09:25:58.925 ~ INFO ~ This is a test that checks post evaluation at limited BE .newLimitedBE_ScenarioDEV.json
+2020-06-04 09:25:59.487 ~ INFO ~ 2020-06-04 09:25:59.487250 response data was received!
+2020-06-04 09:25:59.489 ~ INFO ~ 2020-06-04 09:25:59.489249 Response from BE: {'event': 'evaluation', 'payload': {'jobId': '22502956-1a9f-447c-b720-e1e1b923b7bb', 'scenarioId': '0ba5b3ac-3348-4616-9060-37c84470b1ea', 'targetId': 'f0756d7d-b1b3-4cc4-a785-32f8827391c3', 'system': 'MR-spyder', 'targetCount': 1, 'summary': {'id': 'f0756d7d-b1b3-4cc4-a785-32f8827391c3', 'intercepted': False, 'interceptionEpochTime': 0, 'detected': False, 'detectionEpochTime': 0}}}
+2020-06-04 09:28:19.442 ~ INFO ~ Limited BE Testing is starting...
+2020-06-04 09:28:19.443 ~ INFO ~ This is a test that checks post evaluation at limited BE .newLimitedBE_ScenarioDEV.json
+2020-06-04 09:28:20.068 ~ INFO ~ 2020-06-04 09:28:20.068500 response data was received!
+2020-06-04 09:28:20.069 ~ INFO ~ 2020-06-04 09:28:20.069532 Response from BE: {'event': 'evaluation', 'payload': {'jobId': 'df73ba00-90e6-49ad-8dd0-e21c119afbfd', 'scenarioId': '0ba5b3ac-3348-4616-9060-37c84470b1ea', 'targetId': 'c1241477-3e1d-432b-bb39-8d80c19b7e41', 'system': 'MR-spyder', 'targetCount': 1, 'summary': {'id': 'c1241477-3e1d-432b-bb39-8d80c19b7e41', 'intercepted': False, 'interceptionEpochTime': 0, 'detected': False, 'detectionEpochTime': 0}}}
+2020-06-04 09:28:25.396 ~ INFO ~ Limited BE Testing is starting...
+2020-06-04 09:28:25.400 ~ INFO ~ This is a test that checks post evaluation at limited BE .newLimitedBE_ScenarioDEV.json
+2020-06-04 09:28:26.354 ~ INFO ~ 2020-06-04 09:28:26.354470 response data was received!
+2020-06-04 09:28:26.355 ~ INFO ~ 2020-06-04 09:28:26.355477 Response from BE: {'event': 'evaluation', 'payload': {'jobId': 'a0d370ba-0f74-41e8-bf87-c4b6464129f5', 'scenarioId': '0ba5b3ac-3348-4616-9060-37c84470b1ea', 'targetId': 'cce312ad-73bf-44de-b79d-19f10b07c7f6', 'system': 'MR-spyder', 'targetCount': 1, 'summary': {'id': 'cce312ad-73bf-44de-b79d-19f10b07c7f6', 'intercepted': False, 'interceptionEpochTime': 0, 'detected': False, 'detectionEpochTime': 0}}}
+2020-06-04 09:29:23.021 ~ INFO ~ Limited BE Testing is starting...
+2020-06-04 09:29:23.024 ~ INFO ~ This is a test that checks post evaluation at limited BE .newLimitedBE_ScenarioDEV.json
+2020-06-04 09:29:27.034 ~ INFO ~ 2020-06-04 09:29:27.034854 response data was received!
+2020-06-04 09:29:27.036 ~ INFO ~ 2020-06-04 09:29:27.036859 Response from BE: {'event': 'evaluation', 'payload': {'jobId': '32a3f526-4288-40d0-b3d6-bd81be3caf6d', 'scenarioId': '0ba5b3ac-3348-4616-9060-37c84470b1ea', 'targetId': 'cad9c6ed-98c1-430b-88e2-e0595bfad13e', 'system': 'MR-spyder', 'targetCount': 1, 'summary': {'id': 'cad9c6ed-98c1-430b-88e2-e0595bfad13e', 'intercepted': False, 'interceptionEpochTime': 0, 'detected': False, 'detectionEpochTime': 0}}}
+2020-06-04 09:30:08.926 ~ INFO ~ Limited BE Testing is starting...
+2020-06-04 09:30:08.930 ~ INFO ~ This is a test that checks post evaluation at limited BE .newLimitedBE_ScenarioDEV.json
+2020-06-04 09:30:09.280 ~ INFO ~ 2020-06-04 09:30:09.280493 response data was received!
+2020-06-04 09:30:09.283 ~ INFO ~ 2020-06-04 09:30:09.283494 Response from BE: {'event': 'evaluation', 'payload': {'jobId': 'c8ffaa2e-9893-46c9-b3cf-a04d265bd474', 'scenarioId': '0ba5b3ac-3348-4616-9060-37c84470b1ea', 'targetId': '44c98955-e0db-4d7f-a881-0e7d490b0345', 'system': 'MR-spyder', 'targetCount': 1, 'summary': {'id': '44c98955-e0db-4d7f-a881-0e7d490b0345', 'intercepted': False, 'interceptionEpochTime': 0, 'detected': False, 'detectionEpochTime': 0}}}
+2020-06-04 09:30:32.842 ~ INFO ~ Limited BE Testing is starting...
+2020-06-04 09:30:32.845 ~ INFO ~ This is a test that checks post evaluation at limited BE .newLimitedBE_ScenarioDEV.json
+2020-06-04 09:30:33.202 ~ INFO ~ 2020-06-04 09:30:33.201537 response data was received!
+2020-06-04 09:30:33.204 ~ INFO ~ 2020-06-04 09:30:33.203554 Response from BE: {'event': 'evaluation', 'payload': {'jobId': '33495832-21a0-4d76-9ddc-cb8199ebe5c5', 'scenarioId': '0ba5b3ac-3348-4616-9060-37c84470b1ea', 'targetId': 'cd024764-9cd3-4e7c-bc70-750f97046091', 'system': 'MR-spyder', 'targetCount': 1, 'summary': {'id': 'cd024764-9cd3-4e7c-bc70-750f97046091', 'intercepted': False, 'interceptionEpochTime': 0, 'detected': False, 'detectionEpochTime': 0}}}

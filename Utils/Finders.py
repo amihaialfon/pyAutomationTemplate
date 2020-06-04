@@ -30,4 +30,17 @@ def return_scenario_by_id(f_id, scenarios):
                     return item
 
 
-
+def find_value_in_dict(to_find, json_object):
+    result = None
+    for key, value in json_object.items():
+        if key == to_find:
+            return value
+        elif type(value) == dict:
+            for in_key, in_value in value.items():
+                if in_key == to_find:
+                    return in_value
+                elif type(in_value) == dict:
+                    for iin_key,iin_value in in_value.items():
+                        if iin_key == to_find:
+                            return iin_value
+    return result

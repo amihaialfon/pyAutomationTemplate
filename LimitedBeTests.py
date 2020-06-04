@@ -32,8 +32,10 @@ def test_post_result_evaluation_21395(scenario_name):
     logger.info(str(datetime.now())+ ' Response from BE: ' + (str(response)))
     print(str(datetime.now())+ ' Response from BE: ' + (str(response)))
     server.stop_server()
-    # assert Finders.find_value_in_response(False, response), 'The value is within the response from the server!'
-    print('Scenario is included in returned scenarios')
+    interception_code = Finders.find_value_in_dict('intercepted', response)
+    print(interception_code)
+    assert interception_code == False, 'The value is within the response from the server!'
+    print('Test finish successfully!')
 
 # @TODO add wait from EVAL unit post message
 
