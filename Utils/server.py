@@ -1,4 +1,3 @@
-from datetime import datetime
 import flask
 import threading
 from Utils import ConfigReader
@@ -27,8 +26,8 @@ def stop_server():
 
 @app.route('/response', methods=['POST'])
 def incoming_evaluation():
-    print(str(datetime.now()) + ' response data was received!')
-    logger.info(str(datetime.now()) + ' response data was received!')
+    print('response data was received!')
+    logger.info('Limited BE Testing is starting...')
     global incoming_data
     incoming_data = flask.request.json
     return flask.Response('this is response')

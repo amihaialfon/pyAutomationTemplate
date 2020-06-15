@@ -1,48 +1,48 @@
 {
-  "scenarioId": "ed4b123b-afa7-4d7d-9f24-509666a95901",
-  "target":    {
-    "id": "e924422b-6b75-4e1d-bf4b-68a565ac704d",
-    "name": "target_name_generic",
-    "attributes": {
-      "targetClass": "TARGET_CLASS_UNKNOWN",
-      "groundRange": 0,
-      "apogee": 0,
-      "rcs": 0,
-      "rcsFactor": 0,
-      "eoSig": 0,
-      "gip": {
-        "positionECEF": {
-          "posX": 0,
-          "posY": 0,
-          "posZ": 0
-        }
+  "targets": [
+    {
+      "id": 0,
+      "name": "target_name_generic",
+      "attributes": {
+        "targetClass": "TARGET_CLASS_UNKNOWN",
+        "groundRange": 0,
+        "apogee": 0,
+        "rcs": 0,
+        "rcsFactor": 0,
+        "eoSig": 0,
+        "gip": {
+          "positionECEF": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0
+          }
+        },
+        "maneuverParams": {
+          "flag": false,
+          "range": 0,
+          "alt": 0,
+          "azimuth": 0,
+          "deltaGIP": 0
+        },
+        "launchPoint": {
+          "positionECEF": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0
+          }
+        },
+        "targetAdditionalParams": {
+          "betaCoeff": 0,
+          "cdTableLen": 8,
+          "mach": [],
+          "cd": []
+        },
+        "coordinateSystem": "EPSG:4978"
       },
-      "maneuverParams": {
-        "flag": false,
-        "range": 0,
-        "alt": 0,
-        "azimuth": 0,
-        "deltaGIP": 0
-      },
-      "launchPoint": {
-        "positionECEF": {
-          "posX": 0,
-          "posY": 0,
-          "posZ": 0
-        }
-      },
-      "targetAdditionalParams": {
-        "betaCoeff": 0,
-        "cdTableLen": 8,
-        "mach": [],
-        "cd": []
-      },
-      "coordinateSystem": "EPSG:4978"
-    },
-    "type": "target_type_srbm",
-    "subtype": "Fajer 3",
-    "createdAt": "2019-04-10T10:48:32.352Z",
-   "waypoints": [
+      "type": "target_type_srbm",
+      "subtype": "Fajer 3",
+      "createdAt": "2019-04-10T10:48:32.352Z",
+      "waypoints": [
         {
           "time": 0,
           "position": [
@@ -2114,175 +2114,6 @@
           ]
         }
       ]
-  },
-  "deployment": [
-    {
-      "attributes": {
-        "location": {
-          "lat": 0,
-          "lon": 0,
-          "alt": 0
-        },
-        "direction": {
-          "azimuth": 0,
-          "elevation": 0
-        },
-        "altAboveDTM": 0
-      },
-      "config": [
-        {
-          "moduleName": "some text",
-          "paramName": "some text",
-          "paramValue": "some text"
-        },
-        {
-          "moduleName": "some text",
-          "paramName": "some text",
-          "paramValue": "some text"
-        }
-      ],
-      "id": "8b387d5d-f86c-4fd5-b57f-7c0cf9b4cad9",
-      "name": "Battery",
-      "subType": "spyder-mr",
-      "type": "system",
-      "children": [
-        {
-          "attributes": {
-            "location": {
-              "lat": 32.815555469135404,
-              "lon": 35.01892089843749,
-              "alt": 0
-            },
-            "direction": {
-              "azimuth": "30",
-              "elevation": 0
-            },
-            "altAboveDTM": 0
-          },
-          "config": [
-            {
-              "moduleName": "some text",
-              "paramName": "some text",
-              "paramValue": "some text"
-            },
-            {
-              "moduleName": "some text",
-              "paramName": "some text",
-              "paramValue": "some text"
-            }
-          ],
-          "id": "e6b18400-bbb2-43bb-8e2e-a87a2e07aff5",
-          "name": "sensor_name_generic",
-          "subType": "sensor_type_rf",
-          "type": "sensor",
-          "children":[]
-        },
-        {
-          "attributes": {
-            "location": {
-              "lat": 32.85824840550089,
-              "lon": 35.075225830078125,
-              "alt": 0
-            },
-            "direction": {
-              "azimuth": 0,
-              "elevation": 0
-            },
-            "altAboveDTM": 0
-          },
-          "config": [
-            {
-              "moduleName": "some text",
-              "paramName": "some text",
-              "paramValue": "some text"
-            },
-            {
-              "moduleName": "some text",
-              "paramName": "some text",
-              "paramValue": "some text"
-            }
-          ],
-          "id": "dea5e0c5-f5b6-4462-8ec3-01508b0fd06e",
-          "name": "effector_name_generic",
-          "subType": "effector_type_generic",
-          "type": "effector",
-          "children":[]
-        },
-        {
-          "attributes": {
-            "location": {
-              "lat": 32.84786552687885,
-              "lon": 35.04776000976562,
-              "alt": 0
-            },
-            "direction": {
-              "azimuth": 0,
-              "elevation": 0
-            },
-            "altAboveDTM": 0
-          },
-          "config": [
-            {
-              "moduleName": "some text",
-              "paramName": "some text",
-              "paramValue": "some text"
-            },
-            {
-              "moduleName": "some text",
-              "paramName": "some text",
-              "paramValue": "some text"
-            }
-          ],
-          "id": "87ba28eb-b0a2-42d3-8dca-9b9badd17fa2",
-          "name": "c4i_name_generic",
-          "subType": "c4i_type_generic",
-          "type": "c4i",
-          "children":[]
-        },
-        {
-          "attributes": {
-            "location": {
-              "lat": 32.87901051714101,
-              "lon": 35.03402709960937,
-              "alt": 0
-            },
-            "direction": {
-              "azimuth": 0,
-              "elevation": 0
-            },
-            "altAboveDTM": 0
-          },
-          "config": [
-            {
-              "moduleName": "some text",
-              "paramName": "some text",
-              "paramValue": "some text"
-            },
-            {
-              "moduleName": "some text",
-              "paramName": "some text",
-              "paramValue": "some text"
-            }
-          ],
-          "id": "598d123d-299d-4ce9-84ca-d54ef9d72fdc",
-          "name": "antenna_name_generic",
-          "subType": "antenna_type_generic",
-          "type": "datalink",
-          "children":[]
-        }
-      ]
-    }
-  ],
-  "config": [
-    {
-      "moduleName": "",
-      "paramName": "callback_url",
-      "paramValue": "http://10.0.0.77:5000/response"
-    },
-    {
-      "moduleName": "some text",
-      "paramName": "some text",
-      "paramValue": "some text"
     }
   ]
 }

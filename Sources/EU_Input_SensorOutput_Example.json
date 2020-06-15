@@ -1,31 +1,65 @@
 {
-  "scenarioId": "1243d02e-329f-4696-aede-6c331ecd7509",
-  "evaluationId": "e3d88f53-b899-41be-82a9-0ac1ae40e6fd",
+  "scenarioId": "1247d02e-329f-4696-aede-6c331ecd7509",
   "target": {
-    "summary": {
-      "interceptionFlag": false,
-      "interceptionFailureCode": "no valid interception point",
-      "scenarioValidationFailureCode": "Not all targets intercepted",
-      "version": "Generic  , v2.6.2.3"
+    "id": "122423cf-acc4-484a-9817-7c6d89962934",
+    "name": "target_name_generic",
+    "attributes": {
+      "targetClass": "TARGET_CLASS_UNKNOWN",
+      "groundRange": 0,
+      "apogee": 0,
+      "rcs": 0,
+      "rcsFactor": 0,
+      "eoSig": 0,
+      "gip": {
+        "positionECEF": {
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0
+        }
+      },
+      "maneuverParams": {
+        "flag": false,
+        "range": 0,
+        "alt": 0,
+        "azimuth": 0,
+        "deltaGIP": 0
+      },
+      "launchPoint": {
+        "positionECEF": {
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0
+        }
+      },
+      "targetAdditionalParams": {
+        "betaCoeff": 0,
+        "cdTableLen": 8,
+        "mach": [],
+        "cd": []
+      },
+      "coordinateSystem": "EPSG:4978"
     },
+    "type": "target_type_srbm",
+    "subtype": "Fajer 3",
+    "createdAt": "2019-04-10T10:48:32.352Z",
     "waypoints": [
       {
         "time": 0,
-        "position": {
-          "posX": 4395383.999999999,
-          "posY": 3059415.9999999995,
-          "posZ": 3453577.000000003
-        },
-        "velocity": {
-          "velX": -119,
-          "velY": 157,
-          "velZ": 11
-        },
-        "acceleration": {
-          "accX": 0,
-          "accY": 0,
-          "accZ": 0
-        },
+        "position": [
+          4395384,
+          3059416,
+          3453577
+        ],
+        "velocity": [
+          -119,
+          157,
+          11
+        ],
+        "acceleration": [
+          0,
+          0,
+          0
+        ],
         "evaluation": {
           "summary": {
             "systemTrackFlag": false,
@@ -38,7 +72,8 @@
           "results": [
             {
               "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "sensor_type_rf",
+              "modelSubType":"sensor",
+              "modelType": "sensor_type_generic",
               "data": {
                 "time": 0,
                 "plotData": {
@@ -62,34 +97,14 @@
                   },
                   "doppler1sigma": 0
                 },
-                "eoTrackAccuracy": {
-                  "position1sigma": 0,
-                  "velocity1sigma": 0
-                },
+
                 "classificationFlag": false,
                 "detectionFlag": false,
                 "classificationFailCode": "Not detected",
                 "detectionFailCode": "Not detected",
                 "TOTrequested": 0,
-                "SNRrequested": 0,
+                "SNRrequested": 11,
                 "actualSNR": 0
-              }
-            },
-            {
-              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "effector_type_generic",
-              "data": {
-                "hitFlag": false,
-                "tof": 0,
-                "hitGrade": 0,
-                "failureCode": "MFU out of range"
-              }
-            },
-            {
-              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "antenna_type_generic",
-              "data": {
-                "inRangeFlag": false
               }
             }
           ]
@@ -97,21 +112,21 @@
       },
       {
         "time": 1,
-        "position": {
-          "posX": 4395263.999999999,
-          "posY": 3059574.000000001,
-          "posZ": 3453589.000000003
-        },
-        "velocity": {
-          "velX": -119,
-          "velY": 157,
-          "velZ": 11
-        },
-        "acceleration": {
-          "accX": 0,
-          "accY": 0,
-          "accZ": 0
-        },
+        "position": [
+          4395264,
+          3059574,
+          3453589
+        ],
+        "velocity": [
+          -119,
+          157,
+          11
+        ],
+        "acceleration": [
+          0,
+          0,
+          0
+        ],
         "evaluation": {
           "summary": {
             "systemTrackFlag": false,
@@ -124,7 +139,8 @@
           "results": [
             {
               "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "sensor_type_rf",
+              "modelSubType":"sensor",
+              "modelType": "sensor_type_generic",
               "data": {
                 "time": 1,
                 "plotData": {
@@ -148,34 +164,13 @@
                   },
                   "doppler1sigma": 0
                 },
-                "eoTrackAccuracy": {
-                  "position1sigma": 0,
-                  "velocity1sigma": 0
-                },
                 "classificationFlag": false,
                 "detectionFlag": false,
                 "classificationFailCode": "Not detected",
                 "detectionFailCode": "Not detected",
                 "TOTrequested": 0,
-                "SNRrequested": 0,
+                "SNRrequested": 11,
                 "actualSNR": 0
-              }
-            },
-            {
-              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "effector_type_generic",
-              "data": {
-                "hitFlag": false,
-                "tof": 0,
-                "hitGrade": 0,
-                "failureCode": "MFU out of range"
-              }
-            },
-            {
-              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "antenna_type_generic",
-              "data": {
-                "inRangeFlag": false
               }
             }
           ]
@@ -183,21 +178,21 @@
       },
       {
         "time": 2,
-        "position": {
-          "posX": 4395145,
-          "posY": 3059732,
-          "posZ": 3453601.0000000023
-        },
-        "velocity": {
-          "velX": -119,
-          "velY": 157,
-          "velZ": 11
-        },
-        "acceleration": {
-          "accX": 0,
-          "accY": 0,
-          "accZ": 0
-        },
+        "position": [
+          4395145,
+          3059732,
+          3453601
+        ],
+        "velocity": [
+          -119,
+          157,
+          11
+        ],
+        "acceleration": [
+          0,
+          0,
+          0
+        ],
         "evaluation": {
           "summary": {
             "systemTrackFlag": false,
@@ -210,7 +205,8 @@
           "results": [
             {
               "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "sensor_type_rf",
+                   "modelSubType":"sensor",
+              "modelType": "sensor_type_generic",
               "data": {
                 "time": 2,
                 "plotData": {
@@ -234,34 +230,13 @@
                   },
                   "doppler1sigma": 0
                 },
-                "eoTrackAccuracy": {
-                  "position1sigma": 0,
-                  "velocity1sigma": 0
-                },
                 "classificationFlag": false,
                 "detectionFlag": false,
                 "classificationFailCode": "Not detected",
                 "detectionFailCode": "Not detected",
                 "TOTrequested": 0,
-                "SNRrequested": 0,
+                "SNRrequested": 11,
                 "actualSNR": 0
-              }
-            },
-            {
-              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "effector_type_generic",
-              "data": {
-                "hitFlag": false,
-                "tof": 0,
-                "hitGrade": 0,
-                "failureCode": "MFU out of range"
-              }
-            },
-            {
-              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "antenna_type_generic",
-              "data": {
-                "inRangeFlag": false
               }
             }
           ]
@@ -269,21 +244,21 @@
       },
       {
         "time": 3,
-        "position": {
-          "posX": 4395026,
-          "posY": 3059889.999999999,
-          "posZ": 3453613.000000003
-        },
-        "velocity": {
-          "velX": -119,
-          "velY": 157,
-          "velZ": 11
-        },
-        "acceleration": {
-          "accX": 0,
-          "accY": 0,
-          "accZ": 0
-        },
+        "position": [
+          4395026,
+          3059890,
+          3453613
+        ],
+        "velocity": [
+          -119,
+          157,
+          11
+        ],
+        "acceleration": [
+          0,
+          0,
+          0
+        ],
         "evaluation": {
           "summary": {
             "systemTrackFlag": false,
@@ -296,7 +271,8 @@
           "results": [
             {
               "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "sensor_type_rf",
+                   "modelSubType":"sensor",
+              "modelType": "sensor_type_generic",
               "data": {
                 "time": 3,
                 "plotData": {
@@ -320,34 +296,13 @@
                   },
                   "doppler1sigma": 0
                 },
-                "eoTrackAccuracy": {
-                  "position1sigma": 0,
-                  "velocity1sigma": 0
-                },
                 "classificationFlag": false,
                 "detectionFlag": false,
                 "classificationFailCode": "Not detected",
                 "detectionFailCode": "Not detected",
                 "TOTrequested": 0,
-                "SNRrequested": 0,
+                "SNRrequested": 11,
                 "actualSNR": 0
-              }
-            },
-            {
-              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "effector_type_generic",
-              "data": {
-                "hitFlag": false,
-                "tof": 0,
-                "hitGrade": 0,
-                "failureCode": "MFU out of range"
-              }
-            },
-            {
-              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "antenna_type_generic",
-              "data": {
-                "inRangeFlag": false
               }
             }
           ]
@@ -355,21 +310,21 @@
       },
       {
         "time": 4,
-        "position": {
-          "posX": 4394906,
-          "posY": 3060047.9999999995,
-          "posZ": 3453625.0000000023
-        },
-        "velocity": {
-          "velX": -119,
-          "velY": 157,
-          "velZ": 11
-        },
-        "acceleration": {
-          "accX": 0,
-          "accY": 0,
-          "accZ": 0
-        },
+        "position": [
+          4394906,
+          3060048,
+          3453625
+        ],
+        "velocity": [
+          -119,
+          157,
+          11
+        ],
+        "acceleration": [
+          0,
+          0,
+          0
+        ],
         "evaluation": {
           "summary": {
             "systemTrackFlag": false,
@@ -382,7 +337,8 @@
           "results": [
             {
               "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "sensor_type_rf",
+                   "modelSubType":"sensor",
+              "modelType": "sensor_type_generic",
               "data": {
                 "time": 4,
                 "plotData": {
@@ -406,34 +362,13 @@
                   },
                   "doppler1sigma": 0
                 },
-                "eoTrackAccuracy": {
-                  "position1sigma": 0,
-                  "velocity1sigma": 0
-                },
                 "classificationFlag": false,
                 "detectionFlag": false,
                 "classificationFailCode": "Not detected",
                 "detectionFailCode": "Not detected",
                 "TOTrequested": 0,
-                "SNRrequested": 0,
+                "SNRrequested": 11,
                 "actualSNR": 0
-              }
-            },
-            {
-              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "effector_type_generic",
-              "data": {
-                "hitFlag": false,
-                "tof": 0,
-                "hitGrade": 0,
-                "failureCode": "MFU out of range"
-              }
-            },
-            {
-              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "antenna_type_generic",
-              "data": {
-                "inRangeFlag": false
               }
             }
           ]
@@ -441,21 +376,21 @@
       },
       {
         "time": 5,
-        "position": {
-          "posX": 4394787,
-          "posY": 3060205.9999999995,
-          "posZ": 3453637.0000000023
-        },
-        "velocity": {
-          "velX": -119,
-          "velY": 157,
-          "velZ": 11
-        },
-        "acceleration": {
-          "accX": 0,
-          "accY": 0,
-          "accZ": 0
-        },
+        "position": [
+          4394787,
+          3060206,
+          3453637
+        ],
+        "velocity": [
+          -119,
+          157,
+          11
+        ],
+        "acceleration": [
+          0,
+          0,
+          0
+        ],
         "evaluation": {
           "summary": {
             "systemTrackFlag": false,
@@ -468,7 +403,8 @@
           "results": [
             {
               "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "sensor_type_rf",
+                   "modelSubType":"sensor",
+              "modelType": "sensor_type_generic",
               "data": {
                 "time": 5,
                 "plotData": {
@@ -492,34 +428,13 @@
                   },
                   "doppler1sigma": 0
                 },
-                "eoTrackAccuracy": {
-                  "position1sigma": 0,
-                  "velocity1sigma": 0
-                },
                 "classificationFlag": false,
                 "detectionFlag": false,
                 "classificationFailCode": "Not detected",
                 "detectionFailCode": "Not detected",
                 "TOTrequested": 0,
-                "SNRrequested": 0,
+                "SNRrequested": 11,
                 "actualSNR": 0
-              }
-            },
-            {
-              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "effector_type_generic",
-              "data": {
-                "hitFlag": false,
-                "tof": 0,
-                "hitGrade": 0,
-                "failureCode": "MFU out of range"
-              }
-            },
-            {
-              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "antenna_type_generic",
-              "data": {
-                "inRangeFlag": false
               }
             }
           ]
@@ -527,21 +442,21 @@
       },
       {
         "time": 6,
-        "position": {
-          "posX": 4394667.000000001,
-          "posY": 3060364,
-          "posZ": 3453649.000000002
-        },
-        "velocity": {
-          "velX": -119,
-          "velY": 157,
-          "velZ": 11
-        },
-        "acceleration": {
-          "accX": 0,
-          "accY": 0,
-          "accZ": 0
-        },
+        "position": [
+          4394667,
+          3060364,
+          3453649
+        ],
+        "velocity": [
+          -119,
+          157,
+          11
+        ],
+        "acceleration": [
+          0,
+          0,
+          0
+        ],
         "evaluation": {
           "summary": {
             "systemTrackFlag": false,
@@ -554,7 +469,8 @@
           "results": [
             {
               "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "sensor_type_rf",
+                   "modelSubType":"sensor",
+              "modelType": "sensor_type_generic",
               "data": {
                 "time": 6,
                 "plotData": {
@@ -578,34 +494,13 @@
                   },
                   "doppler1sigma": 0
                 },
-                "eoTrackAccuracy": {
-                  "position1sigma": 0,
-                  "velocity1sigma": 0
-                },
                 "classificationFlag": false,
                 "detectionFlag": false,
                 "classificationFailCode": "Not detected",
                 "detectionFailCode": "Not detected",
                 "TOTrequested": 0,
-                "SNRrequested": 0,
+                "SNRrequested": 11,
                 "actualSNR": 0
-              }
-            },
-            {
-              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "effector_type_generic",
-              "data": {
-                "hitFlag": false,
-                "tof": 0,
-                "hitGrade": 0,
-                "failureCode": "MFU out of range"
-              }
-            },
-            {
-              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "antenna_type_generic",
-              "data": {
-                "inRangeFlag": false
               }
             }
           ]
@@ -613,21 +508,21 @@
       },
       {
         "time": 7,
-        "position": {
-          "posX": 4394548,
-          "posY": 3060522.0000000005,
-          "posZ": 3453661.0000000023
-        },
-        "velocity": {
-          "velX": -119,
-          "velY": 157,
-          "velZ": 11
-        },
-        "acceleration": {
-          "accX": 0,
-          "accY": 0,
-          "accZ": 0
-        },
+        "position": [
+          4394548,
+          3060522,
+          3453661
+        ],
+        "velocity": [
+          -119,
+          157,
+          11
+        ],
+        "acceleration": [
+          0,
+          0,
+          0
+        ],
         "evaluation": {
           "summary": {
             "systemTrackFlag": false,
@@ -640,7 +535,8 @@
           "results": [
             {
               "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "sensor_type_rf",
+                   "modelSubType":"sensor",
+              "modelType": "sensor_type_generic",
               "data": {
                 "time": 7,
                 "plotData": {
@@ -664,34 +560,14 @@
                   },
                   "doppler1sigma": 0
                 },
-                "eoTrackAccuracy": {
-                  "position1sigma": 0,
-                  "velocity1sigma": 0
-                },
+
                 "classificationFlag": false,
                 "detectionFlag": false,
                 "classificationFailCode": "Not detected",
                 "detectionFailCode": "Not detected",
                 "TOTrequested": 0,
-                "SNRrequested": 0,
+                "SNRrequested": 11,
                 "actualSNR": 0
-              }
-            },
-            {
-              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "effector_type_generic",
-              "data": {
-                "hitFlag": false,
-                "tof": 0,
-                "hitGrade": 0,
-                "failureCode": "MFU out of range"
-              }
-            },
-            {
-              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "antenna_type_generic",
-              "data": {
-                "inRangeFlag": false
               }
             }
           ]
@@ -699,21 +575,21 @@
       },
       {
         "time": 8,
-        "position": {
-          "posX": 4394428.999999999,
-          "posY": 3060679.0000000005,
-          "posZ": 3453673.000000001
-        },
-        "velocity": {
-          "velX": -119,
-          "velY": 157,
-          "velZ": 11
-        },
-        "acceleration": {
-          "accX": 0,
-          "accY": 0,
-          "accZ": 0
-        },
+        "position": [
+          4394429,
+          3060679,
+          3453673
+        ],
+        "velocity": [
+          -119,
+          157,
+          11
+        ],
+        "acceleration": [
+          0,
+          0,
+          0
+        ],
         "evaluation": {
           "summary": {
             "systemTrackFlag": false,
@@ -726,7 +602,8 @@
           "results": [
             {
               "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "sensor_type_rf",
+                   "modelSubType":"sensor",
+              "modelType": "sensor_type_generic",
               "data": {
                 "time": 8,
                 "plotData": {
@@ -750,34 +627,13 @@
                   },
                   "doppler1sigma": 0
                 },
-                "eoTrackAccuracy": {
-                  "position1sigma": 0,
-                  "velocity1sigma": 0
-                },
                 "classificationFlag": false,
                 "detectionFlag": false,
                 "classificationFailCode": "Not detected",
                 "detectionFailCode": "Not detected",
                 "TOTrequested": 0,
-                "SNRrequested": 0,
+                "SNRrequested": 11,
                 "actualSNR": 0
-              }
-            },
-            {
-              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "effector_type_generic",
-              "data": {
-                "hitFlag": false,
-                "tof": 0,
-                "hitGrade": 0,
-                "failureCode": "MFU out of range"
-              }
-            },
-            {
-              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "antenna_type_generic",
-              "data": {
-                "inRangeFlag": false
               }
             }
           ]
@@ -785,21 +641,21 @@
       },
       {
         "time": 9,
-        "position": {
-          "posX": 4394309,
-          "posY": 3060837.0000000005,
-          "posZ": 3453685.0000000033
-        },
-        "velocity": {
-          "velX": -119,
-          "velY": 157,
-          "velZ": 11
-        },
-        "acceleration": {
-          "accX": 0,
-          "accY": 0,
-          "accZ": 0
-        },
+        "position": [
+          4394309,
+          3060837,
+          3453685
+        ],
+        "velocity": [
+          -119,
+          157,
+          11
+        ],
+        "acceleration": [
+          0,
+          0,
+          0
+        ],
         "evaluation": {
           "summary": {
             "systemTrackFlag": false,
@@ -812,7 +668,8 @@
           "results": [
             {
               "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "sensor_type_rf",
+                   "modelSubType":"sensor",
+              "modelType": "sensor_type_generic",
               "data": {
                 "time": 9,
                 "plotData": {
@@ -836,34 +693,13 @@
                   },
                   "doppler1sigma": 0
                 },
-                "eoTrackAccuracy": {
-                  "position1sigma": 0,
-                  "velocity1sigma": 0
-                },
                 "classificationFlag": false,
                 "detectionFlag": false,
                 "classificationFailCode": "Not detected",
                 "detectionFailCode": "Not detected",
                 "TOTrequested": 0,
-                "SNRrequested": 0,
+                "SNRrequested": 11,
                 "actualSNR": 0
-              }
-            },
-            {
-              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "effector_type_generic",
-              "data": {
-                "hitFlag": false,
-                "tof": 0,
-                "hitGrade": 0,
-                "failureCode": "MFU out of range"
-              }
-            },
-            {
-              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "antenna_type_generic",
-              "data": {
-                "inRangeFlag": false
               }
             }
           ]
@@ -871,21 +707,21 @@
       },
       {
         "time": 10,
-        "position": {
-          "posX": 4394190,
-          "posY": 3060995,
-          "posZ": 3453697.000000003
-        },
-        "velocity": {
-          "velX": -119,
-          "velY": 157,
-          "velZ": 11
-        },
-        "acceleration": {
-          "accX": 0,
-          "accY": 0,
-          "accZ": 0
-        },
+        "position": [
+          4394190,
+          3060995,
+          3453697
+        ],
+        "velocity": [
+          -119,
+          157,
+          11
+        ],
+        "acceleration": [
+          0,
+          0,
+          0
+        ],
         "evaluation": {
           "summary": {
             "systemTrackFlag": false,
@@ -898,7 +734,8 @@
           "results": [
             {
               "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "sensor_type_rf",
+                   "modelSubType":"sensor",
+              "modelType": "sensor_type_generic",
               "data": {
                 "time": 10,
                 "plotData": {
@@ -922,42 +759,164 @@
                   },
                   "doppler1sigma": 0
                 },
-                "eoTrackAccuracy": {
-                  "position1sigma": 0,
-                  "velocity1sigma": 0
-                },
                 "classificationFlag": false,
                 "detectionFlag": false,
-                "classificationFailCode": "Not detected",
-                "detectionFailCode": "Not detected",
+                "classificationFailCode": "detected",
+                "detectionFailCode": "detected",
                 "TOTrequested": 0,
-                "SNRrequested": 0,
+                "SNRrequested": 11,
                 "actualSNR": 0
-              }
-            },
-            {
-              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "effector_type_generic",
-              "data": {
-                "hitFlag": false,
-                "tof": 0,
-                "hitGrade": 0,
-                "failureCode": "MFU out of range"
-              }
-            },
-            {
-              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
-              "modelType": "antenna_type_generic",
-              "data": {
-                "inRangeFlag": false
               }
             }
           ]
         }
       }
-    ],
-    "id": "83dea474-1f93-4b8e-8d3d-ea70df5f4e01",
-    "name": "target_name_generic",
-    "type": "target_type_srbm"
-  }
+    ]
+  },
+  "deployment": [
+    {
+      "id": "93df5c08-71f9-4bf7-9d08-58b82f48a32d",
+      "type": "system",
+      "subType": "spyder-mr",
+      "name": "MR-spyder",
+      "attributes": {
+        "location": {
+          "lat": 0,
+          "lon": 0,
+          "alt": 0
+        },
+        "direction": {
+          "azimuth": 0,
+          "elevation": 0
+        },
+        "altAboveDTM": 0
+      },
+      "config": [
+        {
+          "moduleName": "some text",
+          "paramName": "some text",
+          "paramValue": "some text"
+        },
+        {
+          "moduleName": "some text",
+          "paramName": "some text",
+          "paramValue": "some text"
+        }
+      ],
+      "children": [
+
+        {
+          "id": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+          "type": "datalink",
+          "subType": "antenna_type_generic",
+          "name": "antenna_name_generic",
+          "attributes": {
+            "location": {
+              "lat": 35.04196172580122,
+              "lon": 32.83651985825264,
+              "alt": 0
+            },
+            "direction": {
+              "azimuth": 0,
+              "elevation": 0
+            }
+          },
+          "config": [
+            {
+              "moduleName": "some text",
+              "paramName": "some text",
+              "paramValue": "some text"
+            },
+            {
+              "moduleName": "some text",
+              "paramName": "some text",
+              "paramValue": "some text"
+            }
+          ],
+          "children": [
+            {},
+            {}
+          ]
+        },
+        {
+          "id": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+          "type": "c4i",
+          "subType": "c4i_type_generic",
+          "name": "c4i_name_generic",
+          "attributes": {
+            "location": {
+              "lat": 35.04196172580122,
+              "lon": 32.83651985825264,
+              "alt": 0
+            },
+            "direction": {
+              "azimuth": 0,
+              "elevation": 0
+            }
+          },
+          "config": [
+            {
+              "moduleName": "some text",
+              "paramName": "some text",
+              "paramValue": "some text"
+            },
+            {
+              "moduleName": "some text",
+              "paramName": "some text",
+              "paramValue": "some text"
+            }
+          ],
+          "children": [
+            {},
+            {}
+          ]
+        },
+        {
+          "id": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+          "type": "effector",
+          "subType": "effector_type_generic",
+          "name": "effector_name_generic",
+          "attributes": {
+            "location": {
+              "lat": 35.04196172580122,
+              "lon": 32.83651985825264,
+              "alt": 0
+            },
+            "direction": {
+              "azimuth": 0,
+              "elevation": 0
+            }
+          },
+          "config": [
+            {
+              "moduleName": "some text",
+              "paramName": "some text",
+              "paramValue": "some text"
+            },
+            {
+              "moduleName": "some text",
+              "paramName": "some text",
+              "paramValue": "some text"
+            }
+          ],
+          "children": [
+            {},
+            {}
+          ]
+        }
+      ]
+    }
+  ],
+  "config": [
+    {
+      "moduleName": "",
+      "paramName": "callback_url",
+      "paramValue": "http://10.0.0.26:5000/response"
+    },
+    {
+      "moduleName": "some text",
+      "paramName": "some text",
+      "paramValue": "some text"
+    }
+  ]
 }

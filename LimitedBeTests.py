@@ -19,23 +19,32 @@ def test_post_result_evaluation_21395(scenario_name):
     start_time = datetime.now()
     logger.info('This is a test that checks post evaluation at limited BE .' + scenario_name)
     scenario = ScenarioManager.get_scenario_file(scenario_name=scenario_name)
+    inJsonfileDict = ScenarioManager.get_scenario_file(scenario_name)
+    inputTargetId = Finders.find_value_in_dict('id', inJsonfileDict)
+
     r = adapter.send_evaluation(message=scenario, method='post')
     assert r is not None, 'If r is None it means that no response where received from UUT'
     response_json = adapter.convert_to_dict(r.text)
     assert Finders.check_response(str(r)), 'Responses are not correct'  # Checks response for valid range.
     current_id = {'scenarioId': response_json['scenarioId']}
-    print('Scenario is included in returned scenarios' + str(current_id))
+    print('Scenario is included in returned scenarios ' + str(current_id))
     response = None
     while response is None:
-        print('Waiting evaluation unit response ' + str(datetime.now())+ ' ...')
+        print('Waiting evaluation unit response ' + str(datetime.now()) + '...')
         response = server.incoming_data
-    logger.info(str(datetime.now())+ ' Response from BE: ' + (str(response)))
-    print(str(datetime.now())+ ' Response from BE: ' + (str(response)))
+    logger.info(str(datetime.now()) + ' Response from BE: ' + (str(response)))
+    finish_time = datetime.now()
+    print(str(datetime.now()) + ' Response from BE: ' + (str(response)))
+    print('Total time for response is: ' + str(finish_time - start_time))
     server.stop_server()
-    interception_code = Finders.find_value_in_dict('intercepted', response)
+    outputTargetId = Finders.find_value_in_dict('id', response)
+    print('Input Target Id: ' + str(inputTargetId) + ' | Output Target Id: ' + str(outputTargetId))
+    assert inputTargetId == outputTargetId, 'Target ID returned is not the same as what was sent!' # check if target id that return is the same
+    interception_code = Finders.find_value_in_dict('interceptionFlag', response)
     print(interception_code)
-    assert interception_code == False, 'The value is within the response from the server!'
+    assert interception_code == True, 'interception Flag was returned in an unsuccessful state!'
     print('Test finish successfully!')
+
 
 # @TODO add wait from EVAL unit post message
 
@@ -51,5 +60,5 @@ def test_post_result_evaluation_21395(scenario_name):
 
 if __name__ == '__main__':
     logger.info('Limited BE Testing is starting...')
-    test_post_result_evaluation_21395(scenario_name='newLimitedBE_ScenarioDEV.json')
+    test_post_result_evaluation_21395(scenario_name='EU_Input_SensorOutput_Example.json')
     # test_delete_trajectory_21394()
