@@ -3,42 +3,29 @@
   "target": {
     "id": "122423cf-acc4-484a-9817-7c6d89962934",
     "name": "target_name_generic",
-    "attributes": {
-      "targetClass": "TARGET_CLASS_UNKNOWN",
-      "groundRange": 0,
-      "apogee": 0,
-      "rcs": 0,
-      "rcsFactor": 0,
-      "eoSig": 0,
-      "gip": {
-        "positionECEF": {
-          "posX": 0,
-          "posY": 0,
-          "posZ": 0
-        }
-      },
-      "maneuverParams": {
-        "flag": false,
-        "range": 0,
-        "alt": 0,
-        "azimuth": 0,
-        "deltaGIP": 0
-      },
-      "launchPoint": {
-        "positionECEF": {
-          "posX": 0,
-          "posY": 0,
-          "posZ": 0
-        }
-      },
-      "targetAdditionalParams": {
-        "betaCoeff": 0,
-        "cdTableLen": 8,
-        "mach": [],
-        "cd": []
-      },
-      "coordinateSystem": "EPSG:4978"
-    },
+   "attributes": {
+            "targetClass": "target_class_generic",
+            "groundRange": 0,
+            "apogee": 0,
+            "endOfBoost": 0,
+            "rcs": 0,
+            "rcsFactor": 0,
+            "interceptorEoSig": 0,
+            "gip": [0,0,0],
+            "maneuverParams": {
+                "alt": 0,
+                "azimuth": 0,
+                "deltaGIP": 0
+            },
+            "launchPoint": [0,0,0],
+            "targetAdditionalParams": {
+          "betaCoeff": 0,
+          "cdTableLen": 8,
+          "mach": [0,0,0,0,0,0,0,0],
+          "cd": [0,0,0,0,0,0,0,0]
+        },
+	"coordinateSystem": "EPSG:4978"
+        },
     "type": "target_type_srbm",
     "subtype": "Fajer 3",
     "createdAt": "2019-04-10T10:48:32.352Z",

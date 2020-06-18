@@ -60,5 +60,9 @@ def test_post_result_evaluation_21395(scenario_name):
 
 if __name__ == '__main__':
     logger.info('Limited BE Testing is starting...')
-    test_post_result_evaluation_21395(scenario_name='EU_Input_SensorOutput_Example.json')
+    #test_post_result_evaluation_21395(scenario_name='newLimitedBE_Scenario.json')
+    #test_post_result_evaluation_21395(scenario_name='EU_Input_SensorOutput_Example.json')
+    #test_post_result_evaluation_21395(scenario_name='Minimal BE - Sample_Input_No_Eval_Data.json')
+    test_post_result_evaluation_21395(scenario_name='Minimal BE - Sample_Input_No_Eval_Data-with-policy.json')
+
     # test_delete_trajectory_21394()
