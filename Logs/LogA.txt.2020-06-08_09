@@ -1,0 +1,4 @@
+2020-06-08 09:26:53.368 ~ INFO ~ Limited BE Testing is starting...
+2020-06-08 09:26:53.371 ~ INFO ~ This is a test that checks post evaluation at limited BE .newLimitedBE_ScenarioDEV.json
+2020-06-08 09:27:02.663 ~ INFO ~ 2020-06-08 09:27:02.663795 response data was received!
+2020-06-08 09:27:02.665 ~ INFO ~ 2020-06-08 09:27:02.665815 Response from BE: {'key': 'THIS IS SOME SHIT DATA'}

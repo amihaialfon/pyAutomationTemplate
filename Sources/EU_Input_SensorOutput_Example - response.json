@@ -1,1 +1,963 @@
-{'scenarioId': '1247d02e-329f-4696-aede-6c331ecd7509', 'evaluationId': '0be169d7-a2e3-424c-b118-7098a2a80acd', 'target': {'summary': {'interceptionFlag': False, 'interceptionFailureCode': 'no valid interception point', 'scenarioValidationFailureCode': 'Not all targets intercepted', 'version': 'Generic  , v2.6.2.3'}, 'waypoints': [{'time': 0, 'position': [4395383.999999999, 3059415.9999999995, 3453577.000000003], 'velocity': [-119, 157, 11], 'acceleration': [0, 0, 0], 'evaluation': {'summary': {'systemTrackFlag': False, 'positionError1sigma': 0, 'velocityError1sigma': 0, 'plotFlag': False, 'wpInterceptionFailureCode': 'Not detected,Not detected,MFU out of range,DL uncovered', 'systemTimeline': 'NOTDETECTED'}, 'results': [{'modelID': '', 'modelType': 'sensor_type_unknown', 'data': None}, {'modelID': '', 'modelType': 'effector_type_unknown', 'data': None}, {'modelID': '', 'modelType': 'antenna_type_unknown', 'data': None}]}}, {'time': 1, 'position': [4395263.999999999, 3059574.000000001, 3453589.000000003], 'velocity': [-119, 157, 11], 'acceleration': [0, 0, 0], 'evaluation': {'summary': {'systemTrackFlag': False, 'positionError1sigma': 0, 'velocityError1sigma': 0, 'plotFlag': False, 'wpInterceptionFailureCode': 'Not detected,Not detected,MFU out of range,DL uncovered', 'systemTimeline': 'NOTDETECTED'}, 'results': [{'modelID': '', 'modelType': 'sensor_type_unknown', 'data': None}, {'modelID': '', 'modelType': 'effector_type_unknown', 'data': None}, {'modelID': '', 'modelType': 'antenna_type_unknown', 'data': None}]}}, {'time': 2, 'position': [4395145, 3059732, 3453601.0000000023], 'velocity': [-119, 157, 11], 'acceleration': [0, 0, 0], 'evaluation': {'summary': {'systemTrackFlag': False, 'positionError1sigma': 0, 'velocityError1sigma': 0, 'plotFlag': False, 'wpInterceptionFailureCode': 'Not detected,Not detected,MFU out of range,DL uncovered', 'systemTimeline': 'NOTDETECTED'}, 'results': [{'modelID': '', 'modelType': 'sensor_type_unknown', 'data': None}, {'modelID': '', 'modelType': 'effector_type_unknown', 'data': None}, {'modelID': '', 'modelType': 'antenna_type_unknown', 'data': None}]}}, {'time': 3, 'position': [4395026, 3059889.999999999, 3453613.000000003], 'velocity': [-119, 157, 11], 'acceleration': [0, 0, 0], 'evaluation': {'summary': {'systemTrackFlag': False, 'positionError1sigma': 0, 'velocityError1sigma': 0, 'plotFlag': False, 'wpInterceptionFailureCode': 'Not detected,Not detected,MFU out of range,DL uncovered', 'systemTimeline': 'NOTDETECTED'}, 'results': [{'modelID': '', 'modelType': 'sensor_type_unknown', 'data': None}, {'modelID': '', 'modelType': 'effector_type_unknown', 'data': None}, {'modelID': '', 'modelType': 'antenna_type_unknown', 'data': None}]}}, {'time': 4, 'position': [4394906, 3060047.9999999995, 3453625.0000000023], 'velocity': [-119, 157, 11], 'acceleration': [0, 0, 0], 'evaluation': {'summary': {'systemTrackFlag': False, 'positionError1sigma': 0, 'velocityError1sigma': 0, 'plotFlag': False, 'wpInterceptionFailureCode': 'Not detected,Not detected,MFU out of range,DL uncovered', 'systemTimeline': 'NOTDETECTED'}, 'results': [{'modelID': '', 'modelType': 'sensor_type_unknown', 'data': None}, {'modelID': '', 'modelType': 'effector_type_unknown', 'data': None}, {'modelID': '', 'modelType': 'antenna_type_unknown', 'data': None}]}}, {'time': 5, 'position': [4394787, 3060205.9999999995, 3453637.0000000023], 'velocity': [-119, 157, 11], 'acceleration': [0, 0, 0], 'evaluation': {'summary': {'systemTrackFlag': False, 'positionError1sigma': 0, 'velocityError1sigma': 0, 'plotFlag': False, 'wpInterceptionFailureCode': 'Not detected,Not detected,MFU out of range,DL uncovered', 'systemTimeline': 'NOTDETECTED'}, 'results': [{'modelID': '', 'modelType': 'sensor_type_unknown', 'data': None}, {'modelID': '', 'modelType': 'effector_type_unknown', 'data': None}, {'modelID': '', 'modelType': 'antenna_type_unknown', 'data': None}]}}, {'time': 6, 'position': [4394667.000000001, 3060364, 3453649.000000002], 'velocity': [-119, 157, 11], 'acceleration': [0, 0, 0], 'evaluation': {'summary': {'systemTrackFlag': False, 'positionError1sigma': 0, 'velocityError1sigma': 0, 'plotFlag': False, 'wpInterceptionFailureCode': 'Not detected,Not detected,MFU out of range,DL uncovered', 'systemTimeline': 'NOTDETECTED'}, 'results': [{'modelID': '', 'modelType': 'sensor_type_unknown', 'data': None}, {'modelID': '', 'modelType': 'effector_type_unknown', 'data': None}, {'modelID': '', 'modelType': 'antenna_type_unknown', 'data': None}]}}, {'time': 7, 'position': [4394548, 3060522.0000000005, 3453661.0000000023], 'velocity': [-119, 157, 11], 'acceleration': [0, 0, 0], 'evaluation': {'summary': {'systemTrackFlag': False, 'positionError1sigma': 0, 'velocityError1sigma': 0, 'plotFlag': False, 'wpInterceptionFailureCode': 'Not detected,Not detected,MFU out of range,DL uncovered', 'systemTimeline': 'NOTDETECTED'}, 'results': [{'modelID': '', 'modelType': 'sensor_type_unknown', 'data': None}, {'modelID': '', 'modelType': 'effector_type_unknown', 'data': None}, {'modelID': '', 'modelType': 'antenna_type_unknown', 'data': None}]}}, {'time': 8, 'position': [4394428.999999999, 3060679.0000000005, 3453673.000000001], 'velocity': [-119, 157, 11], 'acceleration': [0, 0, 0], 'evaluation': {'summary': {'systemTrackFlag': False, 'positionError1sigma': 0, 'velocityError1sigma': 0, 'plotFlag': False, 'wpInterceptionFailureCode': 'Not detected,Not detected,MFU out of range,DL uncovered', 'systemTimeline': 'NOTDETECTED'}, 'results': [{'modelID': '', 'modelType': 'sensor_type_unknown', 'data': None}, {'modelID': '', 'modelType': 'effector_type_unknown', 'data': None}, {'modelID': '', 'modelType': 'antenna_type_unknown', 'data': None}]}}, {'time': 9, 'position': [4394309, 3060837.0000000005, 3453685.0000000033], 'velocity': [-119, 157, 11], 'acceleration': [0, 0, 0], 'evaluation': {'summary': {'systemTrackFlag': False, 'positionError1sigma': 0, 'velocityError1sigma': 0, 'plotFlag': False, 'wpInterceptionFailureCode': 'Not detected,Not detected,MFU out of range,DL uncovered', 'systemTimeline': 'NOTDETECTED'}, 'results': [{'modelID': '', 'modelType': 'sensor_type_unknown', 'data': None}, {'modelID': '', 'modelType': 'effector_type_unknown', 'data': None}, {'modelID': '', 'modelType': 'antenna_type_unknown', 'data': None}]}}, {'time': 10, 'position': [4394190, 3060995, 3453697.000000003], 'velocity': [-119, 157, 11], 'acceleration': [0, 0, 0], 'evaluation': {'summary': {'systemTrackFlag': False, 'positionError1sigma': 0, 'velocityError1sigma': 0, 'plotFlag': False, 'wpInterceptionFailureCode': 'Not detected,Not detected,MFU out of range,DL uncovered', 'systemTimeline': 'NOTDETECTED'}, 'results': [{'modelID': '', 'modelType': 'sensor_type_unknown', 'data': None}, {'modelID': '', 'modelType': 'effector_type_unknown', 'data': None}, {'modelID': '', 'modelType': 'antenna_type_unknown', 'data': None}]}}], 'id': '122423cf-acc4-484a-9817-7c6d89962934', 'name': 'target_name_generic', 'type': 'target_type_srbm'}}
+{
+  "scenarioId": "1247d02e-329f-4696-aede-6c331ecd7509",
+  "evaluationId": "72e7261f-025e-458f-a5e6-748e6dbe4465",
+  "target": {
+    "summary": {
+      "interceptionFlag": false,
+      "interceptionFailureCode": "no valid interception point",
+      "scenarioValidationFailureCode": "Not all targets intercepted",
+      "version": "Generic  , v2.6.2.3"
+    },
+    "waypoints": [
+      {
+        "time": 0,
+        "position": [
+          4395383.999999999,
+          3059415.9999999995,
+          3453577.000000003
+        ],
+        "velocity": [
+          -119,
+          157,
+          11
+        ],
+        "acceleration": [
+          0,
+          0,
+          0
+        ],
+        "evaluation": {
+          "summary": {
+            "systemTrackFlag": false,
+            "positionError1sigma": 0,
+            "velocityError1sigma": 0,
+            "plotFlag": false,
+            "wpInterceptionFailureCode": "Not detected,Not detected,MFU out of range,DL uncovered",
+            "systemTimeline": "NOTDETECTED"
+          },
+          "results": [
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "sensor_type_rf",
+              "data": {
+                "time": 0,
+                "plotData": {
+                  "range": 0,
+                  "direction": {
+                    "azimuth": 0,
+                    "elevation": 0
+                  },
+                  "doppler": 0,
+                  "multiPath": false
+                },
+                "rfPlotAccuracy": {
+                  "range1sigma": 0,
+                  "direction1sigma_rnd": {
+                    "azimuth": 0.0020000000949949026,
+                    "elevation": 0.0020000000949949026
+                  },
+                  "directionBias": {
+                    "azimuth": 0,
+                    "elevation": 0
+                  },
+                  "doppler1sigma": 0
+                },
+                "eoTrackAccuracy": {
+                  "position1sigma": 0,
+                  "velocity1sigma": 0
+                },
+                "classificationFlag": false,
+                "detectionFlag": false,
+                "classificationFailCode": "Not detected",
+                "detectionFailCode": "Not detected",
+                "TOTrequested": 0,
+                "SNRrequested": 0,
+                "actualSNR": 0
+              }
+            },
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "effector_type_generic",
+              "data": {
+                "hitFlag": false,
+                "tof": 0,
+                "hitGrade": 0,
+                "failureCode": "MFU out of range"
+              }
+            },
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "antenna_type_generic",
+              "data": {
+                "inRangeFlag": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "time": 1,
+        "position": [
+          4395263.999999999,
+          3059574.000000001,
+          3453589.000000003
+        ],
+        "velocity": [
+          -119,
+          157,
+          11
+        ],
+        "acceleration": [
+          0,
+          0,
+          0
+        ],
+        "evaluation": {
+          "summary": {
+            "systemTrackFlag": false,
+            "positionError1sigma": 0,
+            "velocityError1sigma": 0,
+            "plotFlag": false,
+            "wpInterceptionFailureCode": "Not detected,Not detected,MFU out of range,DL uncovered",
+            "systemTimeline": "NOTDETECTED"
+          },
+          "results": [
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "sensor_type_rf",
+              "data": {
+                "time": 1,
+                "plotData": {
+                  "range": 0,
+                  "direction": {
+                    "azimuth": 0,
+                    "elevation": 0
+                  },
+                  "doppler": 0,
+                  "multiPath": false
+                },
+                "rfPlotAccuracy": {
+                  "range1sigma": 0,
+                  "direction1sigma_rnd": {
+                    "azimuth": 0.0020000000949949026,
+                    "elevation": 0.0020000000949949026
+                  },
+                  "directionBias": {
+                    "azimuth": 0,
+                    "elevation": 0
+                  },
+                  "doppler1sigma": 0
+                },
+                "eoTrackAccuracy": {
+                  "position1sigma": 0,
+                  "velocity1sigma": 0
+                },
+                "classificationFlag": false,
+                "detectionFlag": false,
+                "classificationFailCode": "Not detected",
+                "detectionFailCode": "Not detected",
+                "TOTrequested": 0,
+                "SNRrequested": 0,
+                "actualSNR": 0
+              }
+            },
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "effector_type_generic",
+              "data": {
+                "hitFlag": false,
+                "tof": 0,
+                "hitGrade": 0,
+                "failureCode": "MFU out of range"
+              }
+            },
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "antenna_type_generic",
+              "data": {
+                "inRangeFlag": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "time": 2,
+        "position": [
+          4395145,
+          3059732,
+          3453601.0000000023
+        ],
+        "velocity": [
+          -119,
+          157,
+          11
+        ],
+        "acceleration": [
+          0,
+          0,
+          0
+        ],
+        "evaluation": {
+          "summary": {
+            "systemTrackFlag": false,
+            "positionError1sigma": 0,
+            "velocityError1sigma": 0,
+            "plotFlag": false,
+            "wpInterceptionFailureCode": "Not detected,Not detected,MFU out of range,DL uncovered",
+            "systemTimeline": "NOTDETECTED"
+          },
+          "results": [
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "sensor_type_rf",
+              "data": {
+                "time": 2,
+                "plotData": {
+                  "range": 0,
+                  "direction": {
+                    "azimuth": 0,
+                    "elevation": 0
+                  },
+                  "doppler": 0,
+                  "multiPath": false
+                },
+                "rfPlotAccuracy": {
+                  "range1sigma": 0,
+                  "direction1sigma_rnd": {
+                    "azimuth": 0.0020000000949949026,
+                    "elevation": 0.0020000000949949026
+                  },
+                  "directionBias": {
+                    "azimuth": 0,
+                    "elevation": 0
+                  },
+                  "doppler1sigma": 0
+                },
+                "eoTrackAccuracy": {
+                  "position1sigma": 0,
+                  "velocity1sigma": 0
+                },
+                "classificationFlag": false,
+                "detectionFlag": false,
+                "classificationFailCode": "Not detected",
+                "detectionFailCode": "Not detected",
+                "TOTrequested": 0,
+                "SNRrequested": 0,
+                "actualSNR": 0
+              }
+            },
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "effector_type_generic",
+              "data": {
+                "hitFlag": false,
+                "tof": 0,
+                "hitGrade": 0,
+                "failureCode": "MFU out of range"
+              }
+            },
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "antenna_type_generic",
+              "data": {
+                "inRangeFlag": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "time": 3,
+        "position": [
+          4395026,
+          3059889.999999999,
+          3453613.000000003
+        ],
+        "velocity": [
+          -119,
+          157,
+          11
+        ],
+        "acceleration": [
+          0,
+          0,
+          0
+        ],
+        "evaluation": {
+          "summary": {
+            "systemTrackFlag": false,
+            "positionError1sigma": 0,
+            "velocityError1sigma": 0,
+            "plotFlag": false,
+            "wpInterceptionFailureCode": "Not detected,Not detected,MFU out of range,DL uncovered",
+            "systemTimeline": "NOTDETECTED"
+          },
+          "results": [
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "sensor_type_rf",
+              "data": {
+                "time": 3,
+                "plotData": {
+                  "range": 0,
+                  "direction": {
+                    "azimuth": 0,
+                    "elevation": 0
+                  },
+                  "doppler": 0,
+                  "multiPath": false
+                },
+                "rfPlotAccuracy": {
+                  "range1sigma": 0,
+                  "direction1sigma_rnd": {
+                    "azimuth": 0.0020000000949949026,
+                    "elevation": 0.0020000000949949026
+                  },
+                  "directionBias": {
+                    "azimuth": 0,
+                    "elevation": 0
+                  },
+                  "doppler1sigma": 0
+                },
+                "eoTrackAccuracy": {
+                  "position1sigma": 0,
+                  "velocity1sigma": 0
+                },
+                "classificationFlag": false,
+                "detectionFlag": false,
+                "classificationFailCode": "Not detected",
+                "detectionFailCode": "Not detected",
+                "TOTrequested": 0,
+                "SNRrequested": 0,
+                "actualSNR": 0
+              }
+            },
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "effector_type_generic",
+              "data": {
+                "hitFlag": false,
+                "tof": 0,
+                "hitGrade": 0,
+                "failureCode": "MFU out of range"
+              }
+            },
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "antenna_type_generic",
+              "data": {
+                "inRangeFlag": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "time": 4,
+        "position": [
+          4394906,
+          3060047.9999999995,
+          3453625.0000000023
+        ],
+        "velocity": [
+          -119,
+          157,
+          11
+        ],
+        "acceleration": [
+          0,
+          0,
+          0
+        ],
+        "evaluation": {
+          "summary": {
+            "systemTrackFlag": false,
+            "positionError1sigma": 0,
+            "velocityError1sigma": 0,
+            "plotFlag": false,
+            "wpInterceptionFailureCode": "Not detected,Not detected,MFU out of range,DL uncovered",
+            "systemTimeline": "NOTDETECTED"
+          },
+          "results": [
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "sensor_type_rf",
+              "data": {
+                "time": 4,
+                "plotData": {
+                  "range": 0,
+                  "direction": {
+                    "azimuth": 0,
+                    "elevation": 0
+                  },
+                  "doppler": 0,
+                  "multiPath": false
+                },
+                "rfPlotAccuracy": {
+                  "range1sigma": 0,
+                  "direction1sigma_rnd": {
+                    "azimuth": 0.0020000000949949026,
+                    "elevation": 0.0020000000949949026
+                  },
+                  "directionBias": {
+                    "azimuth": 0,
+                    "elevation": 0
+                  },
+                  "doppler1sigma": 0
+                },
+                "eoTrackAccuracy": {
+                  "position1sigma": 0,
+                  "velocity1sigma": 0
+                },
+                "classificationFlag": false,
+                "detectionFlag": false,
+                "classificationFailCode": "Not detected",
+                "detectionFailCode": "Not detected",
+                "TOTrequested": 0,
+                "SNRrequested": 0,
+                "actualSNR": 0
+              }
+            },
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "effector_type_generic",
+              "data": {
+                "hitFlag": false,
+                "tof": 0,
+                "hitGrade": 0,
+                "failureCode": "MFU out of range"
+              }
+            },
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "antenna_type_generic",
+              "data": {
+                "inRangeFlag": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "time": 5,
+        "position": [
+          4394787,
+          3060205.9999999995,
+          3453637.0000000023
+        ],
+        "velocity": [
+          -119,
+          157,
+          11
+        ],
+        "acceleration": [
+          0,
+          0,
+          0
+        ],
+        "evaluation": {
+          "summary": {
+            "systemTrackFlag": false,
+            "positionError1sigma": 0,
+            "velocityError1sigma": 0,
+            "plotFlag": false,
+            "wpInterceptionFailureCode": "Not detected,Not detected,MFU out of range,DL uncovered",
+            "systemTimeline": "NOTDETECTED"
+          },
+          "results": [
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "sensor_type_rf",
+              "data": {
+                "time": 5,
+                "plotData": {
+                  "range": 0,
+                  "direction": {
+                    "azimuth": 0,
+                    "elevation": 0
+                  },
+                  "doppler": 0,
+                  "multiPath": false
+                },
+                "rfPlotAccuracy": {
+                  "range1sigma": 0,
+                  "direction1sigma_rnd": {
+                    "azimuth": 0.0020000000949949026,
+                    "elevation": 0.0020000000949949026
+                  },
+                  "directionBias": {
+                    "azimuth": 0,
+                    "elevation": 0
+                  },
+                  "doppler1sigma": 0
+                },
+                "eoTrackAccuracy": {
+                  "position1sigma": 0,
+                  "velocity1sigma": 0
+                },
+                "classificationFlag": false,
+                "detectionFlag": false,
+                "classificationFailCode": "Not detected",
+                "detectionFailCode": "Not detected",
+                "TOTrequested": 0,
+                "SNRrequested": 0,
+                "actualSNR": 0
+              }
+            },
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "effector_type_generic",
+              "data": {
+                "hitFlag": false,
+                "tof": 0,
+                "hitGrade": 0,
+                "failureCode": "MFU out of range"
+              }
+            },
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "antenna_type_generic",
+              "data": {
+                "inRangeFlag": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "time": 6,
+        "position": [
+          4394667.000000001,
+          3060364,
+          3453649.000000002
+        ],
+        "velocity": [
+          -119,
+          157,
+          11
+        ],
+        "acceleration": [
+          0,
+          0,
+          0
+        ],
+        "evaluation": {
+          "summary": {
+            "systemTrackFlag": false,
+            "positionError1sigma": 0,
+            "velocityError1sigma": 0,
+            "plotFlag": false,
+            "wpInterceptionFailureCode": "Not detected,Not detected,MFU out of range,DL uncovered",
+            "systemTimeline": "NOTDETECTED"
+          },
+          "results": [
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "sensor_type_rf",
+              "data": {
+                "time": 6,
+                "plotData": {
+                  "range": 0,
+                  "direction": {
+                    "azimuth": 0,
+                    "elevation": 0
+                  },
+                  "doppler": 0,
+                  "multiPath": false
+                },
+                "rfPlotAccuracy": {
+                  "range1sigma": 0,
+                  "direction1sigma_rnd": {
+                    "azimuth": 0.0020000000949949026,
+                    "elevation": 0.0020000000949949026
+                  },
+                  "directionBias": {
+                    "azimuth": 0,
+                    "elevation": 0
+                  },
+                  "doppler1sigma": 0
+                },
+                "eoTrackAccuracy": {
+                  "position1sigma": 0,
+                  "velocity1sigma": 0
+                },
+                "classificationFlag": false,
+                "detectionFlag": false,
+                "classificationFailCode": "Not detected",
+                "detectionFailCode": "Not detected",
+                "TOTrequested": 0,
+                "SNRrequested": 0,
+                "actualSNR": 0
+              }
+            },
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "effector_type_generic",
+              "data": {
+                "hitFlag": false,
+                "tof": 0,
+                "hitGrade": 0,
+                "failureCode": "MFU out of range"
+              }
+            },
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "antenna_type_generic",
+              "data": {
+                "inRangeFlag": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "time": 7,
+        "position": [
+          4394548,
+          3060522.0000000005,
+          3453661.0000000023
+        ],
+        "velocity": [
+          -119,
+          157,
+          11
+        ],
+        "acceleration": [
+          0,
+          0,
+          0
+        ],
+        "evaluation": {
+          "summary": {
+            "systemTrackFlag": false,
+            "positionError1sigma": 0,
+            "velocityError1sigma": 0,
+            "plotFlag": false,
+            "wpInterceptionFailureCode": "Not detected,Not detected,MFU out of range,DL uncovered",
+            "systemTimeline": "NOTDETECTED"
+          },
+          "results": [
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "sensor_type_rf",
+              "data": {
+                "time": 7,
+                "plotData": {
+                  "range": 0,
+                  "direction": {
+                    "azimuth": 0,
+                    "elevation": 0
+                  },
+                  "doppler": 0,
+                  "multiPath": false
+                },
+                "rfPlotAccuracy": {
+                  "range1sigma": 0,
+                  "direction1sigma_rnd": {
+                    "azimuth": 0.0020000000949949026,
+                    "elevation": 0.0020000000949949026
+                  },
+                  "directionBias": {
+                    "azimuth": 0,
+                    "elevation": 0
+                  },
+                  "doppler1sigma": 0
+                },
+                "eoTrackAccuracy": {
+                  "position1sigma": 0,
+                  "velocity1sigma": 0
+                },
+                "classificationFlag": false,
+                "detectionFlag": false,
+                "classificationFailCode": "Not detected",
+                "detectionFailCode": "Not detected",
+                "TOTrequested": 0,
+                "SNRrequested": 0,
+                "actualSNR": 0
+              }
+            },
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "effector_type_generic",
+              "data": {
+                "hitFlag": false,
+                "tof": 0,
+                "hitGrade": 0,
+                "failureCode": "MFU out of range"
+              }
+            },
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "antenna_type_generic",
+              "data": {
+                "inRangeFlag": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "time": 8,
+        "position": [
+          4394428.999999999,
+          3060679.0000000005,
+          3453673.000000001
+        ],
+        "velocity": [
+          -119,
+          157,
+          11
+        ],
+        "acceleration": [
+          0,
+          0,
+          0
+        ],
+        "evaluation": {
+          "summary": {
+            "systemTrackFlag": false,
+            "positionError1sigma": 0,
+            "velocityError1sigma": 0,
+            "plotFlag": false,
+            "wpInterceptionFailureCode": "Not detected,Not detected,MFU out of range,DL uncovered",
+            "systemTimeline": "NOTDETECTED"
+          },
+          "results": [
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "sensor_type_rf",
+              "data": {
+                "time": 8,
+                "plotData": {
+                  "range": 0,
+                  "direction": {
+                    "azimuth": 0,
+                    "elevation": 0
+                  },
+                  "doppler": 0,
+                  "multiPath": false
+                },
+                "rfPlotAccuracy": {
+                  "range1sigma": 0,
+                  "direction1sigma_rnd": {
+                    "azimuth": 0.0020000000949949026,
+                    "elevation": 0.0020000000949949026
+                  },
+                  "directionBias": {
+                    "azimuth": 0,
+                    "elevation": 0
+                  },
+                  "doppler1sigma": 0
+                },
+                "eoTrackAccuracy": {
+                  "position1sigma": 0,
+                  "velocity1sigma": 0
+                },
+                "classificationFlag": false,
+                "detectionFlag": false,
+                "classificationFailCode": "Not detected",
+                "detectionFailCode": "Not detected",
+                "TOTrequested": 0,
+                "SNRrequested": 0,
+                "actualSNR": 0
+              }
+            },
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "effector_type_generic",
+              "data": {
+                "hitFlag": false,
+                "tof": 0,
+                "hitGrade": 0,
+                "failureCode": "MFU out of range"
+              }
+            },
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "antenna_type_generic",
+              "data": {
+                "inRangeFlag": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "time": 9,
+        "position": [
+          4394309,
+          3060837.0000000005,
+          3453685.0000000033
+        ],
+        "velocity": [
+          -119,
+          157,
+          11
+        ],
+        "acceleration": [
+          0,
+          0,
+          0
+        ],
+        "evaluation": {
+          "summary": {
+            "systemTrackFlag": false,
+            "positionError1sigma": 0,
+            "velocityError1sigma": 0,
+            "plotFlag": false,
+            "wpInterceptionFailureCode": "Not detected,Not detected,MFU out of range,DL uncovered",
+            "systemTimeline": "NOTDETECTED"
+          },
+          "results": [
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "sensor_type_rf",
+              "data": {
+                "time": 9,
+                "plotData": {
+                  "range": 0,
+                  "direction": {
+                    "azimuth": 0,
+                    "elevation": 0
+                  },
+                  "doppler": 0,
+                  "multiPath": false
+                },
+                "rfPlotAccuracy": {
+                  "range1sigma": 0,
+                  "direction1sigma_rnd": {
+                    "azimuth": 0.0020000000949949026,
+                    "elevation": 0.0020000000949949026
+                  },
+                  "directionBias": {
+                    "azimuth": 0,
+                    "elevation": 0
+                  },
+                  "doppler1sigma": 0
+                },
+                "eoTrackAccuracy": {
+                  "position1sigma": 0,
+                  "velocity1sigma": 0
+                },
+                "classificationFlag": false,
+                "detectionFlag": false,
+                "classificationFailCode": "Not detected",
+                "detectionFailCode": "Not detected",
+                "TOTrequested": 0,
+                "SNRrequested": 0,
+                "actualSNR": 0
+              }
+            },
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "effector_type_generic",
+              "data": {
+                "hitFlag": false,
+                "tof": 0,
+                "hitGrade": 0,
+                "failureCode": "MFU out of range"
+              }
+            },
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "antenna_type_generic",
+              "data": {
+                "inRangeFlag": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "time": 10,
+        "position": [
+          4394190,
+          3060995,
+          3453697.000000003
+        ],
+        "velocity": [
+          -119,
+          157,
+          11
+        ],
+        "acceleration": [
+          0,
+          0,
+          0
+        ],
+        "evaluation": {
+          "summary": {
+            "systemTrackFlag": false,
+            "positionError1sigma": 0,
+            "velocityError1sigma": 0,
+            "plotFlag": false,
+            "wpInterceptionFailureCode": "Not detected,Not detected,MFU out of range,DL uncovered",
+            "systemTimeline": "NOTDETECTED"
+          },
+          "results": [
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "sensor_type_rf",
+              "data": {
+                "time": 10,
+                "plotData": {
+                  "range": 0,
+                  "direction": {
+                    "azimuth": 0,
+                    "elevation": 0
+                  },
+                  "doppler": 0,
+                  "multiPath": false
+                },
+                "rfPlotAccuracy": {
+                  "range1sigma": 0,
+                  "direction1sigma_rnd": {
+                    "azimuth": 0.0020000000949949026,
+                    "elevation": 0.0020000000949949026
+                  },
+                  "directionBias": {
+                    "azimuth": 0,
+                    "elevation": 0
+                  },
+                  "doppler1sigma": 0
+                },
+                "eoTrackAccuracy": {
+                  "position1sigma": 0,
+                  "velocity1sigma": 0
+                },
+                "classificationFlag": false,
+                "detectionFlag": false,
+                "classificationFailCode": "Not detected",
+                "detectionFailCode": "Not detected",
+                "TOTrequested": 0,
+                "SNRrequested": 0,
+                "actualSNR": 0
+              }
+            },
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "effector_type_generic",
+              "data": {
+                "hitFlag": false,
+                "tof": 0,
+                "hitGrade": 0,
+                "failureCode": "MFU out of range"
+              }
+            },
+            {
+              "modelID": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+              "modelType": "antenna_type_generic",
+              "data": {
+                "inRangeFlag": false
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "id": "125623cf-acc4-484a-9817-7c6d89962934",
+    "name": "target_name_generic",
+    "type": "target_type_srbm"
+  }
+}
