@@ -63,7 +63,7 @@ def test_post_result_evaluation_21395(scenario_name):
 
 if __name__ == '__main__':
     logger.info('Limited BE Testing is starting...')
-    test_post_result_evaluation_21395(scenario_name='translated_test.json')
+    test_post_result_evaluation_21395(scenario_name='retranslate_file.json')
     #test_post_result_evaluation_21395(scenario_name='EU_Input_SensorOutput_Example.json')
     #test_post_result_evaluation_21395(scenario_name='Minimal BE - Sample_Input_No_Eval_Data.json')
     #test_post_result_evaluation_21395(scenario_name='Minimal BE - Sample_Input_No_Eval_Data-with-policy.json')

@@ -154,7 +154,7 @@
                 "children": [],
                 "entityId": "b0935577-53ab-48f1-b103-b5eeb769e55f",
                 "properties": [
-                  {
+                  {},                  {
                     "id": 0,
                     "name": "name",
                     "type": "input",

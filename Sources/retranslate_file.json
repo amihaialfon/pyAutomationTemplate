@@ -1,0 +1,541 @@
+{
+  "id": "647d4997-e8d9-4b29-8d1f-a5ba5599322a",
+  "name": "Scenario converted from M2M",
+  "assets": [
+    {
+      "id": "0d4fc6c2-e2ef-50f7-a289-f9afe689bef2",
+      "area": {
+        "id": "0d4fc6c2-e2ef-50f7-a289-f9afe689bef2",
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                34.85206604003907,
+                33.03572254463768
+              ],
+              [
+                34.57260131835938,
+                32.006911437649805
+              ],
+              [
+                35.088958740234375,
+                31.820397629997018
+              ],
+              [
+                35.580596923828125,
+                32.255781423904565
+              ],
+              [
+                35.575103759765625,
+                32.77457403504532
+              ],
+              [
+                35.432281494140625,
+                33.05126334846861
+              ],
+              [
+                35.13839721679688,
+                33.168594074833095
+              ],
+              [
+                34.85206604003907,
+                33.03572254463768
+              ]
+            ]
+          ]
+        },
+        "properties": {
+          "id": "0d4fc6c2-e2ef-50f7-a289-f9afe689bef2",
+          "icon": "",
+          "mode": "Polygon",
+          "label": "Asset",
+          "style": {
+            "initial": {
+              "fill": "rgba(83,202,255, 0.9)",
+              "label": {
+                "text": "Asset"
+              },
+              "stroke": "rgba(83,202,255, 0.9)",
+              "fill-opacity": 0.1,
+              "stroke-width": 2
+            },
+            "opacity": 1
+          },
+          "showArea": false,
+          "labelSize": 28,
+          "showLabel": true,
+          "undeletable": false,
+          "showMeasures": false
+        }
+      },
+      "name": "Asset",
+      "priority": "Low"
+    }
+  ],
+  "threats": [],
+  "policies": [],
+  "createdAt": "2020-08-13T07:44:31.236Z",
+  "updatedAt": "2020-08-13T07:44:31.236Z",
+  "analysisId": null,
+  "deployments": [
+    {
+      "id": "9f9fd360-784b-46b1-8ec4-229fe34a0247",
+      "name": "SR",
+      "model": {
+        "name": "spyder-sr",
+        "type": "battery",
+        "modelType": "spyder_sr_type",
+        "classification": "system"
+      },
+      "visible": true,
+      "children": [
+        {
+          "id": "2f389fb6-d61a-48d6-a0d7-f9dd0be836af",
+          "name": "No value found",
+          "model": {
+            "type": "sensor",
+            "classification": "physical"
+          },
+          "visible": true,
+          "children": [],
+          "entityId": "b0935577-53ab-48f1-b103-b5eeb769e55f",
+          "properties": [
+            {
+              "id": 0,
+              "name": "name",
+              "type": "input",
+              "value": "sensor",
+              "hidden": true,
+              "required": true,
+              "friendlyName": "Name"
+            },
+            {
+              "id": 2,
+              "name": "azimuth",
+              "type": "static",
+              "value": 0,
+              "required": true,
+              "friendlyName": "Azimuth"
+            },
+            {
+              "id": 3,
+              "name": "elevation",
+              "type": "input",
+              "value": 0,
+              "required": true,
+              "friendlyName": "Elevation"
+            },
+            {
+              "id": 4,
+              "name": "area",
+              "type": "geometry",
+              "value": {
+                "id": "702b2713-de92-49fa-a943-cdfe02f9d106",
+                "type": "Feature",
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    35.11550905648619,
+                    32.995482784388656
+                  ]
+                },
+                "properties": {
+                  "id": "e1c5b009-7a73-441a-b461-dbc703d22dee",
+                  "icon": "assets/images/radarIcon.SVG",
+                  "style": {
+                    "initial": {
+                      "fill": "black",
+                      "label": {
+                        "text": "Sensor"
+                      },
+                      "stroke": "black",
+                      "fill-opacity": 0.3,
+                      "stroke-width": 2
+                    }
+                  },
+                  "showLabel": true,
+                  "showMeasures": false,
+                  "componentType": "sensor",
+                  "configuration": {
+                    "name": "Sensor",
+                    "radius": 250,
+                    "sector": 180,
+                    "azimuth": 0,
+                    "elevation": 0
+                  }
+                }
+              },
+              "options": [
+                "polygon",
+                "point"
+              ],
+              "required": true,
+              "friendlyName": ""
+            },
+            {
+              "id": 5,
+              "name": "radius",
+              "type": "static",
+              "value": 20,
+              "required": true,
+              "friendlyName": "Radius"
+            },
+            {
+              "id": 6,
+              "name": "sector",
+              "type": "static",
+              "value": 180,
+              "required": true,
+              "friendlyName": "Sector"
+            }
+          ],
+          "systemTypeId": "afee83a6-c30d-4b86-f5d6-898f45de4ce6"
+        },
+        {
+          "id": "b6d91a94-d2f6-486f-8082-088ad9c8d1e7",
+          "name": "No value found",
+          "model": {
+            "type": "effector",
+            "classification": "physical"
+          },
+          "visible": true,
+          "children": [],
+          "entityId": "8fb999c0-0b73-4d8a-809b-ab58ea8cec71",
+          "properties": [
+            {
+              "id": 0,
+              "name": "name",
+              "type": "input",
+              "value": "effector",
+              "hidden": true,
+              "required": true,
+              "friendlyName": "Name"
+            },
+            {
+              "id": 2,
+              "name": "azimuth",
+              "type": "static",
+              "value": 0,
+              "required": true,
+              "friendlyName": "Azimuth"
+            },
+            {
+              "id": 3,
+              "name": "elevation",
+              "type": "input",
+              "value": 0,
+              "required": true,
+              "friendlyName": "Elevation"
+            },
+            {
+              "id": 4,
+              "name": "area",
+              "type": "geometry",
+              "value": {
+                "id": "b2bdff16-da84-4345-a895-f491c29272b5",
+                "type": "Feature",
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    35.12130736373365,
+                    33.011350580153575
+                  ]
+                },
+                "properties": {
+                  "id": "836a60d4-9ffa-4b72-ade6-1e167211b630",
+                  "icon": "assets/images/radarIcon.SVG",
+                  "style": {
+                    "initial": {
+                      "fill": "black",
+                      "label": {
+                        "text": "Sensor"
+                      },
+                      "stroke": "black",
+                      "fill-opacity": 0.3,
+                      "stroke-width": 2
+                    }
+                  },
+                  "showLabel": true,
+                  "showMeasures": false,
+                  "componentType": "effector",
+                  "configuration": {
+                    "name": "Sensor",
+                    "radius": 250,
+                    "sector": 180,
+                    "azimuth": 0,
+                    "elevation": 0
+                  }
+                }
+              },
+              "options": [
+                "polygon",
+                "point"
+              ],
+              "required": true,
+              "friendlyName": ""
+            },
+            {
+              "id": 5,
+              "name": "radius",
+              "type": "static",
+              "value": 20,
+              "required": true,
+              "friendlyName": "Radius"
+            },
+            {
+              "id": 6,
+              "name": "sector",
+              "type": "static",
+              "value": 180,
+              "required": true,
+              "friendlyName": "Sector"
+            }
+          ],
+          "systemTypeId": "e72b98ec-75d7-451a-u887-4e9918518888"
+        },
+        {
+          "id": "9d0997c1-a0c7-4c66-96db-8e32d433b301",
+          "name": "No value found",
+          "model": {
+            "type": "c4i",
+            "classification": "physical"
+          },
+          "visible": true,
+          "children": [],
+          "entityId": "594d2d64-3db5-47da-906e-71296b7a64d9",
+          "properties": [
+            {
+              "id": 0,
+              "name": "name",
+              "type": "input",
+              "value": "c4i",
+              "hidden": true,
+              "required": true,
+              "friendlyName": "Name"
+            },
+            {
+              "id": 2,
+              "name": "azimuth",
+              "type": "static",
+              "value": 0,
+              "required": true,
+              "friendlyName": "Azimuth"
+            },
+            {
+              "id": 3,
+              "name": "elevation",
+              "type": "input",
+              "value": 0,
+              "required": true,
+              "friendlyName": "Elevation"
+            },
+            {
+              "id": 4,
+              "name": "area",
+              "type": "geometry",
+              "value": {
+                "id": "3acd381c-3d3f-4779-98db-d3e888b106e4",
+                "type": "Feature",
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    35.109710707329214,
+                    32.98498801708085
+                  ]
+                },
+                "properties": {
+                  "id": "10145247-4807-4d35-af1e-8023ad7e2bbb",
+                  "icon": "assets/images/radarIcon.SVG",
+                  "style": {
+                    "initial": {
+                      "fill": "black",
+                      "label": {
+                        "text": "Sensor"
+                      },
+                      "stroke": "black",
+                      "fill-opacity": 0.3,
+                      "stroke-width": 2
+                    }
+                  },
+                  "showLabel": true,
+                  "showMeasures": false,
+                  "componentType": "c4i",
+                  "configuration": {
+                    "name": "Sensor",
+                    "radius": 250,
+                    "sector": 180,
+                    "azimuth": 0,
+                    "elevation": 0
+                  }
+                }
+              },
+              "options": [
+                "polygon",
+                "point"
+              ],
+              "required": true,
+              "friendlyName": ""
+            },
+            {
+              "id": 5,
+              "name": "radius",
+              "type": "static",
+              "value": 20,
+              "required": true,
+              "friendlyName": "Radius"
+            },
+            {
+              "id": 6,
+              "name": "sector",
+              "type": "static",
+              "value": 180,
+              "required": true,
+              "friendlyName": "Sector"
+            }
+          ],
+          "systemTypeId": "97e9d87f-93b5-4064-930e-61283560775c"
+        },
+        {
+          "id": "8e14e468-32e2-4551-9d78-0cade5b954dd",
+          "name": "No value found",
+          "model": {
+            "type": "datalink",
+            "classification": "physical"
+          },
+          "visible": true,
+          "children": [],
+          "entityId": "40e28946-96bb-446c-b0f5-988fde16f6bf",
+          "properties": [
+            {
+              "id": 0,
+              "name": "name",
+              "type": "input",
+              "value": "datalink",
+              "hidden": true,
+              "required": true,
+              "friendlyName": "Name"
+            },
+            {
+              "id": 2,
+              "name": "azimuth",
+              "type": "static",
+              "value": 0,
+              "required": true,
+              "friendlyName": "Azimuth"
+            },
+            {
+              "id": 3,
+              "name": "elevation",
+              "type": "input",
+              "value": 0,
+              "required": true,
+              "friendlyName": "Elevation"
+            },
+            {
+              "id": 4,
+              "name": "area",
+              "type": "geometry",
+              "value": {
+                "id": "3ed2be6a-fb26-4e7d-8760-76f2cbe557a5",
+                "type": "Feature",
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    35.09475709870458,
+                    32.90508441987966
+                  ]
+                },
+                "properties": {
+                  "id": "f36d6c06-a0f6-4f23-ba71-0359b4e5c9c2",
+                  "icon": "assets/images/radarIcon.SVG",
+                  "style": {
+                    "initial": {
+                      "fill": "black",
+                      "label": {
+                        "text": "Sensor"
+                      },
+                      "stroke": "black",
+                      "fill-opacity": 0.3,
+                      "stroke-width": 2
+                    }
+                  },
+                  "showLabel": true,
+                  "showMeasures": false,
+                  "componentType": "datalink",
+                  "configuration": {
+                    "name": "Sensor",
+                    "radius": 250,
+                    "sector": 180,
+                    "azimuth": 0,
+                    "elevation": 0
+                  }
+                }
+              },
+              "options": [
+                "polygon",
+                "point"
+              ],
+              "required": true,
+              "friendlyName": ""
+            },
+            {
+              "id": 5,
+              "name": "radius",
+              "type": "static",
+              "value": 20,
+              "required": true,
+              "friendlyName": "Radius"
+            },
+            {
+              "id": 6,
+              "name": "sector",
+              "type": "static",
+              "value": 180,
+              "required": true,
+              "friendlyName": "Sector"
+            }
+          ],
+          "systemTypeId": "23a24af7-ks64-4c0c-813e-55e6902df744"
+        }
+      ],
+      "entityId": "d09a8ffc-8b0f-4dbc-ba4d-5948a6ac1a21",
+      "properties": [
+        {
+          "id": 0,
+          "name": "name",
+          "type": "input",
+          "value": "SR",
+          "hidden": true,
+          "required": true,
+          "defaultValue": null,
+          "friendlyName": "Name"
+        },
+        {
+          "id": 1,
+          "name": "systems",
+          "type": "dropdown",
+          "value": "spyder-sr",
+          "hidden": true,
+          "required": true,
+          "friendlyName": "Systems"
+        },
+        {
+          "id": 2,
+          "name": "area",
+          "type": "geometry",
+          "options": [
+            "polygon"
+          ],
+          "required": false,
+          "friendlyName": ""
+        }
+      ],
+      "systemTypeId": "fbe34242-d35d-463b-aa37-aa08d70c8fcf",
+      "relatedComponentIds": []
+    }
+  ],
+  "targetCount": 0,
+  "originalDeployments": null
+}
