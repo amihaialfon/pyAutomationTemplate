@@ -9,12 +9,16 @@ from Utils import ConfigReader
 from Utils import Finders
 from Utils import ScenarioManager
 from Utils.Logger import Logger
+import argparse
 
 config = ConfigReader.get_config()
 logger_setup = Logger.LoggerSetup(logger_name='logger', log_file='LogA.txt', log_dir=config['my_log_path'])
 logger = Logger.get_loggerEx(logger_setup=logger_setup)
 adapter = RETB_Adapter.RetbAdapter(logger=logger, config=config)
 scenario_id = 'NotExistingID -'
+parser = argparse.ArgumentParser()
+parser.add_argument('--scenario', help='scenario name -> no need to type .json, default scenario is translated json')
+args = parser.parse_args()
 
 
 def test_post_result_evaluation_21395(scenario_name):
@@ -22,8 +26,8 @@ def test_post_result_evaluation_21395(scenario_name):
     start_time = datetime.now()
     logger.info('This is a test that checks post evaluation at limited BE .' + scenario_name)
     scenario = ScenarioManager.get_scenario_file(scenario_name=scenario_name)
-    inJsonfileDict = ScenarioManager.get_scenario_file(scenario_name)
-    inputTargetId = Finders.find_value_in_dict('id', inJsonfileDict)
+    in_json_file_dict = ScenarioManager.get_scenario_file(scenario_name)
+    input_target_id = Finders.find_value_in_dict('id', in_json_file_dict)
 
     r = adapter.send_evaluation(message=scenario, method='post')
     assert r is not None, 'If r is None it means that no response where received from UUT'
@@ -41,11 +45,11 @@ def test_post_result_evaluation_21395(scenario_name):
     print('Total time for response is: ' + str(finish_time - start_time))
     server.stop_server()
     outputTargetId = Finders.find_value_in_dict('id', response)
-    print('Input Target Id: ' + str(inputTargetId) + ' | Output Target Id: ' + str(outputTargetId))
-    #assert inputTargetId == outputTargetId, 'Target ID returned is not the same as what was sent!' # check if target id that return is the same
+    print('Input Target Id: ' + str(input_target_id) + ' | Output Target Id: ' + str(outputTargetId))
+    # assert input_target_id == outputTargetId, 'Target ID returned is not the same as what was sent!' # check if target id that return is the same
     interception_code = Finders.find_value_in_dict('interceptionFlag', response)
     print(interception_code)
-    assert interception_code == True, 'interception Flag was returned in an unsuccessful state!'
+    assert interception_code is True, 'interception Flag was returned in an unsuccessful state!'
     print('Test finish successfully!')
 
 
@@ -63,9 +67,14 @@ def test_post_result_evaluation_21395(scenario_name):
 
 if __name__ == '__main__':
     logger.info('Limited BE Testing is starting...')
-    test_post_result_evaluation_21395(scenario_name='translated_test.json')
-    #test_post_result_evaluation_21395(scenario_name='EU_Input_SensorOutput_Example.json')
-    #test_post_result_evaluation_21395(scenario_name='Minimal BE - Sample_Input_No_Eval_Data.json')
-    #test_post_result_evaluation_21395(scenario_name='Minimal BE - Sample_Input_No_Eval_Data-with-policy.json')
+    scenario_name = None
+    if args.scenario is not None:
+        scenario_name = str(args.scenario) + '.json'
+    else:
+        scenario_name = 'translated_test.json'
+    test_post_result_evaluation_21395(scenario_name=scenario_name)
+    # test_post_result_evaluation_21395(scenario_name='EU_Input_SensorOutput_Example.json')
+    # test_post_result_evaluation_21395(scenario_name='Minimal BE - Sample_Input_No_Eval_Data.json')
+    # test_post_result_evaluation_21395(scenario_name='Minimal BE - Sample_Input_No_Eval_Data-with-policy.json')
 
     # test_delete_trajectory_21394()
