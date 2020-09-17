@@ -32,8 +32,12 @@ def test_post_result_evaluation_21395(scenario_name):
     current_id = {'scenarioId': response_json['scenarioId']}
     print('Scenario is included in returned scenarios ' + str(current_id))
     response = None
+    once = True
     while response is None:
-        print('Waiting evaluation unit response ' + str(datetime.now()) + '...')
+        if once:
+            print('Waiting evaluation unit response ' + str(datetime.now()) + '...')
+            print('To stop waiting and cancel the run press Crtl+C')
+            once = False
         response = server.incoming_data
     logger.info(str(datetime.now()) + ' Response from BE: ' + (str(response)))
     finish_time = datetime.now()
