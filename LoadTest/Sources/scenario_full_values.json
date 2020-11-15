@@ -1,0 +1,592 @@
+{
+      "name": "Trajectories",
+      "assets": [
+        {
+          "id": "59aec497-804a-0b2a-6596-a0a4fb918351",
+          "area": {
+            "id": "149b451f-6fcc-4253-8715-befffcf4409b",
+            "type": "Feature",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    35.07659912109375,
+                    33.19847683493303
+                  ],
+                  [
+                    35.035400390625,
+                    32.88996633815202
+                  ],
+                  [
+                    35.15625,
+                    32.83690450361483
+                  ],
+                  [
+                    35.27435302734375,
+                    33.048961180184065
+                  ],
+                  [
+                    35.07659912109375,
+                    33.19847683493303
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "id": "59aec497-804a-0b2a-6596-a0a4fb918351",
+              "icon": "",
+              "mode": "Polygon",
+              "label": "assetLow",
+              "style": {
+                "initial": {
+                  "fill": "rgba(83,202,255, 0.9)",
+                  "stroke": "rgba(83,202,255, 0.9)",
+                  "fill-opacity": 0.1,
+                  "stroke-width": 2
+                },
+                "opacity": 1
+              },
+              "showLabel": true,
+              "showMeasures": false
+            }
+          },
+          "name": "assetLow",
+          "priority": "Low",
+          "resolution": null
+        },
+        {
+          "id": "f4de4de6-92e7-de23-4441-60c3c18a5a26",
+          "area": {
+            "id": "7b439b6a-b410-4564-9360-897348f6bc40",
+            "type": "Feature",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    35.03814697265625,
+                    32.941267672954496
+                  ],
+                  [
+                    34.860992431640625,
+                    32.814401321088326
+                  ],
+                  [
+                    35.12878417968749,
+                    32.70122213274402
+                  ],
+                  [
+                    35.15075683593749,
+                    32.94703000944159
+                  ],
+                  [
+                    35.03814697265625,
+                    32.941267672954496
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "id": "f4de4de6-92e7-de23-4441-60c3c18a5a26",
+              "icon": "",
+              "mode": "Polygon",
+              "label": "assetMed",
+              "style": {
+                "initial": {
+                  "fill": "rgba(255, 169, 83, 0.9)",
+                  "stroke": "rgba(255, 169, 83, 0.9)",
+                  "fill-opacity": 0.1,
+                  "stroke-width": 2
+                },
+                "opacity": 1
+              },
+              "showLabel": true,
+              "showMeasures": false
+            }
+          },
+          "name": "assetMed",
+          "priority": "Medium",
+          "resolution": null
+        },
+        {
+          "id": "3931c51c-1c4f-85f3-16b6-63c045fb3b47",
+          "area": {
+            "id": "30fde15a-ab78-4655-adb3-1b814f0854bc",
+            "type": "Feature",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    35.050506591796875,
+                    32.974683996129144
+                  ],
+                  [
+                    34.99832153320313,
+                    32.88131711833201
+                  ],
+                  [
+                    35.0958251953125,
+                    32.80401331408953
+                  ],
+                  [
+                    35.432281494140625,
+                    32.77976990995684
+                  ],
+                  [
+                    35.08209228515625,
+                    33.06565053653404
+                  ],
+                  [
+                    35.050506591796875,
+                    32.974683996129144
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "id": "3931c51c-1c4f-85f3-16b6-63c045fb3b47",
+              "icon": "",
+              "mode": "Polygon",
+              "label": "assetHigh",
+              "style": {
+                "initial": {
+                  "fill": "rgba(255, 55, 141, 0.9)",
+                  "stroke": "rgba(255, 55, 141, 0.9)",
+                  "fill-opacity": 0.1,
+                  "stroke-width": 2
+                },
+                "opacity": 1
+              },
+              "showLabel": true,
+              "showMeasures": false
+            }
+          },
+          "name": "assetHigh",
+          "priority": "High",
+          "resolution": null
+        }
+      ],
+      "threats": [],
+      "policies": [],
+      "createdAt": "2020-01-30T09:11:24.679Z",
+      "updatedAt": "2020-01-30T09:11:43.237Z",
+      "analysisId": "882192e4-38ff-4304-9a9a-07b2d5403c8e",
+      "deployments": [
+        {
+          "id": "76212d38-86ae-4d11-b895-e9742e406fe8",
+          "name": "BatSR",
+          "model": {
+            "name": "spyder-sr",
+            "type": "battery",
+            "classification": "system"
+          },
+          "visible": true,
+          "children": [
+            {
+              "id": "36c2d811-9d88-4374-9274-bcbb21d84dff",
+              "name": "Sens",
+              "model": {
+                "name": "SENSOR_TYPE_UNKNOWN",
+                "type": "sensor",
+                "classification": "physical"
+              },
+              "visible": true,
+              "children": [],
+              "entityId": "b0935577-53ab-48f1-b103-b5eeb769e55f",
+              "properties": [
+                {
+                  "id": 0,
+                  "name": "name",
+                  "type": "input",
+                  "value": "Sens",
+                  "hidden": true,
+                  "required": true,
+                  "friendlyName": "Name"
+                },
+                {
+                  "id": 2,
+                  "name": "azimuth",
+                  "type": "static",
+                  "value": 0,
+                  "required": true,
+                  "friendlyName": "Azimuth"
+                },
+                {
+                  "id": 3,
+                  "name": "elevation",
+                  "type": "input",
+                  "value": 0,
+                  "required": true,
+                  "friendlyName": "Elevation"
+                },
+                {
+                  "id": 4,
+                  "name": "area",
+                  "type": "geometry",
+                  "value": {
+                    "id": "c591faba-fb77-447c-97a8-4015ae273eb4",
+                    "type": "Feature",
+                    "geometry": {
+                      "type": "Point",
+                      "coordinates": [
+                        35.1068115234375,
+                        32.99887413338119
+                      ]
+                    },
+                    "properties": {
+                      "id": "9970eba2-42f1-49f5-b93d-cae433bc124f",
+                      "icon": "assets/images/radarIcon.SVG",
+                      "label": "Sens",
+                      "style": {
+                        "initial": {
+                          "fill": "black",
+                          "stroke": "black",
+                          "fill-opacity": 0.3,
+                          "stroke-width": 2
+                        }
+                      },
+                      "showLabel": true,
+                      "showMeasures": false,
+                      "componentType": "sensor",
+                      "configuration": {
+                        "name": "Sens",
+                        "radius": 100,
+                        "sector": 180,
+                        "azimuth": 0,
+                        "elevation": 0
+                      }
+                    }
+                  },
+                  "options": [
+                    "polygon",
+                    "point"
+                  ],
+                  "required": true,
+                  "friendlyName": ""
+                },
+                {
+                  "id": 5,
+                  "name": "radius",
+                  "type": "static",
+                  "value": 100,
+                  "required": true,
+                  "friendlyName": "Radius"
+                },
+                {
+                  "id": 6,
+                  "name": "sector",
+                  "type": "static",
+                  "value": 180,
+                  "required": true,
+                  "friendlyName": "Sector"
+                }
+              ],
+              "systemTypeId": "afee83a6-c30d-4b86-a3c4-797f45de4ce6",
+              "relatedComponentIds": []
+            },
+            {
+              "id": "76a2f534-c5cd-4bf1-b148-e76b28faaca2",
+              "name": "eff",
+              "model": {
+                "name": "EFFECTOR_TYPE_UNKNOWN",
+                "type": "effector",
+                "classification": "physical"
+              },
+              "visible": true,
+              "children": [],
+              "entityId": "8fb999c0-0b73-4d8a-809b-ab58ea8cec71",
+              "properties": [
+                {
+                  "id": 0,
+                  "name": "name",
+                  "type": "input",
+                  "value": "eff",
+                  "hidden": true,
+                  "required": true,
+                  "friendlyName": "Name"
+                },
+                {
+                  "id": 1,
+                  "name": "area",
+                  "type": "geometry",
+                  "value": {
+                    "id": "b65091bf-41f0-4050-8067-b854c1f2c8a4",
+                    "type": "Feature",
+                    "geometry": {
+                      "type": "Point",
+                      "coordinates": [
+                        35.13427734375,
+                        32.99772237241085
+                      ]
+                    },
+                    "properties": {
+                      "id": "3db36858-3d94-4938-8ef1-eb9a79ec9d3f",
+                      "icon": "assets/images/launcherIcon.SVG",
+                      "label": "eff",
+                      "style": {
+                        "initial": {
+                          "fill": "black",
+                          "stroke": "black",
+                          "fill-opacity": 0.3,
+                          "stroke-width": 2
+                        }
+                      },
+                      "showLabel": true,
+                      "showMeasures": false,
+                      "componentType": "effector",
+                      "configuration": {
+                        "name": "eff",
+                        "radius": 20
+                      }
+                    }
+                  },
+                  "options": [
+                    "polygon",
+                    "point"
+                  ],
+                  "required": true,
+                  "friendlyName": ""
+                },
+                {
+                  "id": 2,
+                  "name": "radius",
+                  "type": "static",
+                  "value": 20,
+                  "required": true,
+                  "friendlyName": "Radius"
+                }
+              ],
+              "systemTypeId": "e72b98ec-75d7-451a-b002-4e9918518888",
+              "relatedComponentIds": []
+            },
+            {
+              "id": "1f7f963d-fcac-41f5-ab27-1ff103901aa9",
+              "name": "ccu",
+              "model": {
+                "name": "C4I_TYPE_UNKNOWN",
+                "type": "c4i",
+                "classification": "physical"
+              },
+              "visible": true,
+              "children": [],
+              "entityId": "594d2d64-3db5-47da-906e-71296b7a64d9",
+              "properties": [
+                {
+                  "id": 0,
+                  "name": "name",
+                  "type": "input",
+                  "value": "ccu",
+                  "hidden": true,
+                  "required": true,
+                  "friendlyName": "Name"
+                },
+                {
+                  "id": 1,
+                  "name": "area",
+                  "type": "geometry",
+                  "value": {
+                    "id": "94a15b45-7f4d-4a92-a1d9-03877a2cff0a",
+                    "type": "Feature",
+                    "geometry": {
+                      "type": "Point",
+                      "coordinates": [
+                        35.149383544921875,
+                        32.94126767295451
+                      ]
+                    },
+                    "properties": {
+                      "id": "2a05fad7-73cb-4951-9761-0f8bdff1faab",
+                      "icon": "assets/images/bmcIcon.SVG",
+                      "label": "ccu",
+                      "style": {
+                        "initial": {
+                          "fill": "black",
+                          "stroke": "black",
+                          "fill-opacity": 0.3,
+                          "stroke-width": 2
+                        }
+                      },
+                      "showLabel": true,
+                      "showMeasures": false,
+                      "componentType": "c4i",
+                      "configuration": {
+                        "name": "ccu"
+                      }
+                    }
+                  },
+                  "options": [
+                    "polygon",
+                    "point"
+                  ],
+                  "required": true,
+                  "friendlyName": ""
+                }
+              ],
+              "systemTypeId": "97e9d87f-93b5-4064-930e-61283560775c",
+              "relatedComponentIds": []
+            },
+            {
+              "id": "d2d3a0b2-2431-4fdf-909b-86cda0140fd0",
+              "name": "dl",
+              "model": {
+                "name": "ANTENNA_TYPE_UNKNOWN",
+                "type": "datalink",
+                "classification": "physical"
+              },
+              "visible": true,
+              "children": [],
+              "entityId": "40e28946-96bb-446c-b0f5-988fde16f6bf",
+              "properties": [
+                {
+                  "id": 0,
+                  "name": "name",
+                  "type": "input",
+                  "value": "dl",
+                  "hidden": true,
+                  "required": true,
+                  "defaultValue": null,
+                  "friendlyName": "Name"
+                },
+                {
+                  "id": 1,
+                  "name": "area",
+                  "type": "geometry",
+                  "value": {
+                    "id": "eb187b64-641c-43d0-b7c7-1781648e919a",
+                    "type": "Feature",
+                    "geometry": {
+                      "type": "Point",
+                      "coordinates": [
+                        35.06423950195313,
+                        32.8513266214223
+                      ]
+                    },
+                    "properties": {
+                      "id": "773cfb46-3303-476c-a361-45c50adb0b59",
+                      "icon": "assets/images/gdlIcon.SVG",
+                      "label": "dl",
+                      "style": {
+                        "initial": {
+                          "fill": "black",
+                          "stroke": "black",
+                          "fill-opacity": 0.3,
+                          "stroke-width": 2
+                        }
+                      },
+                      "showLabel": true,
+                      "showMeasures": false,
+                      "componentType": "datalink",
+                      "configuration": {
+                        "name": "dl",
+                        "radius": 30
+                      }
+                    }
+                  },
+                  "options": [
+                    "polygon",
+                    "point"
+                  ],
+                  "required": true,
+                  "friendlyName": ""
+                },
+                {
+                  "id": 2,
+                  "name": "radius",
+                  "type": "static",
+                  "value": 30,
+                  "required": true,
+                  "friendlyName": "Radius"
+                }
+              ],
+              "systemTypeId": "23a24af7-de89-4c0c-803e-55e6902df744",
+              "relatedComponentIds": []
+            }
+          ],
+          "entityId": "d09a8ffc-8b0f-4dbc-ba4d-5948a6ac1a21",
+          "properties": [
+            {
+              "id": 0,
+              "name": "name",
+              "type": "input",
+              "value": "BatSR",
+              "hidden": true,
+              "required": true,
+              "defaultValue": null,
+              "friendlyName": "Name"
+            },
+            {
+              "id": 1,
+              "name": "systems",
+              "type": "dropdown",
+              "value": "spyder-sr",
+              "hidden": true,
+              "required": true,
+              "friendlyName": "Systems"
+            },
+            {
+              "id": 2,
+              "name": "area",
+              "type": "geometry",
+              "value": {
+                "id": "f72d8f50-64f3-47ca-b9a6-47c759cf6682",
+                "type": "Feature",
+                "geometry": {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        35.12878417968749,
+                        33.15767283191023
+                      ],
+                      [
+                        35.04226684570312,
+                        32.87093694027986
+                      ],
+                      [
+                        35.21530151367187,
+                        32.87785719403554
+                      ],
+                      [
+                        35.12878417968749,
+                        33.15767283191023
+                      ]
+                    ]
+                  ]
+                },
+                "properties": {
+                  "id": "6b5dd8d2-1321-4c24-9de4-be9509ff42da",
+                  "icon": "",
+                  "label": "BatSR",
+                  "style": {
+                    "initial": {
+                      "fill": "black",
+                      "stroke": "black",
+                      "fill-opacity": 0.3,
+                      "stroke-width": 2
+                    }
+                  },
+                  "showLabel": true,
+                  "showMeasures": false,
+                  "componentType": "battery",
+                  "configuration": {
+                    "name": "BatSR",
+                    "systems": "spyder-sr"
+                  }
+                }
+              },
+              "options": [
+                "polygon"
+              ],
+              "required": false,
+              "friendlyName": ""
+            }
+          ],
+          "systemTypeId": "hbe38787-k35d-6d3b-aa37-aa08d70c8fcf",
+          "relatedComponentIds": []
+        }
+      ],
+      "targetCount": 10,
+      "originalDeployments": null
+    }

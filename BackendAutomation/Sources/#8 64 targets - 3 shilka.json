@@ -1,0 +1,502 @@
+{
+        "name": "#7 10 targets - Shilka opt",
+        "assets": [
+          {
+            "id": "1a5f7ea6-ba7d-5e12-2387-cb803ade97ae",
+            "area": {
+              "id": "321e61b6-9c70-4109-92f3-52b1c6cb96c1",
+              "type": "Feature",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      34.94449616409838,
+                      32.83171195777355
+                    ],
+                    [
+                      34.91611480945721,
+                      32.72163580619252
+                    ],
+                    [
+                      35.08274077903479,
+                      32.710338255361606
+                    ],
+                    [
+                      35.1916885515675,
+                      33.06731290448262
+                    ],
+                    [
+                      35.13950349297375,
+                      33.14655858812158
+                    ],
+                    [
+                      35.09708404308186,
+                      33.13071517664859
+                    ],
+                    [
+                      34.94449616409838,
+                      32.83171195777355
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "id": "1a5f7ea6-ba7d-5e12-2387-cb803ade97ae",
+                "icon": "",
+                "mode": "Polygon",
+                "label": "low",
+                "style": {
+                  "initial": {
+                    "fill": "rgba(83,202,255, 0.9)",
+                    "stroke": "rgba(83,202,255, 0.9)",
+                    "fill-opacity": 0.1,
+                    "stroke-width": 2
+                  },
+                  "opacity": 1
+                },
+                "showLabel": true,
+                "showMeasures": false
+              }
+            },
+            "name": "low",
+            "priority": "Low",
+            "resolution": null
+          }
+        ],
+        "threats": [],
+        "policies": [],
+        "createdAt": "2020-04-06T13:09:54.630Z",
+        "updatedAt": "2020-04-06T13:09:54.630Z",
+        "analysisId": "6c90639c-71d2-4032-a8fa-55ecec13f720",
+        "deployments": [
+          {
+            "id": "7cd0a9a1-783e-41bd-9df9-94b7f646ff01",
+            "name": "Shilka",
+            "model": {
+              "name": "shilka",
+              "type": "battery",
+              "classification": "system"
+            },
+            "visible": true,
+            "children": [
+              {
+                "id": "1345779b-14fa-414d-bb99-a2597633d508",
+                "name": "co-located",
+                "model": {
+                  "name": "sensor_type_rf",
+                  "type": "sensor",
+                  "classification": "physical"
+                },
+                "visible": false,
+                "children": [],
+                "entityId": "b0935577-53ab-48f1-b103-b5eeb769e55f",
+                "properties": [
+                  {
+                    "id": 0,
+                    "name": "name",
+                    "type": "input",
+                    "hidden": true,
+                    "required": true,
+                    "friendlyName": "Name"
+                  },
+                  {
+                    "id": 2,
+                    "name": "azimuth",
+                    "type": "static",
+                    "value": 0,
+                    "required": true,
+                    "friendlyName": "Azimuth"
+                  },
+                  {
+                    "id": 3,
+                    "name": "elevation",
+                    "type": "input",
+                    "value": 0,
+                    "required": true,
+                    "friendlyName": "Elevation"
+                  },
+                  {
+                    "id": 4,
+                    "name": "area",
+                    "type": "geometry",
+                    "value": {
+                      "id": "8c4b8e19-f265-4a5a-80d5-3e3180af6cf9",
+                      "type": "Feature",
+                      "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                          35.09799999999996,
+                          32.99239999999996,
+                          0
+                        ]
+                      },
+                      "properties": {
+                        "id": "6f8a57d9-7090-450a-8709-ffcbff36b42d",
+                        "icon": "assets/images/radarIcon.SVG",
+                        "style": {
+                          "initial": {
+                            "fill": "black",
+                            "stroke": "black",
+                            "fill-opacity": 0.3,
+                            "stroke-width": 2
+                          }
+                        },
+                        "showLabel": true,
+                        "showMeasures": false,
+                        "componentType": "sensor",
+                        "configuration": {
+                          "radius": 20,
+                          "sector": 180,
+                          "azimuth": 0,
+                          "elevation": 0
+                        }
+                      }
+                    },
+                    "options": [
+                      "polygon",
+                      "point"
+                    ],
+                    "required": true,
+                    "friendlyName": ""
+                  },
+                  {
+                    "id": 5,
+                    "name": "radius",
+                    "type": "static",
+                    "value": 20,
+                    "required": true,
+                    "friendlyName": "Radius"
+                  },
+                  {
+                    "id": 6,
+                    "name": "sector",
+                    "type": "static",
+                    "value": 180,
+                    "required": true,
+                    "friendlyName": "Sector"
+                  }
+                ],
+                "systemTypeId": "afee83a6-c30d-4b86-f5d6-898f45de4ce6"
+              },
+              {
+                "id": "0d31a4e8-73a8-4fe0-b59a-1bbb249ea29b",
+                "name": "co-located",
+                "model": {
+                  "name": "antenna_type_generic",
+                  "type": "datalink",
+                  "classification": "physical"
+                },
+                "visible": false,
+                "children": [],
+                "entityId": "40e28946-96bb-446c-b0f5-988fde16f6bf",
+                "properties": [
+                  {
+                    "id": 0,
+                    "name": "name",
+                    "type": "input",
+                    "hidden": true,
+                    "required": true,
+                    "defaultValue": null,
+                    "friendlyName": "Name"
+                  },
+                  {
+                    "id": 1,
+                    "name": "area",
+                    "type": "geometry",
+                    "value": {
+                      "id": "8c4b8e19-f265-4a5a-80d5-3e3180af6cf9",
+                      "type": "Feature",
+                      "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                          35.09799999999996,
+                          32.99239999999996,
+                          0
+                        ]
+                      },
+                      "properties": {
+                        "id": "58364ed9-d2f1-45e7-a336-36717cf4014c",
+                        "icon": "assets/images/gdlIcon.SVG",
+                        "style": {
+                          "initial": {
+                            "fill": "black",
+                            "stroke": "black",
+                            "fill-opacity": 0.3,
+                            "stroke-width": 2
+                          }
+                        },
+                        "showLabel": true,
+                        "showMeasures": false,
+                        "componentType": "datalink",
+                        "configuration": {
+                          "radius": 45
+                        }
+                      }
+                    },
+                    "options": [
+                      "polygon",
+                      "point"
+                    ],
+                    "required": true,
+                    "friendlyName": ""
+                  },
+                  {
+                    "id": 2,
+                    "name": "radius",
+                    "type": "static",
+                    "value": 45,
+                    "required": true,
+                    "friendlyName": "Radius"
+                  }
+                ],
+                "systemTypeId": "23a24af7-ks64-4c0c-813e-55e6902df744"
+              },
+              {
+                "id": "4114d064-0f84-4195-8f21-5290b1664ef8",
+                "name": "eff",
+                "model": {
+                  "name": "effector_type_generic",
+                  "type": "effector",
+                  "classification": "physical"
+                },
+                "visible": true,
+                "children": [],
+                "entityId": "8fb999c0-0b73-4d8a-809b-ab58ea8cec71",
+                "properties": [
+                  {
+                    "id": 0,
+                    "name": "name",
+                    "type": "input",
+                    "value": "eff",
+                    "hidden": true,
+                    "required": true,
+                    "friendlyName": "Name"
+                  },
+                  {
+                    "id": 1,
+                    "name": "area",
+                    "type": "geometry",
+                    "value": {
+                      "id": "8c4b8e19-f265-4a5a-80d5-3e3180af6cf9",
+                      "type": "Feature",
+                      "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                          35.09799999999996,
+                          32.99239999999996,
+                          0
+                        ]
+                      },
+                      "properties": {
+                        "id": "54a73ec2-f0e1-4831-a14a-ee7883e23317",
+                        "icon": "assets/images/launcherIcon.SVG",
+                        "label": "eff",
+                        "style": {
+                          "initial": {
+                            "fill": "black",
+                            "stroke": "black",
+                            "fill-opacity": 0.3,
+                            "stroke-width": 2
+                          }
+                        },
+                        "showLabel": true,
+                        "showMeasures": false,
+                        "componentType": "effector",
+                        "configuration": {
+                          "name": "eff",
+                          "radius": 3
+                        }
+                      }
+                    },
+                    "options": [
+                      "polygon",
+                      "point"
+                    ],
+                    "required": true,
+                    "friendlyName": ""
+                  },
+                  {
+                    "id": 2,
+                    "name": "radius",
+                    "type": "static",
+                    "value": 3,
+                    "required": true,
+                    "friendlyName": "Radius"
+                  }
+                ],
+                "systemTypeId": "e72b98ec-75d7-451a-u887-4e9918518888",
+                "relatedComponentIds": [
+                  "1345779b-14fa-414d-bb99-a2597633d508",
+                  "0d31a4e8-73a8-4fe0-b59a-1bbb249ea29b"
+                ]
+              },
+              {
+                "id": "8aa74926-78fb-4b90-a5c9-359a02b4efdd",
+                "name": "ccu",
+                "model": {
+                  "name": "c4i_type_generic",
+                  "type": "c4i",
+                  "classification": "physical"
+                },
+                "visible": true,
+                "children": [],
+                "entityId": "594d2d64-3db5-47da-906e-71296b7a64d9",
+                "properties": [
+                  {
+                    "id": 0,
+                    "name": "name",
+                    "type": "input",
+                    "value": "ccu",
+                    "hidden": true,
+                    "required": true,
+                    "friendlyName": "Name"
+                  },
+                  {
+                    "id": 1,
+                    "name": "area",
+                    "type": "geometry",
+                    "value": {
+                      "id": "14109417-5771-4fb0-98e2-dc6ba2b70a4c",
+                      "type": "Feature",
+                      "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                          35.104827894829214,
+                          32.971611766179706
+                        ]
+                      },
+                      "properties": {
+                        "id": "112a80a7-dd8b-405b-900b-bddf505ddaff",
+                        "icon": "assets/images/bmcIcon.SVG",
+                        "label": "ccu",
+                        "style": {
+                          "initial": {
+                            "fill": "black",
+                            "stroke": "black",
+                            "fill-opacity": 0.3,
+                            "stroke-width": 2
+                          }
+                        },
+                        "showLabel": true,
+                        "showMeasures": false,
+                        "componentType": "c4i",
+                        "configuration": {
+                          "name": "ccu"
+                        }
+                      }
+                    },
+                    "options": [
+                      "polygon",
+                      "point"
+                    ],
+                    "required": true,
+                    "friendlyName": ""
+                  }
+                ],
+                "systemTypeId": "97e9d87f-93b5-4064-930e-61283560775c",
+                "relatedComponentIds": []
+              }
+            ],
+            "entityId": "d09a8ffc-8b0f-4dbc-ba4d-5948a6ac1a21",
+            "properties": [
+              {
+                "id": 0,
+                "name": "name",
+                "type": "input",
+                "value": "Shilka",
+                "hidden": true,
+                "required": true,
+                "defaultValue": null,
+                "friendlyName": "Name"
+              },
+              {
+                "id": 1,
+                "name": "systems",
+                "type": "dropdown",
+                "value": "shilka",
+                "hidden": true,
+                "required": true,
+                "friendlyName": "Systems"
+              },
+              {
+                "id": 2,
+                "name": "area",
+                "type": "geometry",
+                "value": {
+                  "id": "781a122c-7416-4019-84c2-ae8103d86e86",
+                  "type": "Feature",
+                  "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                      [
+                        [
+                          35.005493108183146,
+                          33.21749944185214
+                        ],
+                        [
+                          35.76843271031975,
+                          33.0795238900384
+                        ],
+                        [
+                          35.269164983183146,
+                          32.73209764488212
+                        ],
+                        [
+                          35.015258863568306,
+                          32.45544342042301
+                        ],
+                        [
+                          34.89074703305959,
+                          32.47707176424143
+                        ],
+                        [
+                          34.7698974236846,
+                          32.64991047827172
+                        ],
+                        [
+                          34.75769052281976,
+                          32.79163590945171
+                        ],
+                        [
+                          35.005493108183146,
+                          33.21749944185214
+                        ]
+                      ]
+                    ]
+                  },
+                  "properties": {
+                    "id": "5fe81877-feb0-4743-a94d-1a501abda68e",
+                    "icon": "",
+                    "label": "Shilka",
+                    "style": {
+                      "initial": {
+                        "fill": "black",
+                        "stroke": "black",
+                        "fill-opacity": 0.3,
+                        "stroke-width": 2
+                      }
+                    },
+                    "showLabel": true,
+                    "showMeasures": false,
+                    "componentType": "battery",
+                    "configuration": {
+                      "name": "Shilka",
+                      "systems": "shilka"
+                    }
+                  }
+                },
+                "options": [
+                  "polygon"
+                ],
+                "required": false,
+                "friendlyName": ""
+              }
+            ],
+            "systemTypeId": "fbe34242-d35d-463b-aa37-aa08d70c8fcf",
+            "relatedComponentIds": []
+          }
+        ],
+        "targetCount": 10,
+        "originalDeployments": null
+      }

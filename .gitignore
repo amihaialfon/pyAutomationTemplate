@@ -155,4 +155,4 @@ gen
 .idea/modules.xml
 .idea/vcs.xml
 
-Logs/LogA.txt.2020-09-17_09
+Logs/*.*

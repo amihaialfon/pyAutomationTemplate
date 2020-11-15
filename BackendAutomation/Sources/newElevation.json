@@ -1,0 +1,424 @@
+{
+  "scenarioId": "6c832c87-f1a8-435b-ad60-fe6572dc3dca",
+  "target": {
+  	  "id": 0,
+      "name": "target_name_generic",
+      "attributes": {
+        "targetClass": "TARGET_CLASS_UNKNOWN",
+        "groundRange": 0,
+        "apogee": 0,
+        "rcs": 0,
+        "rcsFactor": 0,
+        "eoSig": 0,
+        "gip": {
+          "positionECEF": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0
+          }
+        },
+        "maneuverParams": {
+          "flag": false,
+          "range": 0,
+          "alt": 0,
+          "azimuth": 0,
+          "deltaGIP": 0
+        },
+        "launchPoint": {
+          "positionECEF": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0
+          }
+        },
+        "targetAdditionalParams": {
+          "betaCoeff": 0,
+          "cdTableLen": 8,
+          "mach": [],
+          "cd": []
+        },
+        "coordinateSystem": "EPSG:4978"
+      },
+      "type": "target_type_srbm",
+      "subtype": "Fajer 3",
+      "createdAt": "2019-04-10T10:48:32.352Z",
+      "waypoints": [
+        {
+          "time": 0,
+          "position": [
+            4395384,
+            3059416,
+            3453577
+          ],
+          "velocity": [
+            -119,
+            157,
+            11
+          ],
+          "acceleration": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 1,
+          "position": [
+            4395264,
+            3059574,
+            3453589
+          ],
+          "velocity": [
+            -119,
+            157,
+            11
+          ],
+          "acceleration": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 2,
+          "position": [
+            4395145,
+            3059732,
+            3453601
+          ],
+          "velocity": [
+            -119,
+            157,
+            11
+          ],
+          "acceleration": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 3,
+          "position": [
+            4395026,
+            3059890,
+            3453613
+          ],
+          "velocity": [
+            -119,
+            157,
+            11
+          ],
+          "acceleration": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 4,
+          "position": [
+            4394906,
+            3060048,
+            3453625
+          ],
+          "velocity": [
+            -119,
+            157,
+            11
+          ],
+          "acceleration": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 5,
+          "position": [
+            4394787,
+            3060206,
+            3453637
+          ],
+          "velocity": [
+            -119,
+            157,
+            11
+          ],
+          "acceleration": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 6,
+          "position": [
+            4394667,
+            3060364,
+            3453649
+          ],
+          "velocity": [
+            -119,
+            157,
+            11
+          ],
+          "acceleration": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 7,
+          "position": [
+            4394548,
+            3060522,
+            3453661
+          ],
+          "velocity": [
+            -119,
+            157,
+            11
+          ],
+          "acceleration": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 8,
+          "position": [
+            4394429,
+            3060679,
+            3453673
+          ],
+          "velocity": [
+            -119,
+            157,
+            11
+          ],
+          "acceleration": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 9,
+          "position": [
+            4394309,
+            3060837,
+            3453685
+          ],
+          "velocity": [
+            -119,
+            157,
+            11
+          ],
+          "acceleration": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 10,
+          "position": [
+            4394190,
+            3060995,
+            3453697
+          ],
+          "velocity": [
+            -119,
+            157,
+            11
+          ],
+          "acceleration": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+  },
+  "deployment": [
+    {
+      "id": "93df5c08-71f9-4bf7-9d08-58b82f48a32d",
+      "type": "system",
+      "subType": "spyder-mr",
+      "name": "MR-spyder",
+      "attributes": {
+        "location": {
+          "lat": 0,
+          "lon": 0,
+          "alt": 0
+        },
+        "direction": {
+          "azimuth": 0,
+          "elevation": 0
+        },
+        "altAboveDTM": 0
+      },
+      "config": [
+        {
+          "moduleName": "some text",
+          "paramName": "some text",
+          "paramValue": "some text"
+        },
+        {
+          "moduleName": "some text",
+          "paramName": "some text",
+          "paramValue": "some text"
+        }
+      ],
+      "children": [
+        {
+          "id": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+          "type": "sensor",
+          "subType": "sensor_type_rf",
+          "name": "sensor_name_generic",
+          "attributes": {
+            "location": {
+              "lat": 35.04196172580122,
+              "lon": 32.83651985825264,
+              "alt": 0
+            },
+            "direction": {
+              "azimuth": 0,
+              "elevation": 0
+            }
+          },
+          "config": [
+            {
+              "moduleName": "some text",
+              "paramName": "some text",
+              "paramValue": "some text"
+            },
+            {
+              "moduleName": "some text",
+              "paramName": "some text",
+              "paramValue": "some text"
+            }
+          ],
+          "children": [
+            {},
+            {}
+          ]
+        },
+        {
+          "id": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+          "type": "datalink",
+          "subType": "antenna_type_generic",
+          "name": "antenna_name_generic",
+          "attributes": {
+            "location": {
+              "lat": 35.04196172580122,
+              "lon": 32.83651985825264,
+              "alt": 0
+            },
+            "direction": {
+              "azimuth": 0,
+              "elevation": 0
+            }
+          },
+          "config": [
+            {
+              "moduleName": "some text",
+              "paramName": "some text",
+              "paramValue": "some text"
+            },
+            {
+              "moduleName": "some text",
+              "paramName": "some text",
+              "paramValue": "some text"
+            }
+          ],
+          "children": [
+            {},
+            {}
+          ]
+        },
+        {
+          "id": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+          "type": "c4i",
+          "subType": "c4i_type_generic",
+          "name": "c4i_name_generic",
+          "attributes": {
+            "location": {
+              "lat": 35.04196172580122,
+              "lon": 32.83651985825264,
+              "alt": 0
+            },
+            "direction": {
+              "azimuth": 0,
+              "elevation": 0
+            }
+          },
+          "config": [
+            {
+              "moduleName": "some text",
+              "paramName": "some text",
+              "paramValue": "some text"
+            },
+            {
+              "moduleName": "some text",
+              "paramName": "some text",
+              "paramValue": "some text"
+            }
+          ],
+          "children": [
+            {},
+            {}
+          ]
+        },
+        {
+          "id": "ae6e184b-b92e-4641-ae33-997753afcfd3",
+          "type": "effector",
+          "subType": "effector_type_generic",
+          "name": "effector_name_generic",
+          "attributes": {
+            "location": {
+              "lat": 35.04196172580122,
+              "lon": 32.83651985825264,
+              "alt": 0
+            },
+            "direction": {
+              "azimuth": 0,
+              "elevation": 0
+            }
+          },
+          "config": [
+            {
+              "moduleName": "some text",
+              "paramName": "some text",
+              "paramValue": "some text"
+            },
+            {
+              "moduleName": "some text",
+              "paramName": "some text",
+              "paramValue": "some text"
+            }
+          ],
+          "children": [
+            {},
+            {}
+          ]
+        }
+      ]
+    }
+  ],
+  "config": [
+    {
+      "moduleName": "",
+      "paramName": "callback_url",
+      "paramValue": "HTTTP/:///"
+    },
+    {
+      "moduleName": "some text",
+      "paramName": "some text",
+      "paramValue": "some text"
+    }
+  ]
+}
