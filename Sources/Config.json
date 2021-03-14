@@ -1,0 +1,6 @@
+{
+  "target_host": "localhost:4200",
+  "my_log_path": ".//Logs/",
+  "my_server_ip" : "10.0.0.1",
+  "my_server_port" : "5000"
+}
